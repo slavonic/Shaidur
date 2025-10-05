@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEF6F" format="2">
+  <advance width="650"/>
+  <unicode hex="EF6F"/>
+  <anchor x="540" y="150" name="Lomka"/>
+  <anchor x="0" y="-30" name="Tikhaya"/>
+  <anchor x="0" y="150" name="Borzaya"/>
+  <anchor x="180" y="60" name="Zevok"/>
+  <anchor x="50" y="660" name="Kachka"/>
+  <anchor x="50" y="-50" name="Kupnaya"/>
+  <anchor x="265" y="660" name="Auxiliary"/>
+  <anchor x="555" y="250" name="Podvertka"/>
+  <anchor x="395" y="640" name="Flexion"/>
+  <anchor x="0" y="-50" name="Podtinka"/>
+  <anchor x="415" y="660" name="TonalRange"/>
+  <anchor x="660" y="325" name="Tochka"/>
+  <anchor x="30" y="-120" name="Zaderzhka"/>
+  <anchor x="555" y="190" name="Omet"/>
+  <anchor x="100" y="-30" name="Podchashie"/>
+  <anchor x="-40" y="500" name="PitchMark"/>
+  <outline>
+    <contour>
+      <point x="255" y="271" type="line"/>
+      <point x="265" y="300"/>
+      <point x="294" y="330"/>
+      <point x="322" y="337" type="curve" smooth="yes"/>
+      <point x="339" y="341" type="line"/>
+      <point x="326" y="217" type="line"/>
+      <point x="291" y="211"/>
+      <point x="257" y="177"/>
+      <point x="241" y="145" type="curve"/>
+    </contour>
+    <contour>
+      <point x="391" y="351" type="line"/>
+      <point x="401" y="380"/>
+      <point x="430" y="410"/>
+      <point x="458" y="417" type="curve" smooth="yes"/>
+      <point x="475" y="421" type="line"/>
+      <point x="462" y="297" type="line"/>
+      <point x="427" y="291"/>
+      <point x="393" y="257"/>
+      <point x="377" y="225" type="curve"/>
+    </contour>
+    <contour>
+      <point x="527" y="431" type="line"/>
+      <point x="537" y="460"/>
+      <point x="566" y="490"/>
+      <point x="594" y="497" type="curve" smooth="yes"/>
+      <point x="611" y="501" type="line"/>
+      <point x="598" y="377" type="line"/>
+      <point x="563" y="371"/>
+      <point x="529" y="337"/>
+      <point x="513" y="305" type="curve"/>
+    </contour>
+    <contour>
+      <point x="70" y="162" type="line"/>
+      <point x="83" y="184"/>
+      <point x="100" y="203"/>
+      <point x="122" y="220" type="curve" smooth="yes"/>
+      <point x="144" y="237"/>
+      <point x="161.741" y="248.692"/>
+      <point x="177" y="254" type="curve" smooth="yes"/>
+      <point x="200" y="262" type="line"/>
+      <point x="185" y="122" type="line"/>
+      <point x="177" y="120"/>
+      <point x="163" y="115"/>
+      <point x="146" y="107" type="curve" smooth="yes"/>
+      <point x="90" y="82"/>
+      <point x="51" y="46"/>
+      <point x="30" y="0" type="curve"/>
+      <point x="77.846" y="468.696" type="line"/>
+      <point x="61.3042" y="480.748"/>
+      <point x="43.0427" y="492.954"/>
+      <point x="26.8223" y="501.397" type="curve" smooth="yes"/>
+      <point x="13.5254" y="507.355"/>
+      <point x="27.7861" y="513.771"/>
+      <point x="31.2461" y="514.864" type="curve" smooth="yes"/>
+      <point x="37.8086" y="518.201"/>
+      <point x="63.5762" y="528.99"/>
+      <point x="69.2852" y="526.984" type="curve" smooth="yes"/>
+      <point x="99.4922" y="518.212"/>
+      <point x="138.639" y="482.56"/>
+      <point x="152.513" y="468.219" type="curve" smooth="yes"/>
+      <point x="158.158" y="462.385"/>
+      <point x="148.614" y="458.433"/>
+      <point x="143.886" y="455.349" type="curve" smooth="yes"/>
+      <point x="139.706" y="452.623"/>
+      <point x="113.45" y="439.896"/>
+      <point x="107.806" y="445.73" type="curve" smooth="yes"/>
+      <point x="105.463" y="447.615"/>
+      <point x="102.97" y="449.597"/>
+      <point x="100.353" y="451.652" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

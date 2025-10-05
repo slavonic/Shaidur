@@ -1,0 +1,3088 @@
+languagesystem DFLT dflt;
+languagesystem cyrl dflt;
+languagesystem latn dflt;
+
+
+# GSUB 
+
+
+lookup Supportfordeprecatedmappingsccmp {
+  lookupflag 0;
+    sub \uniEEAC \uniEE9A  by \uniEEAB;
+    sub \uniEE8F \uniEEAE  by \uniEEAF;
+    sub \uniEE75 \uniEE5A  by \u1CF57;
+    sub \uniEE8F \uniEE50  by \uniEAFD;
+    sub \uniEE8F \uniEE51  by \uniEB0D;
+    sub \uniEE98 \uniEE50  by \uniEB08;
+    sub \uniEE93 \uniEE50  by \uniEB01;
+    sub \uniEE50 \uniEE58  by \uniEC00;
+    sub \uniEE51 \uniEE58  by \uniEC01;
+    sub \uniEE52 \uniEE58  by \uniEC02;
+    sub \uniEE90 \uniEE50  by \uniEB00;
+    sub \uniEE91 \uniEE50  by \uniEB06;
+    sub \uniEE02 \uniEE1F  by \u1CF18;
+    sub \uniEE06 \uniEE1F  by \u1CF19;
+    sub \uniEE07 \uniEE1F  by \u1CF1B;
+    sub \uniEE08 \uniEE1F  by \u1CF1D;
+} Supportfordeprecatedmappingsccmp;
+
+lookup CanonicalCompositionccmp {
+  lookupflag 0;
+    sub \u1CF56 \u1CF30  by \u1CF57;
+    sub \u1CF02 \u1CF1F  by \u1CF18;
+    sub \u1CF06 \u1CF1F  by \u1CF19;
+    sub \u1CF07 \u1CF1F  by \u1CF1B;
+    sub \u1CF08 \u1CF1F  by \u1CF1D;
+    sub \u1CF5D \u1CF30  by \u1CF60;
+    sub \u1CF5D \u1CF31  by \u1CF61;
+    sub \u1CF5D \u1CF32  by \u1CF62;
+    sub \u1CF6F \u1CF3C  by \uniEAC5;
+    sub \u1CF86 \u1CF85  by \uniEAFA;
+    sub \u1CF86 \u1CFC3  by \uniEB5F;
+    sub \u1CF56 \u1CF31  by \u1CF58;
+    sub \u1CF56 \u1CF32  by \u1CF59;
+    sub \u1CF86 \u1CFBF  by \u1CF861CFBF;
+} CanonicalCompositionccmp;
+
+lookup ZnamennyPriznakification {
+  lookupflag 0;
+    sub \u1CF50 \u1CF42  by \uniEB66;
+    sub \u1CF50 \u1CF43  by \uniEB67;
+    sub \u1CF51 \u1CF42  by \uniEB6A;
+    sub \u1CF51 \u1CF43  by \uniEB6B;
+    sub \u1CF52 \u1CF42  by \uniEB6E;
+    sub \u1CF52 \u1CF43  by \uniEB6F;
+    sub \u1CF53 \u1CF42  by \uniEB70;
+    sub \u1CF53 \u1CF43  by \uniEB71;
+    sub \u1CF54 \u1CF42  by \uniEB74;
+    sub \u1CF54 \u1CF43  by \uniEB75;
+    sub \u1CF57 \u1CF42  by \uniEB7C;
+    sub \u1CF5B \u1CF43  by \uniEB81;
+    sub \u1CF5C \u1CF43  by \uniEB87;
+    sub \u1CF5D \u1CF41  by \uniEB89;
+    sub \u1CF5D \u1CF42  by \uniEB8A;
+    sub \u1CF5D \u1CF43  by \uniEB8B;
+    sub \u1CF5D \u1CF44  by \uniEB8C;
+    sub \u1CF56 \u1CF42  by \uniEB78;
+    sub \u1CF56 \u1CF43  by \uniEB79;
+    sub \u1CF6D \u1CF42  by \uniEB8E;
+    sub \u1CF6D \u1CF43  by \uniEB91;
+    sub \u1CF72 \u1CF43  by \uniEB97;
+    sub \u1CF73 \u1CF42  by \uniEB98;
+    sub \u1CF74 \u1CF43  by \uniEB9B;
+    sub \u1CF7E \u1CF43  by \uniEB9F;
+    sub \u1CF7E \u1CF44  by \uniEBA0;
+    sub \u1CF73 \u1CF43  by \uniEB99;
+    sub \u1CF74 \u1CF42  by \uniEB9A;
+    sub \u1CF7E \u1CF42  by \uniEB9E;
+    sub \uniEAFA \u1CF43  by \uniEBAF;
+    sub \u1CF90 \u1CF42  by \uniEBCB;
+    sub \u1CF90 \u1CF43  by \uniEBCC;
+    sub \u1CF87 \u1CF42  by \uniEBBD;
+    sub \u1CF87 \u1CF43  by \uniEBBE;
+    sub \u1CF30 \u1CF42  by \uniEB60;
+    sub \u1CF30 \u1CF43  by \uniEB61;
+    sub \u1CF31 \u1CF42  by \uniEB62;
+    sub \u1CF31 \u1CF43  by \uniEB63;
+    sub \u1CF32 \u1CF42  by \uniEB64;
+    sub \u1CF32 \u1CF43  by \uniEB65;
+    sub \u1CF57 \u1CF43  by \uniEB7D;
+    sub \u1CF5C \u1CF42  by \uniEB84;
+    sub \u1CF70 \u1CF42  by \uniEB92;
+    sub \u1CF70 \u1CF43  by \uniEB93;
+    sub \u1CF71 \u1CF42  by \uniEB94;
+    sub \u1CF71 \u1CF43  by \uniEB95;
+    sub \u1CF72 \u1CF42  by \uniEB96;
+    sub \uniEAFA \u1CF42  by \uniEBAD;
+    sub \u1CF86 \u1CF42  by \uniEBB1;
+    sub \u1CF86 \u1CF43  by \uniEBB2;
+    sub \u1CF86 \u1CF30 \u1CF42  by \uniEBB3;
+    sub \u1CF86 \u1CF30 \u1CF43  by \uniEBB5;
+    sub \u1CF86 \u1CF31 \u1CF42  by \uniEBB6;
+    sub \u1CF86 \u1CF31 \u1CF43  by \uniEBB8;
+    sub \u1CF86 \u1CF30 \u1CF3A \u1CF42  by \uniEBB9;
+    sub \u1CF86 \u1CF30 \u1CF3A \u1CF43  by \uniEBBA;
+    sub \u1CF88 \u1CF42  by \uniEBC2;
+    sub \u1CF88 \u1CF43  by \uniEBC3;
+    sub \u1CF89 \u1CF42  by \uniEBC4;
+    sub \u1CF89 \u1CF43  by \uniEBC5;
+    sub \u1CF8B \u1CF42  by \uniEBC6;
+    sub \u1CF8B \u1CF43  by \uniEBC7;
+    sub \u1CF92 \u1CF42  by \uniEBD4;
+    sub \u1CF92 \u1CF43  by \uniEBD6;
+    sub \u1CF93 \u1CF42  by \uniEBD7;
+    sub \u1CF93 \u1CF43  by \uniEBD9;
+    sub \u1CF94 \u1CF42  by \uniEBDA;
+    sub \u1CF94 \u1CF43  by \uniEBDC;
+    sub \u1CF96 \u1CF42  by \uniEBE0;
+    sub \u1CF96 \u1CF43  by \uniEBE2;
+    sub \u1CFA2 \u1CF43  by \uniEBE7;
+    sub \u1CFA3 \u1CF43  by \uniEBEB;
+    sub \u1CFA5 \u1CF43  by \uniEBED;
+    sub \u1CFA6 \u1CF43  by \uniEBEF;
+    sub \u1CFC3 \u1CF42  by \uniEBFA;
+    sub \u1CFC3 \u1CF43  by \uniEBFB;
+    sub \u1CFA7 \u1CF42  by \uniEBF0;
+    sub \u1CFA7 \u1CF43  by \uniEBF1;
+    sub \uniEB5F \u1CF42  by \uniEBFC;
+    sub \u1CFAF \u1CF43  by \uniEBF6;
+    sub \uniEC22 \u1CF43  by \uniEBF9;
+    sub \u1CFAC \u1CF43  by \uniEBF2;
+    sub \u1CFAD \u1CF43  by \uniEBF3;
+    sub \u1CFAE \u1CF43  by \uniEBF4;
+    sub \u1CFAF \u1CF42  by \uniEBF5;
+    sub \uniEB5F \u1CF43  by \uniEBFD;
+    sub \u1CF96 \u1CF45  by \uniEFB3;
+    sub \u1CF50 \u1CF45  by \uniEF60;
+    sub \u1CF52 \u1CF45  by \uniEF62;
+    sub \u1CF57 \u1CF45  by \uniEF6A;
+    sub \u1CF58 \u1CF45  by \uniEF6C;
+    sub \u1CF61 \u1CF45  by \uniEF84;
+    sub \u1CF62 \u1CF46  by \uniEF89;
+    sub \u1CF64 \u1CF45  by \uniEF91;
+    sub \u1CF66 \u1CF46  by \uniEF96;
+    sub \u1CF67 \u1CF45  by \uniEF97;
+    sub \u1CF86 \u1CF46  by \uniEFAB;
+    sub \u1CF97 \u1CF45  by \uniEFB5;
+    sub \u1CF95 \u1CF46  by \uniEFB2;
+    sub \u1CF9F \u1CF46  by \uniEFCA;
+    sub \u1CF98 \u1CF45  by \uniEFB8;
+    sub \u1CF9B \u1CF46  by \uniEFBE;
+    sub \u1CF99 \u1CF45  by \uniEFBA;
+    sub \u1CFB4 \u1CF45  by \uniEFD5;
+    sub \u1CF9D \u1CF46  by \uniEFC6;
+    sub \u1CF9E \u1CF46  by \uniEFC8;
+    sub \u1CF54 \u1CF46  by \uniEF64;
+    sub \u1CF58 \u1CF46  by \uniEF6D;
+    sub \u1CF5B \u1CF42  by \uniEB80;
+    sub \u1CF81 \u1CF42  by \uniEBA7;
+    sub \u1CF81 \u1CF41 \u1CF42  by \uniEBA8;
+    sub \u1CF81 \u1CF41 \u1CF43  by \uniEBA9;
+    sub \u1CF81 \u1CF43  by \uniEBA9;
+    sub \u1CF50 \u1CF46  by \uniEF61;
+    sub \u1CF56 \u1CF46  by \uniEF66;
+    sub \u1CF5B \u1CF45  by \uniEF68;
+    sub \u1CF57 \u1CF46  by \uniEF6B;
+    sub \u1CF59 \u1CF46  by \uniEF6F;
+    sub \u1CF5C \u1CF45  by \uniEF7C;
+    sub \u1CF5D \u1CF45  by \uniEF7E;
+    sub \u1CF5D \u1CF46  by \uniEF7F;
+    sub \u1CF60 \u1CF45  by \uniEF80;
+    sub \u1CF61 \u1CF46  by \uniEF85;
+    sub \u1CF62 \u1CF45  by \uniEF88;
+    sub \u1CF63 \u1CF45  by \uniEF8F;
+    sub \u1CF64 \u1CF46  by \uniEF92;
+    sub \u1CF65 \u1CF45  by \uniEF93;
+    sub \u1CF65 \u1CF46  by \uniEF94;
+    sub \u1CF68 \u1CF45  by \uniEF99;
+    sub \u1CF68 \u1CF46  by \uniEF9A;
+    sub \u1CF69 \u1CF45  by \uniEF9B;
+    sub \u1CF69 \u1CF46  by \uniEF9C;
+    sub \u1CF6A \u1CF45  by \uniEF9D;
+    sub \u1CF6A \u1CF46  by \uniEF9E;
+    sub \u1CF72 \u1CF45  by \uniEFA0;
+    sub \u1CF79 \u1CF45  by \uniEFA7;
+    sub \u1CF7A \u1CF45  by \uniEFA8;
+    sub \u1CF92 \u1CF45  by \uniEFAD;
+    sub \u1CF92 \u1CF46  by \uniEFAE;
+    sub \u1CF94 \u1CF45  by \uniEFAF;
+    sub \u1CF94 \u1CF46  by \uniEFB0;
+    sub \u1CF97 \u1CF46  by \uniEFB6;
+    sub \u1CF98 \u1CF46  by \uniEFB9;
+    sub \u1CF99 \u1CF46  by \uniEFBB;
+    sub \u1CF9B \u1CF45  by \uniEFBD;
+    sub \u1CF9C \u1CF45  by \uniEFC3;
+    sub \u1CF9C \u1CF46  by \uniEFC4;
+    sub \u1CF9D \u1CF45  by \uniEFC5;
+    sub \u1CF9E \u1CF45  by \uniEFC7;
+    sub \u1CF9F \u1CF45  by \uniEFC9;
+    sub \u1CFA7 \u1CF45  by \uniEFCC;
+    sub \u1CFA9 \u1CF45  by \uniEFCD;
+    sub \u1CFAA \u1CF45  by \uniEFCE;
+    sub \u1CFAB \u1CF45  by \uniEFCF;
+    sub \u1CFAF \u1CF45  by \uniEFD1;
+    sub \u1CFB0 \u1CF45  by \uniEFD2;
+    sub \u1CFB0 \u1CF45  by \uniEFD3;
+    sub \u1CF95 \u1CF42  by \uniEBDD;
+    sub \u1CF95 \u1CF43  by \uniEBDF;
+    sub \u1CF97 \u1CF42  by \uniEBE3;
+    sub \u1CF97 \u1CF43  by \uniEBE5;
+    sub \u1CFA2 \u1CF42  by \uniEBE6;
+    sub \u1CFA3 \u1CF42  by \uniEBEA;
+    sub \u1CFA5 \u1CF42  by \uniEBEC;
+    sub \u1CFA6 \u1CF42  by \uniEBEE;
+    sub \uniEC22 \u1CF42  by \uniEBF7;
+    sub \u1CF86 \u1CF45  by \uniEFAA;
+    sub \u1CF72 \u1CF46  by \uniEFA1;
+    sub \u1CFB3 \u1CF45  by \uniEFD4;
+    sub \u1CFA2 \u1CF41  by \uniEBD3;
+    sub \u1CF8C \u1CF42  by \uniEBFE;
+    sub \u1CF8C \u1CF43  by \uniEBFF;
+    sub \u1CF60 \u1CF46  by \uniEF81;
+    sub \u1CF56 \u1CF45  by \uniEF65;
+    sub \u1CF5B \u1CF46  by \uniEF69;
+    sub \u1CF59 \u1CF45  by \uniEF6E;
+    sub \u1CF63 \u1CF46  by \uniEF90;
+    sub \u1CF95 \u1CF45  by \uniEFB1;
+    sub \u1CF96 \u1CF46  by \uniEFB4;
+    sub \u1CF66 \u1CF45  by \uniEF95;
+    sub \u1CF67 \u1CF46  by \uniEF98;
+    sub \u1CF54 \u1CF45  by \uniEF63;
+} ZnamennyPriznakification;
+
+lookup ZnamennyPriznakificationRound2 {
+  lookupflag 0;
+    sub \uniEB74 \u1CF44  by \uniEB76;
+    sub \uniEB75 \u1CF44  by \uniEB77;
+    sub \uniEB79 \u1CF44  by \uniEB7B;
+    sub \uniEB78 \u1CF44  by \uniEB7A;
+    sub \uniEB81 \u1CF44  by \uniEB83;
+    sub \uniEB85 \u1CF44  by \uniEB86;
+    sub \uniEB84 \u1CF44  by \uniEB86;
+    sub \uniEB8C \u1CF44  by \uniEB8D;
+    sub \uniEB70 \u1CF44  by \uniEB72;
+    sub \uniEB71 \u1CF44  by \uniEB73;
+    sub \uniEBAD \u1CF44  by \uniEBAE;
+    sub \uniEBAF \u1CF44  by \uniEBB0;
+    sub \uniEBAE \u1CF43  by \uniEBB0;
+    sub \uniEBCB \u1CF30  by \uniEBCD;
+    sub \uniEBCC \u1CF30  by \uniEBCF;
+    sub \uniEBBB \u1CF30  by \uniEBBD;
+    sub \uniEBBC \u1CF30  by \uniEBBE;
+    sub \uniEBBD \u1CF30  by \uniEBBF;
+    sub \uniEB66 \u1CF44  by \uniEB68;
+    sub \uniEB67 \u1CF44  by \uniEB69;
+    sub \uniEB6A \u1CF44  by \uniEB6C;
+    sub \uniEB6B \u1CF44  by \uniEB6D;
+    sub \uniEB7C \u1CF44  by \uniEB7E;
+    sub \uniEB7D \u1CF44  by \uniEB7F;
+    sub \uniEB8F \u1CF44  by \uniEB90;
+    sub \uniEB8E \u1CF44  by \uniEB90;
+    sub \uniEBB1 \u1CF30  by \uniEBB3;
+    sub \uniEBB2 \u1CF30  by \uniEBB5;
+    sub \uniEBB1 \u1CF31  by \uniEBB6;
+    sub \uniEBB2 \u1CF31  by \uniEBB8;
+    sub \uniEBBE \u1CF30  by \uniEBC1;
+    sub \uniEBC6 \u1CF30  by \uniEBC8;
+    sub \uniEBC7 \u1CF30  by \uniEBCA;
+    sub \uniEBFE \u1CF30  by \uniEBD0;
+    sub \uniEBFF \u1CF30  by \uniEBD2;
+    sub \uniEB87 \u1CF44  by \uniEB88;
+    sub \uniEB9A \u1CF44  by \uniEB9C;
+    sub \uniEB9B \u1CF44  by \uniEB9D;
+    sub \uniEF80 \u1CF3F  by \uniEF82;
+    sub \uniEF85 \u1CF3F  by \uniEF87;
+    sub \uniEF7E \u1CF3B  by \uniEF8C;
+    sub \uniEF68 \u1CF5C  by \uniEF73;
+    sub \uniEFBE \u1CF30  by \uniEFC0;
+    sub \uniEB80 \u1CF44  by \uniEB82;
+    sub \uniEBA7 \u1CF41  by \uniEBA8;
+    sub \uniEBA9 \u1CF41  by \uniEBAA;
+    sub \uniEF66 \u1CF44  by \uniEF67;
+    sub \uniEF65 \u1CF5C  by \uniEF71;
+    sub \uniEF69 \u1CF5C  by \uniEF74;
+    sub \uniEF88 \u1CF3F  by \uniEF8A;
+    sub \uniEFA0 \u1CF3E  by \uniEFA2;
+    sub \uniEFA1 \u1CF3E  by \uniEFA3;
+    sub \uniEFA0 \u1CF40  by \uniEFA4;
+    sub \uniEFA1 \u1CF40  by \uniEFA5;
+    sub \uniEFBD \u1CF30  by \uniEFBF;
+    sub \uniEFBD \u1CF31  by \uniEFC1;
+    sub \uniEFBE \u1CF31  by \uniEFC2;
+    sub \uniEBD3 \u1CF42  by \uniEBE8;
+    sub \uniEBE6 \u1CF41  by \uniEBE8;
+    sub \uniEBD3 \u1CF43  by \uniEBE9;
+    sub \uniEBE7 \u1CF41  by \uniEBE9;
+    sub \uniEF84 \u1CF3F  by \uniEF86;
+    sub \uniEF81 \u1CF3F  by \uniEF83;
+    sub \uniEF89 \u1CF3F  by \uniEF8B;
+    sub \uniEF66 \u1CF5C  by \uniEF72;
+} ZnamennyPriznakificationRound2;
+
+lookup PrecomposedformsforZnamennyNotation {
+  lookupflag 0;
+    sub \u1CF5C \u1CF3D  by \uniEA9C;
+    sub \u1CF5A \u1CF5C  by \uniEA97;
+    sub \u1CF6D \u1CF3C  by \uniEAC4;
+    sub \u1CF7D \u1CF33  by \uniEAE0;
+    sub \u1CF86 \u1CF30  by \uniEAFD;
+    sub \u1CF86 \u1CF31  by \uniEB0D;
+    sub \u1CF90 \u1CF30  by \uniEB08;
+    sub \u1CF8B \u1CF30  by \uniEB01;
+    sub \u1CF30 \u1CF3A  by \uniEC00;
+    sub \u1CF31 \u1CF3A  by \uniEC01;
+    sub \u1CF32 \u1CF3A  by \uniEC02;
+    sub \u1CF5C \u1CF3C  by \uniEA99;
+    sub \u1CF7E \u1CF26  by \uniEAEB;
+    sub \u1CF87 \u1CF30  by \uniEB00;
+    sub \u1CF8C \u1CF30  by \uniEB03;
+    sub \u1CF56 \u1CF7F  by \uniEC14;
+    sub \u1CF56 \u1CF80  by \uniEC16;
+    sub \u1CF7D \u1CF26  by \uniEAE1;
+    sub \u1CF7D \u1CF85  by \uniEAF9;
+    sub \u1CF7E \u1CF81  by \uniEAEC;
+    sub \u1CF59 \u1CF30  by \uniEA87;
+    sub \u1CF5C \u1CF26  by \uniEA9B;
+    sub \u1CF5A \u1CF40  by \uniEA89;
+    sub \u1CF56 \u1CF50  by \uniEC03;
+    sub \u1CF61 \u1CF40  by \uniEAA8;
+    sub \u1CFA7 \u1CF3E  by \uniEB33;
+    sub \u1CF69 \u1CF40  by \uniEABB;
+    sub \u1CF62 \u1CF40  by \uniEAAB;
+    sub \u1CF68 \u1CF40  by \uniEAB9;
+    sub \u1CF72 \u1CF40  by \uniEACA;
+    sub \u1CF73 \u1CF30  by \uniEACE;
+    sub \u1CF76 \u1CF40  by \uniEAD9;
+    sub \u1CF9E \u1CF34  by \uniEB29;
+    sub \u1CF72 \u1CF30  by \uniEACB;
+    sub \u1CF76 \u1CF30  by \uniEADA;
+    sub \u1CF7A \u1CF30  by \uniEADE;
+    sub \u1CF9B \u1CF30  by \uniEB2A;
+    sub \u1CF96 \u1CF30  by \uniEB19;
+    sub \u1CF90 \u1CF3B  by \uniEAFB;
+    sub \u1CF99 \u1CF26  by \uniEB22;
+    sub \u1CF50 \u1CF3E  by \uniEA60;
+    sub \u1CF50 \u1CF40  by \uniEA62;
+    sub \u1CF54 \u1CF3E  by \uniEA6C;
+    sub \u1CF54 \u1CF3C  by \uniEA6B;
+    sub \u1CF54 \u1CF40  by \uniEA6D;
+    sub \u1CF55 \u1CF3E  by \uniEA7A;
+    sub \u1CF55 \u1CF40  by \uniEA7B;
+    sub \u1CF56 \u1CF40  by \uniEA7D;
+    sub \u1CF58 \u1CF3F  by \uniEA83;
+    sub \u1CF58 \u1CF40  by \uniEA81;
+    sub \u1CFB0 \u1CF40  by \uniEB47;
+    sub \u1CF59 \u1CF3F  by \uniEA86;
+    sub \u1CF60 \u1CF3C  by \uniEAA6;
+    sub \u1CF61 \u1CF3F  by \uniEAA7;
+    sub \u1CF66 \u1CF3E  by \uniEAB3;
+    sub \u1CF62 \u1CF3F  by \uniEAAA;
+    sub \u1CF63 \u1CF3E  by \uniEAAD;
+    sub \u1CF76 \u1CF3E  by \uniEAD8;
+    sub \u1CF75 \u1CF3F  by \uniEAD2;
+    sub \u1CF75 \u1CF3C  by \uniEAD3;
+    sub \u1CF92 \u1CF40  by \uniEB12;
+    sub \u1CF75 \u1CF40  by \uniEAD1;
+    sub \u1CF9B \u1CF34  by \uniEB26;
+    sub \u1CF9B \u1CF31  by \uniEB2D;
+    sub \u1CFA9 \u1CF34  by \uniEB3C;
+    sub \u1CFA9 \u1CF31  by \uniEB41;
+    sub \u1CFA9 \u1CF3F  by \uniEB3A;
+    sub \u1CFA9 \u1CF3C  by \uniEB3B;
+    sub \u1CFA9 \u1CF3E  by \uniEB38;
+    sub \u1CF5D \u1CF3B  by \uniEAC1;
+    sub \u1CF64 \u1CF3E  by \uniEAAF;
+    sub \u1CF64 \u1CF40  by \uniEAB0;
+    sub \u1CF65 \u1CF40  by \uniEAB2;
+    sub \u1CF97 \u1CF40  by \uniEB1E;
+    sub \u1CF97 \u1CF3E  by \uniEB1D;
+    sub \u1CF92 \u1CF3E  by \uniEB11;
+    sub \u1CF9B \u1CF40  by \uniEB25;
+    sub \u1CF9C \u1CF40  by \uniEB2F;
+    sub \u1CF88 \u1CF30  by \uniEB06;
+    sub \u1CF50 \u1CF3F  by \uniEA61;
+    sub \u1CF75 \u1CF3E  by \uniEAD0;
+    sub \u1CFA9 \u1CF40  by \uniEB39;
+    sub \u1CF52 \u1CF3E  by \uniEA64;
+    sub \u1CF52 \u1CF40  by \uniEA65;
+    sub \u1CF96 \u1CF3E  by \uniEB17;
+    sub \u1CF96 \u1CF40  by \uniEB18;
+    sub \u1CF7A \u1CF3E  by \uniEADC;
+    sub \u1CF7A \u1CF40  by \uniEADD;
+    sub \u1CF59 \u1CF40  by \uniEA85;
+    sub \u1CF54 \u1CF31  by \uniEA76;
+    sub \u1CF72 \u1CF3E  by \uniEAC9;
+    sub \u1CF53 \u1CF3E  by \uniEA67;
+    sub \u1CF53 \u1CF40  by \uniEA68;
+    sub \u1CF54 \u1CF34  by \uniEA70;
+    sub \u1CF54 \u1CF30  by \uniEA73;
+    sub \u1CF67 \u1CF3E  by \uniEAB6;
+    sub \uniEA57 \u1CF3E  by \uniEAC6;
+    sub \uniEA57 \u1CF40  by \uniEAC7;
+    sub \u1CF75 \u1CF30  by \uniEAD4;
+    sub \u1CF98 \u1CF26  by \uniEB20;
+    sub \u1CF9B \u1CF3E  by \uniEB24;
+    sub \u1CF9C \u1CF34  by \uniEB30;
+    sub \u1CF9C \u1CF30  by \uniEB31;
+    sub \u1CFA7 \u1CF40  by \uniEB34;
+    sub \u1CFA7 \u1CF3B \u1CF30  by \uniEB35;
+    sub \u1CFA7 \u1CF30 \u1CF3B  by \uniEB35;
+    sub \u1CFB0 \u1CF3E  by \uniEB46;
+    sub \u1CF56 \u1CFC0  by \uniEB49;
+    sub \u1CF5D \u1CFC0  by \uniEB4A;
+    sub \u1CF6B \u1CFC0  by \uniEB4B;
+    sub \u1CF7D \u1CFC0  by \uniEB4C;
+    sub \u1CF86 \u1CFC0  by \uniEB4D;
+    sub \u1CF5D \u1CF81  by \uniEA9F;
+    sub \u1CF60 \u1CF3F  by \uniEAA3;
+    sub \u1CF60 \u1CF40  by \uniEAA4;
+    sub \u1CF63 \u1CF40  by \uniEAAE;
+    sub \u1CF65 \u1CF3E  by \uniEAB1;
+    sub \u1CF66 \u1CF40  by \uniEAB4;
+    sub \u1CF68 \u1CF3E  by \uniEAB8;
+    sub \u1CF69 \u1CF3E  by \uniEABA;
+    sub \u1CF24 \u1CF27  by \uniEA14;
+    sub \u1CFB4 \u1CF3E  by \uniEB50;
+    sub \u1CFA9 \u1CF30  by \uniEB53;
+    sub \u1CF79 \u1CF3E  by \uniEB58;
+    sub \u1CF79 \u1CF40  by \uniEB59;
+    sub \u1CF79 \u1CF30  by \uniEB5A;
+    sub \u1CF58 \u1CF50  by \uniEC04;
+    sub \u1CFB0 \u1CF3B \u1CF30  by \uniEC07;
+    sub \u1CFB0 \u1CF30 \u1CF3B  by \uniEC07;
+    sub \u1CF58 \u1CFA7  by \uniEC08;
+    sub \u1CF58 \u1CFA9  by \uniEC09;
+    sub \u1CF59 \u1CF50 \u1CF30  by \uniEC0B;
+    sub \u1CF59 \u1CF54  by \uniEC0C;
+    sub \u1CF59 \u1CF3A \u1CF54  by \uniEC0D;
+    sub \u1CF59 \u1CFA9  by \uniEC0E;
+    sub \u1CF56 \u1CF5C  by \uniEC12;
+    sub \u1CF5B \u1CF5C  by \uniEC17;
+    sub \u1CF5B \u1CF7F  by \uniEC1A;
+    sub \u1CF5D \u1CF5C  by \uniEC1C;
+    sub \u1CF5D \u1CF7F  by \uniEC1E;
+    sub \u1CF5D \u1CF58  by \uniEC22;
+    sub \u1CF60 \u1CF72  by \uniEC23;
+    sub \u1CF60 \u1CFA9  by \uniEC26;
+    sub \u1CF65 \u1CF56  by \uniEC27;
+    sub \u1CF5C \u1CF75  by \uniEC28;
+    sub \u1CF7D \uni200D \u1CF81  by \uniEC29;
+    sub \u1CF81 \uni200D \u1CF7D  by \uniEC2A;
+    sub \u1CF83 \uni200D \u1CF53  by \uniEC2C;
+    sub \u1CF86 \u1CF58  by \uniEC2D;
+    sub \u1CF5D \u1CF33  by \uniEAA0;
+    sub \u1CF67 \u1CF40  by \uniEAB7;
+} PrecomposedformsforZnamennyNotation;
+
+lookup PrecomposedformsforZnamennyRound2 {
+  lookupflag 0;
+    sub \uniEA9B \u1CF3D  by \uniEA9D;
+    sub \uniEA9C \u1CF26  by \uniEA9D;
+    sub \uniEB01 \u1CF26  by \uniEB05;
+    sub \uniEAFD \u1CF3A  by \uniEAFE;
+    sub \uniEB0D \u1CF3A  by \uniEB0E;
+    sub \u1CF56 \uniEA9C  by \uniEC13;
+    sub \uniEC12 \u1CF3D  by \uniEC13;
+    sub \uniEB08 \u1CF3B  by \uniEB09;
+    sub \uniEA76 \u1CF3E  by \uniEA77;
+    sub \uniEA6C \u1CF31  by \uniEA77;
+    sub \uniEB03 \u1CF3B  by \uniEB04;
+    sub \uniEA81 \u1CF40  by \uniEA82;
+    sub \uniEB25 \u1CF34  by \uniEB28;
+    sub \uniEB26 \u1CF40  by \uniEB28;
+    sub \uniEB26 \u1CF3E  by \uniEB27;
+    sub \uniEB24 \u1CF34  by \uniEB27;
+    sub \uniEACB \u1CF3E  by \uniEACC;
+    sub \uniEAC9 \u1CF30  by \uniEACC;
+    sub \uniEB2A \u1CF3E  by \uniEB2B;
+    sub \uniEB24 \u1CF30  by \uniEB2B;
+    sub \uniEB2A \u1CF40  by \uniEB2C;
+    sub \uniEB25 \u1CF30  by \uniEB2C;
+    sub \uniEB19 \u1CF40  by \uniEB1A;
+    sub \uniEB18 \u1CF30  by \uniEB1A;
+    sub \uniEAFD \u1CF3B  by \uniEAFF;
+    sub \uniEB01 \u1CF3B  by \uniEB02;
+    sub \uniEB0D \u1CF3B  by \uniEB0F;
+    sub \uniEA7D \u1CF40  by \uniEA7E;
+    sub \uniEAA4 \u1CF40  by \uniEAA5;
+    sub \uniEAA8 \u1CF40  by \uniEAA9;
+    sub \uniEB3C \u1CF3C  by \uniEB40;
+    sub \uniEB3B \u1CF34  by \uniEB40;
+    sub \uniEB3A \u1CF31  by \uniEB44;
+    sub \uniEB41 \u1CF3C  by \uniEB44;
+    sub \uniEA9F \u1CF3B  by \uniEAC2;
+    sub \uniEAC1 \u1CF81  by \uniEAC2;
+    sub \uniEAC1 \u1CF40  by \uniEAC2;
+    sub \uniEA76 \u1CF40  by \uniEA78;
+    sub \uniEA6D \u1CF31  by \uniEA78;
+    sub \uniEA6D \u1CF40  by \uniEA6E;
+    sub \uniEB3C \u1CF3E  by \uniEB3D;
+    sub \uniEB38 \u1CF34  by \uniEB3D;
+    sub \uniEB38 \u1CF31  by \uniEB42;
+    sub \uniEB41 \u1CF3F  by \uniEB42;
+    sub \uniEB3C \u1CF40  by \uniEB3E;
+    sub \uniEB39 \u1CF34  by \uniEB3E;
+    sub \uniEB39 \u1CF31  by \uniEB43;
+    sub \uniEB41 \u1CF40  by \uniEB43;
+    sub \uniEA6C \u1CF34  by \uniEA71;
+    sub \uniEA70 \u1CF3E  by \uniEA71;
+    sub \uniEA6D \u1CF34  by \uniEA72;
+    sub \uniEA70 \u1CF40  by \uniEA72;
+    sub \uniEA73 \u1CF3E  by \uniEA74;
+    sub \uniEA6C \u1CF30  by \uniEA74;
+    sub \uniEA73 \u1CF40  by \uniEA75;
+    sub \uniEA6D \u1CF30  by \uniEA75;
+    sub \uniEAD4 \u1CF3E  by \uniEAD5;
+    sub \uniEAD0 \u1CF30  by \uniEAD5;
+    sub \uniEAD4 \u1CF40  by \uniEAD6;
+    sub \uniEAD1 \u1CF30  by \uniEAD6;
+    sub \uniEB3C \u1CF3F  by \uniEB3F;
+    sub \uniEB3A \u1CF34  by \uniEB3F;
+    sub \uniEA89 \u1CF40  by \uniEA8A;
+    sub \uniEACB \u1CF40  by \uniEACD;
+    sub \uniEACA \u1CF30  by \uniEACD;
+    sub \uniEB38 \u1CF30  by \uniEB54;
+    sub \uniEB53 \u1CF3E  by \uniEB54;
+    sub \uniEB39 \u1CF30  by \uniEB55;
+    sub \uniEB53 \u1CF40  by \uniEB55;
+    sub \uniEB3A \u1CF30  by \uniEB56;
+    sub \uniEB53 \u1CF3F  by \uniEB56;
+    sub \uniEB53 \u1CF3C  by \uniEB57;
+    sub \uniEB3B \u1CF30  by \uniEB57;
+    sub \uniEC04 \u1CF3B  by \uniEC05;
+    sub \uniEC04 \u1CF30  by \uniEC06;
+    sub \uniEC08 \u1CF30 \u1CF40  by \uniEC0A;
+    sub \uniEC08 \u1CF40 \u1CF30  by \uniEC0A;
+    sub \uniEC0E \u1CF30  by \uniEC0F;
+    sub \u1CF5B \uniEA9C  by \uniEC18;
+    sub \uniEC17 \u1CF3D  by \uniEC18;
+    sub \u1CF5D \uniEA9C  by \uniEC1D;
+    sub \uniEC1C \u1CF3D  by \uniEC1D;
+    sub \u1CF5D \uniEC13  by \uniEC20;
+    sub \u1CF60 \uniEACA  by \uniEC24;
+    sub \uniEC23 \u1CF40  by \uniEC24;
+    sub \u1CF7D \uni200D \uniEB0D  by \uniEC2B;
+} PrecomposedformsforZnamennyRound2;
+
+lookup PrecomposedformsforZnamennyRound3 {
+  lookupflag 0;
+    sub \uniEA7E \u1CF40  by \uniEA7F;
+    sub \uniEA6E \u1CF40  by \uniEA6F;
+    sub \u1CF86 \uniEC18  by \uniEC19;
+} PrecomposedformsforZnamennyRound3;
+
+lookup PostcompositionPriznakification {
+  lookupflag 0;
+    sub \uniEB0E \u1CF42  by \uniEBBC;
+    sub \uniEBB8 \u1CF3A  by \uniEBBC;
+    sub \uniEB08 \u1CF42  by \uniEBCD;
+    sub \uniEB08 \u1CF43  by \uniEBCF;
+    sub \uniEB00 \u1CF42  by \uniEBBF;
+    sub \uniEBB3 \u1CF3A  by \uniEBB9;
+    sub \uniEBB5 \u1CF3A  by \uniEBBA;
+    sub \uniEB0E \u1CF42  by \uniEBBB;
+    sub \uniEBB7 \u1CF3A  by \uniEBBB;
+    sub \uniEBB6 \u1CF3A  by \uniEBBB;
+    sub \uniEB00 \u1CF43  by \uniEBC1;
+    sub \uniEB01 \u1CF42  by \uniEBC8;
+    sub \uniEB01 \u1CF43  by \uniEBCA;
+    sub \uniEB03 \u1CF42  by \uniEBD0;
+    sub \uniEB03 \u1CF43  by \uniEBD2;
+    sub \uniEAA3 \u1CF45  by \uniEF82;
+    sub \uniEAA7 \u1CF46  by \uniEF87;
+    sub \uniEAC1 \u1CF45  by \uniEF8C;
+    sub \uniEC17 \u1CF45  by \uniEF73;
+    sub \uniEF74 \u1CF3D  by \uniEF76;
+    sub \uniEC18 \u1CF46  by \uniEF76;
+    sub \uniEC12 \u1CF45  by \uniEF71;
+    sub \uniEC17 \u1CF46  by \uniEF74;
+    sub \uniEC1A \u1CF45  by \uniEF77;
+    sub \uniEC1A \u1CF46  by \uniEF78;
+    sub \uniEC19 \u1CF45  by \uniEF79;
+    sub \uniEAAA \u1CF45  by \uniEF8A;
+    sub \uniEF8C \u1CF81  by \uniEF8D;
+    sub \uniEAC2 \u1CF45  by \uniEF8D;
+    sub \uniEAC9 \u1CF45  by \uniEFA2;
+    sub \uniEAC9 \u1CF46  by \uniEFA3;
+    sub \uniEACA \u1CF45  by \uniEFA4;
+    sub \uniEACA \u1CF46  by \uniEFA5;
+    sub \uniEAA7 \u1CF45  by \uniEF86;
+    sub \uniEAA3 \u1CF46  by \uniEF83;
+    sub \uniEAAA \u1CF46  by \uniEF8B;
+    sub \uniEC19 \u1CF46  by \uniEF7A;
+    sub \uniEC12 \u1CF46  by \uniEF72;
+    sub \uniEF73 \u1CF3D  by \uniEF75;
+    sub \uniEC18 \u1CF45  by \uniEF75;
+} PostcompositionPriznakification;
+
+lookup ccmpMedialFormofRavno {
+  lookupflag 0;
+    @cc8_match_1 = [\u1CF22 ];
+    @cc8_match_2 = [\u1CF00 \u1CF01 \u1CF02 \u1CF03 \u1CF04 \u1CF05 \u1CF06 \u1CF07 \u1CF08 \u1CF09 
+	\u1CF0A \u1CF0B \uniEA05 \uniEA06 \uniEA07 \u1CF18 \u1CF19 \u1CF1A 
+	\u1CF1B \u1CF1C \u1CF1D \u1CF1E \u1CF1F \u1CF20 \u1CF21 \u1CF23 \u1CF24 
+	\u1CF25 \u1CF26 \u1CF27 \u1CF28 \u1CF29 \u1CF2A \u1CF2B \u1CF2C ];
+    @cc8_back_1 = [\u1CF22 ];
+    @cc8_back_2 = [\u1CF00 \u1CF01 \u1CF02 \u1CF03 \u1CF04 \u1CF05 \u1CF06 \u1CF07 \u1CF08 \u1CF09 
+	\u1CF0A \u1CF0B \uniEA05 \uniEA06 \uniEA07 \u1CF18 \u1CF19 \u1CF1A 
+	\u1CF1B \u1CF1C \u1CF1D \u1CF1E \u1CF1F \u1CF20 \u1CF21 \u1CF23 \u1CF24 
+	\u1CF25 \u1CF26 \u1CF27 \u1CF28 \u1CF29 \u1CF2A \u1CF2B \u1CF2C ];
+    @cc8_ahead_1 = [\u1CF22 ];
+    @cc8_ahead_2 = [\u1CF00 \u1CF01 \u1CF02 \u1CF03 \u1CF04 \u1CF05 \u1CF06 \u1CF07 \u1CF08 \u1CF09 
+	\u1CF0A \u1CF0B \uniEA05 \uniEA06 \uniEA07 \u1CF18 \u1CF19 \u1CF1A 
+	\u1CF1B \u1CF1C \u1CF1D \u1CF1E \u1CF1F \u1CF20 \u1CF21 \u1CF23 \u1CF24 
+	\u1CF25 \u1CF26 \u1CF27 \u1CF28 \u1CF29 \u1CF2A \u1CF2B \u1CF2C ];
+    sub @cc8_back_2 @cc8_match_1'  by [\uniEA18 ] ;
+} ccmpMedialFormofRavno;
+
+lookup StylisticAlternativesforZnamennysalt {
+  lookupflag 0;
+    sub \uniEAE0 from [\uniEAE4 \uniEAE8 ];
+    sub \uniEB8E from [\uniEB8F ];
+    sub \uniEB9F from [\uniEBA2 \uniEBA5 ];
+    sub \uniEBA0 from [\uniEBA3 \uniEBA6 ];
+    sub \uniEB9E from [\uniEBA1 \uniEBA4 ];
+    sub \uniEBCD from [\uniEBCE ];
+    sub \uniEBBF from [\uniEBC0 ];
+    sub \uniEA99 from [\uniEA9A ];
+    sub \uniEB84 from [\uniEB85 ];
+    sub \uniEBB3 from [\uniEBB4 ];
+    sub \uniEBB5 from [\uniEBB4 ];
+    sub \uniEBB6 from [\uniEBB7 ];
+    sub \uniEBB8 from [\uniEBB7 ];
+    sub \uniEBC8 from [\uniEBC9 ];
+    sub \uniEBD0 from [\uniEBD1 ];
+    sub \uniEBD4 from [\uniEBD5 ];
+    sub \uniEBD7 from [\uniEBD8 ];
+    sub \uniEBDA from [\uniEBDB ];
+    sub \uniEBE0 from [\uniEBE1 ];
+    sub \uniEAEB from [\uniEAEF \uniEAF2 ];
+    sub \uniEC14 from [\uniEC15 ];
+    sub \uniEAE1 from [\uniEAE5 \uniEAE9 ];
+    sub \uniEB28 from [\uniEB2C ];
+    sub \uniEB27 from [\uniEB2B ];
+    sub \uniEB26 from [\uniEB2A ];
+    sub \u1CF00 from [\uniEA00 ];
+    sub \u1CF01 from [\uniEA02 ];
+    sub \u1CF03 from [\uniEA01 ];
+    sub \u1CF04 from [\uniEA03 ];
+    sub \u1CF05 from [\uniEA04 ];
+    sub \u1CF2D from [\uniEA15 ];
+    sub \u1CF22 from [\uniEA10 ];
+    sub \u1CF23 from [\uniEA11 ];
+    sub \u1CF24 from [\uniEA12 ];
+    sub \u1CF27 from [\uniEA13 ];
+    sub \u1CF7D from [\uniEAE3 \uniEAE7 ];
+    sub \u1CF7E from [\uniEAEE \uniEAF1 ];
+    sub \u1CF82 from [\uniEAF4 ];
+    sub \u1CF84 from [\uniEAF6 ];
+    sub \u1CF85 from [\uniEAF8 ];
+    sub \u1CF91 from [\uniEB0B ];
+    sub \u1CFC1 from [\uniEA55 ];
+    sub \u1CFC2 from [\uniEA56 ];
+    sub \u1CFC0 from [\uniEB4E ];
+    sub \u1CF5F from [\uniEAA1 ];
+    sub \uniEA70 from [\uniEA73 ];
+    sub \uniEA71 from [\uniEA74 ];
+    sub \uniEA72 from [\uniEA75 ];
+    sub \uniEB30 from [\uniEB31 ];
+    sub \uniEBA8 from [\uniEBAB ];
+    sub \uniEBAA from [\uniEBAC ];
+    sub \uniEBDD from [\uniEBDE ];
+    sub \uniEBE3 from [\uniEBE4 ];
+    sub \uniEBF7 from [\uniEBF8 ];
+    sub \uniEC1A from [\uniEC1B ];
+    sub \uniEC1E from [\uniEC1F ];
+} StylisticAlternativesforZnamennysalt;
+
+feature ccmp {
+
+ script DFLT;
+     language dflt ;
+      lookup Supportfordeprecatedmappingsccmp;
+      lookup CanonicalCompositionccmp;
+      lookup ZnamennyPriznakification;
+      lookup ZnamennyPriznakificationRound2;
+      lookup PrecomposedformsforZnamennyNotation;
+      lookup PrecomposedformsforZnamennyRound2;
+      lookup PrecomposedformsforZnamennyRound3;
+      lookup PostcompositionPriznakification;
+      lookup ccmpMedialFormofRavno;
+
+ script cyrl;
+     language dflt ;
+      lookup Supportfordeprecatedmappingsccmp;
+      lookup CanonicalCompositionccmp;
+      lookup ZnamennyPriznakification;
+      lookup ZnamennyPriznakificationRound2;
+      lookup PrecomposedformsforZnamennyNotation;
+      lookup PrecomposedformsforZnamennyRound2;
+      lookup PrecomposedformsforZnamennyRound3;
+      lookup PostcompositionPriznakification;
+      lookup ccmpMedialFormofRavno;
+
+ script latn;
+     language dflt ;
+      lookup Supportfordeprecatedmappingsccmp;
+      lookup CanonicalCompositionccmp;
+      lookup ZnamennyPriznakification;
+      lookup ZnamennyPriznakificationRound2;
+      lookup PrecomposedformsforZnamennyNotation;
+      lookup PrecomposedformsforZnamennyRound2;
+      lookup PrecomposedformsforZnamennyRound3;
+      lookup PostcompositionPriznakification;
+      lookup ccmpMedialFormofRavno;
+} ccmp;
+
+feature salt {
+
+ script DFLT;
+     language dflt ;
+      lookup StylisticAlternativesforZnamennysalt;
+
+ script cyrl;
+     language dflt ;
+      lookup StylisticAlternativesforZnamennysalt;
+
+ script latn;
+     language dflt ;
+      lookup StylisticAlternativesforZnamennysalt;
+} salt;
+
+# GPOS 
+
+
+lookup ss01StyleSet1DemestvennyLigatures {
+  lookupflag IgnoreMarks;
+    pos \uniEE70 \uniEE70 -135;
+    pos \uniEE70 \uniEE75 -135;
+    pos \uniEE70 \uniEE74 -135;
+    pos \uniEE72 \uniEE70 -135;
+    pos \uniEE72 \uniEE75 -135;
+    pos \uniEE73 \uniEE76 -135;
+    pos \uniEE73 \uniEE70 -135;
+    pos \uniEE73 \uniEE73 -135;
+    pos \uniEE73 \uniEE75 -135;
+    pos \uniEE73 \uniEE74 -135;
+    pos \uniEE74 \uniEE70 -135;
+    pos \uniEE74 \uniEE75 -135;
+    pos \uniEE74 \uniEE74 -135;
+    pos \uniEE74 \uniEA6C -135;
+    pos \uniEE74 \uniEA6D -135;
+    pos \uniEE74 \uniEA7D -135;
+    pos \uniEE74 \uniEA7E -135;
+    pos \uniEE74 \uniEA7F -135;
+    pos \uniEE9D \uniEE76 -135;
+    pos \uniEE9D \uniEE70 -135;
+    pos \uniEE9D \uniEE73 -135;
+    pos \uniEE9D \uniEE75 -135;
+    pos \uniEE9D \uniEE74 -135;
+    pos \uniEA6C \uniEB39 -110;
+    pos \uniEA6C \uniEEF3 -100;
+    pos \uniEA6C \uniEECD -75;
+    pos \uniEA6C \uniEEC6 -110;
+    pos \uniEA6C \uniEEC3 -115;
+    pos \uniEA6C \uniEB38 -75;
+    pos \uniEA6C \uniEB40 -75;
+    pos \uniEA6C \uniEB3B -75;
+    pos \uniEA6C \uniEB3A -75;
+    pos \uniEA6C \uniEAD1 -110;
+    pos \uniEA6C \uniEE7A -115;
+    pos \uniEAD8 \uniEEF3 -75;
+    pos \uniEAD8 \uniEECD -80;
+    pos \uniEAD8 \uniEEA5 -80;
+    pos \uniEB3C \uniEE76 -135;
+    pos \uniEB3C \uniEE70 -135;
+    pos \uniEB3C \uniEE73 -135;
+    pos \uniEB3C \uniEE75 -135;
+    pos \uniEB3C \uniEE74 -135;
+    pos \uniEB38 \uniEEF3 -110;
+    pos \uniEB38 \uniEEC6 -110;
+    pos \uniEB38 \uniEEC4 -110;
+    pos \uniEB38 \uniEB3B -110;
+    pos \uniEB38 \uniEB3A -110;
+    pos \uniEB38 \uniEAAC -110;
+    pos \uniEB38 \uniEE7A -100;
+    pos \uniEEC0 \uniEE75 -135;
+    pos \uniEECD \uniEE76 -135;
+    pos \uniEECD \uniEE70 -135;
+    pos \uniEECD \uniEE73 -135;
+    pos \uniEECD \uniEE75 -135;
+    pos \uniEECD \uniEE74 -135;
+    pos \uniEEEC \uniEE70 -135;
+    pos \uniEEEC \uniEE73 -135;
+    pos \uniEEEC \uniEE75 -135;
+    pos \uniEEEC \uniEE74 -135;
+    pos \uniEEF3 \uniEE70 -135;
+    pos \uniEEF3 \uniEE73 -135;
+    pos \uniEEF3 \uniEE75 -135;
+    pos \uniEEF3 \uniEE74 -135;
+    pos \uniEEF3 \uniEA83 -110;
+    pos \uniEEF3 \uniEA81 -110;
+    pos \uniEEF3 \uniEB47 -110;
+    pos \uniEEF3 \uniEA86 -135;
+    pos \uniEEF3 \uniEEC2 -135;
+    pos \uniEEF3 \uniEA85 -110;
+    pos \uniEEED \uniEE70 -135;
+    pos \uniEEED \uniEE73 -135;
+    pos \uniEEED \uniEE75 -135;
+    pos \uniEEED \uniEE74 -135;
+    pos \uniEAD0 \uniEED3 -80;
+    pos \uniEAD0 \uniEECF -80;
+    pos \uniEAD0 \uniEE7A -110;
+    pos \uniEADC \uniEEF3 -75;
+    pos \uniEADC \uniEECD -80;
+    pos \uniEADC \uniEEA5 -80;
+    pos \uniEAC9 \uniEEF3 -80;
+    pos \uniEAC9 \uniEEA5 -80;
+} ss01StyleSet1DemestvennyLigatures;
+
+lookup markBlackMarkPositioning {
+  lookupflag 0;
+  markClass [\uniEE5C \u1CF41 ] <anchor 0 -50> @Podtinka;
+  markClass [\uniEE57 \uniEE58 \uniEE56 ] <anchor -70 640> @Flexion;
+  markClass [\uniEE55 \uniEE5F ] <anchor -93 200> @Podchashie;
+  markClass [\uniEE50 \uniEE51 ] <anchor -375 500> @TonalRange;
+  markClass [\uniEE52 ] <anchor -395 480> @TonalRange;
+  markClass [\uniEE5E ] <anchor -170 550> @Omet;
+  markClass [\uniEE5A \uniEE5B ] <anchor -170 330> @Tochka;
+  markClass [\uniEE54 \uniEE53 \uniEE59 ] <anchor 20 440> @Zaderzhka;
+  pos base [\uni25CC ] <anchor 395 640> mark @Flexion
+	<anchor 30 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 500 320> mark @Zaderzhka
+	<anchor 535 345> mark @Tochka
+	<anchor 260 -30> mark @Podchashie;
+  pos base [\uniEE90 ] <anchor 190 0> mark @Podchashie
+	<anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 360 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet;
+  pos base [\uniEE76 \uniEF6C \uniEF6D ] <anchor 100 -30> mark @Podchashie
+	<anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 510 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 425 190> mark @Omet;
+  pos base [\uniEE77 \uniEF68 \uniEF69 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 395 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEE7C ] <anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 335 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEE70 \uniEE72 \uniEE73 \uniEF60 \uniEF62 \uniEED1 \uniEF61 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 630 460> mark @Zaderzhka
+	<anchor 485 300> mark @Omet
+	<anchor 485 325> mark @Tochka
+	<anchor 378 245> mark @Podchashie;
+  pos base [\uniEE85 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 630 460> mark @Zaderzhka
+	<anchor 535 300> mark @Omet
+	<anchor 535 325> mark @Tochka
+	<anchor 370 70> mark @Podchashie;
+  pos base [\uniEE80 \uniEE81 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 235 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEEAC ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 330 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEEAD ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 300 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEE87 ] <anchor 270 180> mark @Zaderzhka
+	<anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 270 325> mark @Tochka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEE89 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 225 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 76 0> mark @Podchashie;
+  pos base [\uniEE71 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 630 460> mark @Zaderzhka
+	<anchor 485 300> mark @Omet
+	<anchor 485 325> mark @Tochka
+	<anchor 352 1> mark @Podchashie;
+  pos base [\uniEE84 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 630 460> mark @Zaderzhka
+	<anchor 515 300> mark @Omet
+	<anchor 515 325> mark @Tochka
+	<anchor 370 70> mark @Podchashie;
+  pos base [\uniEE8C ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 760 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 400 0> mark @Podchashie;
+  pos base [\uniEE8E ] <anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 450 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 160 -30> mark @Podchashie;
+  pos base [\uniEE8F ] <anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 250 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 190 0> mark @Podchashie;
+  pos base [\uniEE8D ] <anchor 220 180> mark @Zaderzhka
+	<anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 210 325> mark @Tochka
+	<anchor 205 500> mark @Omet;
+  pos base [\uniEE8A ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 250 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEE8B ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 240 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEE9B \uniEE9A \uniEFBE \uniEEE6 \uniEEEC \uniEFC0 \uniEFAD \uniEFAE \uniEFBD \uniEFBF \uniEFC1 \uniEFC2 ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 543 245> mark @Podchashie;
+  pos base [\uniEE9C ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 559 -89> mark @Podchashie;
+  pos base [\uniEE91 ] <anchor 190 0> mark @Podchashie
+	<anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 375 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet;
+  pos base [\uniEE93 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 360 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 320 -30> mark @Podchashie;
+  pos base [\uniEE92 ] <anchor 190 0> mark @Podchashie
+	<anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 535 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet;
+  pos base [\uniEE9E \uniEEA0 ] <anchor 715 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 735 660> mark @TonalRange
+	<anchor 960 460> mark @Zaderzhka
+	<anchor 805 300> mark @Omet
+	<anchor 805 325> mark @Tochka
+	<anchor 701 245> mark @Podchashie;
+  pos base [\uniEE9F ] <anchor 715 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 735 660> mark @TonalRange
+	<anchor 960 460> mark @Zaderzhka
+	<anchor 825 300> mark @Omet
+	<anchor 825 325> mark @Tochka
+	<anchor 729 93> mark @Podchashie;
+  pos base [\uniEE7E ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 420 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 348 0> mark @Podchashie;
+  pos base [\uniEEAB ] <anchor 835 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 855 660> mark @TonalRange
+	<anchor 1080 460> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 915 325> mark @Tochka
+	<anchor 813 245> mark @Podchashie;
+  pos base [\uniEE82 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 630 460> mark @Zaderzhka
+	<anchor 515 300> mark @Omet
+	<anchor 515 325> mark @Tochka
+	<anchor 375 0> mark @Podchashie;
+  pos base [\uniEE83 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 630 460> mark @Zaderzhka
+	<anchor 515 300> mark @Omet
+	<anchor 515 325> mark @Tochka
+	<anchor 426 101> mark @Podchashie;
+  pos base [\uniEEAA \uniEFD1 ] <anchor 480 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 500 660> mark @TonalRange
+	<anchor 730 460> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 585 325> mark @Tochka
+	<anchor 503 245> mark @Podchashie;
+  pos base [\uniEE75 \uniEF66 \uniEF67 \uniEF65 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 235 325> mark @Tochka
+	<anchor 225 180> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEE74 \uniEECD \uniEF64 \uniEFA7 \uniEF63 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 630 460> mark @Zaderzhka
+	<anchor 515 300> mark @Omet
+	<anchor 515 325> mark @Tochka
+	<anchor 378 245> mark @Podchashie;
+  pos base [\uniEE7D ] <anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 460 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEE7F ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 555 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 400 0> mark @Podchashie;
+  pos base [\uniEE7A \uniEF7E \uniEF7F ] <anchor 255 180> mark @Zaderzhka
+	<anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 265 325> mark @Tochka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEE86 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 630 460> mark @Zaderzhka
+	<anchor 515 300> mark @Omet
+	<anchor 485 325> mark @Tochka
+	<anchor 370 70> mark @Podchashie;
+  pos base [\uniEEAF ] <anchor 645 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 665 660> mark @TonalRange
+	<anchor 840 460> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 685 325> mark @Tochka
+	<anchor 578 245> mark @Podchashie;
+  pos base [\uniEE78 ] <anchor 250 180> mark @Zaderzhka
+	<anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 260 325> mark @Tochka
+	<anchor 205 500> mark @Omet
+	<anchor 183 0> mark @Podchashie;
+  pos base [\uniEEAE ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 630 460> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 485 325> mark @Tochka
+	<anchor 378 245> mark @Podchashie;
+  pos base [\uniEE9D ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 517 41> mark @Podchashie;
+  pos base [\uniEE88 ] <anchor 350 180> mark @Zaderzhka
+	<anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 350 325> mark @Tochka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEEA1 ] <anchor 715 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 735 660> mark @TonalRange
+	<anchor 960 460> mark @Zaderzhka
+	<anchor 825 300> mark @Omet
+	<anchor 825 325> mark @Tochka
+	<anchor 723 93> mark @Podchashie;
+  pos base [\uniEEA2 ] <anchor 645 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 665 660> mark @TonalRange
+	<anchor 890 460> mark @Zaderzhka
+	<anchor 755 300> mark @Omet
+	<anchor 755 325> mark @Tochka
+	<anchor 651 245> mark @Podchashie;
+  pos base [\uniEEA3 ] <anchor 645 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 665 660> mark @TonalRange
+	<anchor 890 460> mark @Zaderzhka
+	<anchor 755 300> mark @Omet
+	<anchor 755 325> mark @Tochka
+	<anchor 657 97> mark @Podchashie;
+  pos base [\uniEEA4 ] <anchor 645 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 665 660> mark @TonalRange
+	<anchor 890 460> mark @Zaderzhka
+	<anchor 755 300> mark @Omet
+	<anchor 755 325> mark @Tochka
+	<anchor 663 -57> mark @Podchashie;
+  pos base [\uniEEA5 \uniEEF3 \uniEFCC \uniEFCD ] <anchor 515 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 535 660> mark @TonalRange
+	<anchor 760 460> mark @Zaderzhka
+	<anchor 615 300> mark @Omet
+	<anchor 615 325> mark @Tochka
+	<anchor 513 245> mark @Podchashie;
+  pos base [\uniEE7B ] <anchor 420 180> mark @Zaderzhka
+	<anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 430 325> mark @Tochka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEE79 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 183 0> mark @Podchashie
+	<anchor 430 325> mark @Tochka;
+  pos base [\uniEA56 ] <anchor 391 640> mark @Flexion
+	<anchor -4 -50> mark @Podtinka
+	<anchor 411 660> mark @TonalRange
+	<anchor 406 325> mark @Tochka
+	<anchor 26 -120> mark @Zaderzhka
+	<anchor 96 -30> mark @Podchashie;
+  pos base [\uniEABB ] <anchor 750 795> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 770 815> mark @TonalRange
+	<anchor 990 325> mark @Tochka
+	<anchor 990 590> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 732 382> mark @Podchashie;
+  pos base [\uniEAB9 ] <anchor 610 712> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 630 732> mark @TonalRange
+	<anchor 875 325> mark @Tochka
+	<anchor 850 520> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 618 308> mark @Podchashie;
+  pos base [\uniEB47 ] <anchor 745 790> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 765 810> mark @TonalRange
+	<anchor 1000 325> mark @Tochka
+	<anchor 970 580> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 730 410> mark @Podchashie;
+  pos base [\uniEAB3 \uniEAB4 ] <anchor 885 870> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 905 890> mark @TonalRange
+	<anchor 1090 325> mark @Tochka
+	<anchor 1130 670> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 875 475> mark @Podchashie;
+  pos base [\uniEAAD ] <anchor 470 710> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 490 730> mark @TonalRange
+	<anchor 715 325> mark @Tochka
+	<anchor 710 520> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 465 355> mark @Podchashie;
+  pos base [\uniEAAF ] <anchor 610 712> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 630 732> mark @TonalRange
+	<anchor 850 325> mark @Tochka
+	<anchor 850 520> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 615 355> mark @Podchashie;
+  pos base [\uniEAB0 ] <anchor 610 712> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 630 732> mark @TonalRange
+	<anchor 870 325> mark @Tochka
+	<anchor 850 520> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 615 355> mark @Podchashie;
+  pos base [\uniEAB2 ] <anchor 750 795> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 770 815> mark @TonalRange
+	<anchor 1000 325> mark @Tochka
+	<anchor 990 590> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 745 415> mark @Podchashie;
+  pos base [\uniEFB3 ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 525 39> mark @Podchashie;
+  pos base [\uniEF6A \uniEF6B ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 370 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEF82 \uniEF83 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 560 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEF84 \uniEEC3 \uniEF85 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 510 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEF87 \uniEF86 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 700 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEF89 \uniEEC4 \uniEF88 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 645 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEF8C ] <anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 265 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEF91 \uniEF92 ] <anchor 610 712> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 630 732> mark @TonalRange
+	<anchor 705 395> mark @Tochka
+	<anchor 850 520> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 618 357> mark @Podchashie;
+  pos base [\uniEF96 \uniEF95 ] <anchor 885 870> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 905 890> mark @TonalRange
+	<anchor 965 565> mark @Tochka
+	<anchor 1130 670> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 878 477> mark @Podchashie;
+  pos base [\uniEF97 \uniEF98 ] <anchor 470 710> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 490 730> mark @TonalRange
+	<anchor 710 520> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 565 380> mark @Tochka
+	<anchor 472 320> mark @Podchashie;
+  pos base [\uniEFAB \uniEFAA ] <anchor 190 0> mark @Podchashie
+	<anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 265 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet;
+  pos base [\uniEF73 \uniEF74 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 510 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 420 0> mark @Podchashie;
+  pos base [\uniEF76 \uniEF75 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 675 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 420 0> mark @Podchashie;
+  pos base [\uniEFB5 \uniEFB6 ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 695 300> mark @Omet
+	<anchor 695 325> mark @Tochka
+	<anchor 553 55> mark @Podchashie;
+  pos base [\uniEFB2 ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 535 45> mark @Podchashie;
+  pos base [\uniEFCA ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 1000 580> mark @Zaderzhka
+	<anchor 895 430> mark @Omet
+	<anchor 835 455> mark @Tochka
+	<anchor 535 43> mark @Podchashie;
+  pos base [\uniEFB8 \uniEFBA \uniEFB9 \uniEFBB ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 695 300> mark @Omet
+	<anchor 695 325> mark @Tochka
+	<anchor 561 57> mark @Podchashie;
+  pos base [\uniEFD5 ] <anchor 875 870> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 895 890> mark @TonalRange
+	<anchor 1110 680> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 975 560> mark @Tochka
+	<anchor 860 490> mark @Podchashie;
+  pos base [\uniEFC6 ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 533 43> mark @Podchashie;
+  pos base [\uniEFC8 \uniEEF0 \uniEFC7 ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 1000 580> mark @Zaderzhka
+	<anchor 895 430> mark @Omet
+	<anchor 835 455> mark @Tochka
+	<anchor 543 245> mark @Podchashie;
+  pos base [\uniEE99 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 360 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 130 -90> mark @Podchashie;
+  pos base [\uniEEA6 ] <anchor 555 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 543 245> mark @Podchashie;
+  pos base [\uniEEA7 ] <anchor 555 780> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 575 820> mark @TonalRange
+	<anchor 800 590> mark @Zaderzhka
+	<anchor 685 300> mark @Omet
+	<anchor 645 500> mark @Tochka
+	<anchor 550 410> mark @Podchashie;
+  pos base [\uniEEA8 ] <anchor 725 780> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 745 822> mark @TonalRange
+	<anchor 970 590> mark @Zaderzhka
+	<anchor 685 300> mark @Omet
+	<anchor 815 500> mark @Tochka
+	<anchor 710 410> mark @Podchashie;
+  pos base [\uniEE94 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 530 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 320 -30> mark @Podchashie;
+  pos base [\uniEE95 ] <anchor 190 0> mark @Podchashie
+	<anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 485 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet;
+  pos base [\uniEE96 ] <anchor 190 0> mark @Podchashie
+	<anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 525 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet;
+  pos base [\uniEE98 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 365 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 160 -30> mark @Podchashie;
+  pos base [\uniEE97 ] <anchor 190 0> mark @Podchashie
+	<anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 540 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet;
+  pos base [\uniEEB0 ] <anchor 585 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 605 660> mark @TonalRange
+	<anchor 850 460> mark @Zaderzhka
+	<anchor 685 300> mark @Omet
+	<anchor 685 325> mark @Tochka
+	<anchor 583 245> mark @Podchashie;
+  pos base [\uniEEB2 \uniEEB4 ] <anchor 715 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 735 660> mark @TonalRange
+	<anchor 970 460> mark @Zaderzhka
+	<anchor 805 300> mark @Omet
+	<anchor 805 325> mark @Tochka
+	<anchor 703 245> mark @Podchashie;
+  pos base [\uniEEB3 ] <anchor 715 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 735 660> mark @TonalRange
+	<anchor 970 460> mark @Zaderzhka
+	<anchor 805 300> mark @Omet
+	<anchor 805 325> mark @Tochka
+	<anchor 697 65> mark @Podchashie;
+  pos base [\uniEEB5 ] <anchor 645 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 665 660> mark @TonalRange
+	<anchor 900 460> mark @Zaderzhka
+	<anchor 755 300> mark @Omet
+	<anchor 755 325> mark @Tochka
+	<anchor 643 245> mark @Podchashie;
+  pos base [\uniEEB6 ] <anchor 560 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 810 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 543 245> mark @Podchashie;
+  pos base [\uniEEB7 ] <anchor 540 780> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 540 811> mark @TonalRange
+	<anchor 760 590> mark @Zaderzhka
+	<anchor 685 300> mark @Omet
+	<anchor 645 500> mark @Tochka
+	<anchor 530 410> mark @Podchashie;
+  pos base [\uniEEB9 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 545 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEEBA ] <anchor 745 790> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 765 810> mark @TonalRange
+	<anchor 990 580> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 835 490> mark @Tochka
+	<anchor 750 410> mark @Podchashie;
+  pos base [\uniEEBD ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 595 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 160 -30> mark @Podchashie;
+  pos base [\uniEEBE ] <anchor 615 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 635 660> mark @TonalRange
+	<anchor 775 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 160 -30> mark @Podchashie;
+  pos base [\uniEEBF \uniEB49 \uniEB4A \uniEB4B \uniEB4C ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 655 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 400 0> mark @Podchashie;
+  pos base [\uniEEC0 ] <anchor 415 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 445 660> mark @TonalRange
+	<anchor 680 460> mark @Zaderzhka
+	<anchor 515 300> mark @Omet
+	<anchor 515 325> mark @Tochka
+	<anchor 408 245> mark @Podchashie;
+  pos base [\uniEEC1 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 285 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEEC2 \uniEF6F \uniEF6E ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 660 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 555 190> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEEC5 ] <anchor 470 710> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 490 730> mark @TonalRange
+	<anchor 540 405> mark @Tochka
+	<anchor 710 520> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 464 357> mark @Podchashie;
+  pos base [\uniEEC6 ] <anchor 610 712> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 630 732> mark @TonalRange
+	<anchor 690 405> mark @Tochka
+	<anchor 850 520> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 604 357> mark @Podchashie;
+  pos base [\uniEEC8 ] <anchor 885 870> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 905 890> mark @TonalRange
+	<anchor 960 565> mark @Tochka
+	<anchor 1130 670> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 882 494> mark @Podchashie;
+  pos base [\uniEEC9 ] <anchor 470 710> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 490 730> mark @TonalRange
+	<anchor 710 520> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 565 380> mark @Tochka
+	<anchor 464 357> mark @Podchashie;
+  pos base [\uniEECA ] <anchor 610 712> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 630 732> mark @TonalRange
+	<anchor 850 520> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 705 380> mark @Tochka
+	<anchor 620 324> mark @Podchashie;
+  pos base [\uniEECE ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 630 460> mark @Zaderzhka
+	<anchor 535 300> mark @Omet
+	<anchor 535 325> mark @Tochka
+	<anchor 402 51> mark @Podchashie;
+  pos base [\uniEECF ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 630 460> mark @Zaderzhka
+	<anchor 535 300> mark @Omet
+	<anchor 535 325> mark @Tochka
+	<anchor 416 69> mark @Podchashie;
+  pos base [\uniEED0 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 630 460> mark @Zaderzhka
+	<anchor 535 300> mark @Omet
+	<anchor 535 325> mark @Tochka
+	<anchor 400 37> mark @Podchashie;
+  pos base [\uniEED2 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 630 460> mark @Zaderzhka
+	<anchor 515 300> mark @Omet
+	<anchor 515 325> mark @Tochka
+	<anchor 378 57> mark @Podchashie;
+  pos base [\uniEED3 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 630 460> mark @Zaderzhka
+	<anchor 535 300> mark @Omet
+	<anchor 535 325> mark @Tochka
+	<anchor 396 61> mark @Podchashie;
+  pos base [\uniEED4 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 830 580> mark @Zaderzhka
+	<anchor 675 455> mark @Tochka
+	<anchor 735 430> mark @Omet
+	<anchor 394 77> mark @Podchashie;
+  pos base [\uniEED6 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 310 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 133 -64> mark @Podchashie;
+  pos base [\uniEECB ] <anchor 750 795> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 770 815> mark @TonalRange
+	<anchor 990 590> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 845 460> mark @Tochka
+	<anchor 750 396> mark @Podchashie;
+  pos base [\uniEEF4 ] <anchor 515 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 535 660> mark @TonalRange
+	<anchor 760 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 521 61> mark @Podchashie;
+  pos base [\uniEEF5 ] <anchor 515 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 535 660> mark @TonalRange
+	<anchor 760 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 544 70> mark @Podchashie;
+  pos base [\uniEEF8 ] <anchor 745 790> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 765 810> mark @TonalRange
+	<anchor 990 580> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 845 470> mark @Tochka
+	<anchor 750 410> mark @Podchashie;
+  pos base [\uniEEF9 ] <anchor 875 870> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 895 890> mark @TonalRange
+	<anchor 1110 670> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 975 540> mark @Tochka
+	<anchor 886 484> mark @Podchashie;
+  pos base [\uniEEB1 ] <anchor 585 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 605 660> mark @TonalRange
+	<anchor 850 460> mark @Zaderzhka
+	<anchor 725 300> mark @Omet
+	<anchor 725 325> mark @Tochka
+	<anchor 621 81> mark @Podchashie;
+  pos base [\uniEEB8 ] <anchor 735 780> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 715 780> mark @TonalRange
+	<anchor 930 590> mark @Zaderzhka
+	<anchor 685 300> mark @Omet
+	<anchor 795 470> mark @Tochka
+	<anchor 700 370> mark @Podchashie;
+  pos base [\uniEEC7 ] <anchor 750 795> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 770 815> mark @TonalRange
+	<anchor 830 485> mark @Tochka
+	<anchor 990 590> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 752 432> mark @Podchashie;
+  pos base [\uniEEBB ] <anchor 875 870> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 895 890> mark @TonalRange
+	<anchor 1110 670> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 955 550> mark @Tochka
+	<anchor 860 490> mark @Podchashie;
+  pos base [\uniEEBC ] <anchor 785 840> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 805 860> mark @TonalRange
+	<anchor 1010 660> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 895 550> mark @Tochka
+	<anchor 750 410> mark @Podchashie;
+  pos base [\uniEEE7 ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 531 51> mark @Podchashie;
+  pos base [\uniEEE8 ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 695 300> mark @Omet
+	<anchor 695 325> mark @Tochka
+	<anchor 557 57> mark @Podchashie;
+  pos base [\uniEEE9 ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 695 300> mark @Omet
+	<anchor 695 325> mark @Tochka
+	<anchor 563 49> mark @Podchashie;
+  pos base [\uniEEEA ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 695 300> mark @Omet
+	<anchor 695 325> mark @Tochka
+	<anchor 577 61> mark @Podchashie;
+  pos base [\uniEEED ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 573 -69> mark @Podchashie;
+  pos base [\uniEEEE ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 527 45> mark @Podchashie;
+  pos base [\uniEEF1 ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 1000 580> mark @Zaderzhka
+	<anchor 895 430> mark @Omet
+	<anchor 835 455> mark @Tochka
+	<anchor 533 43> mark @Podchashie;
+  pos base [\uniEAB6 ] <anchor 470 710> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 490 730> mark @TonalRange
+	<anchor 715 325> mark @Tochka
+	<anchor 710 520> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 478 308> mark @Podchashie;
+  pos base [\uniEB46 ] <anchor 745 790> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 765 810> mark @TonalRange
+	<anchor 960 325> mark @Tochka
+	<anchor 970 580> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 730 410> mark @Podchashie;
+  pos base [\uniEB4D ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 570 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 400 0> mark @Podchashie;
+  pos base [\uniEB4E ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 560 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 400 0> mark @Podchashie;
+  pos base [\uniEAAE ] <anchor 470 710> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 490 730> mark @TonalRange
+	<anchor 735 325> mark @Tochka
+	<anchor 710 520> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 465 355> mark @Podchashie;
+  pos base [\uniEAB1 ] <anchor 750 795> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 770 815> mark @TonalRange
+	<anchor 970 325> mark @Tochka
+	<anchor 990 590> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 745 415> mark @Podchashie;
+  pos base [\uniEAB8 ] <anchor 610 712> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 630 732> mark @TonalRange
+	<anchor 855 325> mark @Tochka
+	<anchor 850 520> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 618 308> mark @Podchashie;
+  pos base [\uniEABA ] <anchor 750 795> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 770 815> mark @TonalRange
+	<anchor 970 325> mark @Tochka
+	<anchor 990 590> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 732 382> mark @Podchashie;
+  pos base [\uniEF71 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 390 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 320 0> mark @Podchashie;
+  pos base [\uniEF77 \uniEF78 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 655 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 340 0> mark @Podchashie;
+  pos base [\uniEF79 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 860 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 610 0> mark @Podchashie;
+  pos base [\uniEF7C ] <anchor 250 180> mark @Zaderzhka
+	<anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 260 325> mark @Tochka
+	<anchor 205 500> mark @Omet
+	<anchor 180 -30> mark @Podchashie;
+  pos base [\uniEF80 \uniEF81 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 370 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEF8A \uniEF8B ] <anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 815 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEF8D ] <anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 430 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 100 -30> mark @Podchashie;
+  pos base [\uniEF8F \uniEF90 ] <anchor 470 710> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 490 730> mark @TonalRange
+	<anchor 565 405> mark @Tochka
+	<anchor 710 520> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 478 357> mark @Podchashie;
+  pos base [\uniEF93 \uniEF94 ] <anchor 750 795> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 770 815> mark @TonalRange
+	<anchor 835 485> mark @Tochka
+	<anchor 990 590> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 758 427> mark @Podchashie;
+  pos base [\uniEF99 ] <anchor 610 712> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 630 732> mark @TonalRange
+	<anchor 850 520> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 705 380> mark @Tochka
+	<anchor 616 308> mark @Podchashie;
+  pos base [\uniEF9A ] <anchor 610 712> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 630 732> mark @TonalRange
+	<anchor 850 520> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 705 380> mark @Tochka
+	<anchor 618 314> mark @Podchashie;
+  pos base [\uniEF9B ] <anchor 750 795> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 770 815> mark @TonalRange
+	<anchor 990 590> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 845 460> mark @Tochka
+	<anchor 752 398> mark @Podchashie;
+  pos base [\uniEF9C ] <anchor 750 795> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 770 815> mark @TonalRange
+	<anchor 990 590> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 845 460> mark @Tochka
+	<anchor 750 390> mark @Podchashie;
+  pos base [\uniEF9D ] <anchor 885 870> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 905 890> mark @TonalRange
+	<anchor 1130 670> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 985 540> mark @Tochka
+	<anchor 894 464> mark @Podchashie;
+  pos base [\uniEF9E ] <anchor 885 870> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 905 890> mark @TonalRange
+	<anchor 1130 670> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 985 540> mark @Tochka
+	<anchor 892 468> mark @Podchashie;
+  pos base [\uniEFA0 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 630 460> mark @Zaderzhka
+	<anchor 515 300> mark @Omet
+	<anchor 515 325> mark @Tochka
+	<anchor 386 67> mark @Podchashie;
+  pos base [\uniEFA2 \uniEFA3 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 635 325> mark @Tochka
+	<anchor 630 460> mark @Zaderzhka
+	<anchor 515 300> mark @Omet
+	<anchor 388 65> mark @Podchashie;
+  pos base [\uniEFA4 \uniEFA5 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 655 325> mark @Tochka
+	<anchor 630 460> mark @Zaderzhka
+	<anchor 515 300> mark @Omet
+	<anchor 388 65> mark @Podchashie;
+  pos base [\uniEFA8 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 630 460> mark @Zaderzhka
+	<anchor 515 300> mark @Omet
+	<anchor 515 325> mark @Tochka
+	<anchor 380 65> mark @Podchashie;
+  pos base [\uniEFAF ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 563 -85> mark @Podchashie;
+  pos base [\uniEFB0 ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 565 -85> mark @Podchashie;
+  pos base [\uniEFC3 ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 559 -83> mark @Podchashie;
+  pos base [\uniEFC4 ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 569 -79> mark @Podchashie;
+  pos base [\uniEFC5 ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 535 39> mark @Podchashie;
+  pos base [\uniEFC9 ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 1000 580> mark @Zaderzhka
+	<anchor 895 430> mark @Omet
+	<anchor 835 455> mark @Tochka
+	<anchor 531 43> mark @Podchashie;
+  pos base [\uniEFCE \uniEFCF ] <anchor 515 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 535 660> mark @TonalRange
+	<anchor 760 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 513 45> mark @Podchashie;
+  pos base [\uniEFD2 \uniEFD4 ] <anchor 745 790> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 765 810> mark @TonalRange
+	<anchor 980 580> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 845 470> mark @Tochka
+	<anchor 750 410> mark @Podchashie;
+  pos base [\uniEFD3 ] <anchor 875 870> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 895 890> mark @TonalRange
+	<anchor 1110 670> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 955 560> mark @Tochka
+	<anchor 860 490> mark @Podchashie;
+  pos base [\uniEFA1 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 630 460> mark @Zaderzhka
+	<anchor 515 300> mark @Omet
+	<anchor 515 325> mark @Tochka
+	<anchor 384 73> mark @Podchashie;
+  pos base [\uniEB50 ] <anchor 875 870> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 895 890> mark @TonalRange
+	<anchor 1100 690> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 815 430> mark @Tochka
+	<anchor 890 470> mark @Podchashie;
+  pos base [\uniEFB1 ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 515 41> mark @Podchashie;
+  pos base [\uniEFB4 ] <anchor 555 640> mark @Flexion
+	<anchor 0 -140> mark @Podtinka
+	<anchor 575 660> mark @TonalRange
+	<anchor 800 460> mark @Zaderzhka
+	<anchor 655 300> mark @Omet
+	<anchor 655 325> mark @Tochka
+	<anchor 529 41> mark @Podchashie;
+  pos base [\uniEF7A ] <anchor 395 640> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 860 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 600 0> mark @Podchashie;
+  pos base [\uniEF72 ] <anchor 395 640> mark @Flexion
+	<anchor 0 -50> mark @Podtinka
+	<anchor 415 660> mark @TonalRange
+	<anchor 410 325> mark @Tochka
+	<anchor 30 -120> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 340 0> mark @Podchashie;
+  pos base [\uniEAB7 ] <anchor 470 710> mark @Flexion
+	<anchor 0 -100> mark @Podtinka
+	<anchor 490 730> mark @TonalRange
+	<anchor 735 325> mark @Tochka
+	<anchor 710 520> mark @Zaderzhka
+	<anchor 205 500> mark @Omet
+	<anchor 478 308> mark @Podchashie;
+} markBlackMarkPositioning;
+
+lookup markCinnabarMarkPositioning {
+  lookupflag 0;
+  markClass [\u1CF0C ] <anchor -130 188> @FinalPitch;
+  markClass [\u1CF0D ] <anchor -170 188> @FinalPitch;
+  markClass [\u1CF0E \u1CF0F \u1CF10 \u1CF11 \u1CF13 \u1CF14 \u1CF16 \u1CF17 ] <anchor 10 188> @FinalPitch;
+  markClass [\u1CF12 ] <anchor -30 188> @FinalPitch;
+  markClass [\u1CF15 ] <anchor -20 188> @FinalPitch;
+  markClass [\uniEE38 ] <anchor 0 100> @Kupnaya;
+  markClass [\uniEE3A ] <anchor -160 355> @Zevok;
+  markClass [\uniEE39 ] <anchor 0 500> @Kachka;
+  markClass [\uniEE37 ] <anchor -325 150> @Lomka;
+  markClass [\uniEE36 ] <anchor -20 380> @Podvertka;
+  markClass [\uniEE34 \uniEE35 ] <anchor 70 155> @Borzaya;
+  markClass [\uniEE33 ] <anchor 0 100> @Tikhaya;
+  markClass [\uniEE30 \uniEE31 \uniEE3B \uniEE3C ] <anchor 0 345> @Auxiliary;
+  markClass [\uniEA18 ] <anchor -75 345> @Auxiliary;
+  markClass [\uniEE00 \uniEE01 \uniEE02 \uniEE03 \uniEE04 \uniEE05 \uniEE06 \uniEE07 \uniEE08 \uniEE09 \uniEE0A \uniEE0B \uniEE11 \uniEE13 \uniEE15 \uniEE17 \uniEE10 \uniEE12 \uniEE14 \uniEE16 \uniEE0C \uniEE0D \uniEE0E ] <anchor 0 345> @PitchMark;
+  markClass [\uniEE1F ] <anchor 0 203> @PitchMark;
+  markClass [\uniEE32 ] <anchor -75 345> @PitchMark;
+  pos base [\uni25CC ] <anchor 525 150> mark @Lomka
+	<anchor 30 150> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 500 160> mark @Zevok
+	<anchor 0 270> mark @Kachka
+	<anchor 0 100> mark @Kupnaya
+	<anchor 125 560> mark @Auxiliary
+	<anchor 595 160> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE90 \uniEE91 \uniEE92 \uniEE94 \uniEE95 \uniEE96 \uniEE97 ] <anchor 540 150> mark @Lomka
+	<anchor 0 200> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 140 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 180 670> mark @Auxiliary
+	<anchor 220 0> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE76 ] <anchor -340 150> mark @Lomka
+	<anchor 0 370> mark @Tikhaya
+	<anchor 220 390> mark @Borzaya
+	<anchor 180 60> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 400 170> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE77 \uniEE75 \uniEF67 \uniEF68 \uniEF65 ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 180 60> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 250 90> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE7C ] <anchor 370 150> mark @Lomka
+	<anchor 0 80> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 330 110> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE70 \uniEE85 \uniEE72 \uniEE84 \uniEE82 \uniEE83 \uniEE74 \uniEE86 \uniEF60 \uniEF62 \uniEFA0 \uniEFA2 \uniEFA3 \uniEFA4 \uniEFA5 \uniEFA1 \uniEF63 ] <anchor 540 150> mark @Lomka
+	<anchor 0 370> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 630 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 630 380> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE80 ] <anchor -340 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 20 270> mark @Auxiliary
+	<anchor 200 0> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\uniEEAC \uniEEAD \uniEE8C ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 200 0> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE87 ] <anchor 330 150> mark @Lomka
+	<anchor 0 50> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 0 100> mark @Kupnaya
+	<anchor 150 370> mark @Auxiliary
+	<anchor 280 0> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE89 ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 140 0> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\uniEE71 ] <anchor -340 150> mark @Lomka
+	<anchor 0 370> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 630 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 630 380> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE8E ] <anchor 540 150> mark @Lomka
+	<anchor 0 200> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 100 660> mark @Auxiliary
+	<anchor 460 -30> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE8F \uniEFAB \uniEFAA ] <anchor 540 150> mark @Lomka
+	<anchor 0 200> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 270 500> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 180 670> mark @Auxiliary
+	<anchor 220 0> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE8D ] <anchor 540 150> mark @Lomka
+	<anchor 0 200> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 225 0> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\uniEE8A \uniEE8B \uniEE81 ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 200 0> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\uniEE73 ] <anchor 540 150> mark @Lomka
+	<anchor 0 370> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 630 350> mark @Zevok
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 0 270> mark @Kachka
+	<anchor 265 660> mark @Auxiliary
+	<anchor 630 380> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE9B ] <anchor -340 150> mark @Lomka
+	<anchor 0 100> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 800 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 800 380> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE9C \uniEE9A \uniEE9D \uniEFB3 \uniEFB5 \uniEFB2 \uniEFB8 \uniEFBE \uniEFBA \uniEFC6 \uniEEE6 \uniEEEC \uniEEE7 \uniEEE8 \uniEEE9 \uniEEEA \uniEEED \uniEEEE \uniEFC0 \uniEFAD \uniEFAE \uniEFAF \uniEFB0 \uniEFB6 \uniEFB9 \uniEFBB \uniEFBD \uniEFBF \uniEFC1 \uniEFC2 \uniEFC3 \uniEFC4 \uniEFC5 \uniEFB1 \uniEFB4 ] <anchor 705 150> mark @Lomka
+	<anchor 0 100> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 800 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 800 380> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE93 ] <anchor 420 150> mark @Lomka
+	<anchor 0 200> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 270 500> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 180 670> mark @Auxiliary
+	<anchor 220 0> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE9E ] <anchor 875 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 960 350> mark @Zevok
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 0 270> mark @Kachka
+	<anchor 585 660> mark @Auxiliary
+	<anchor 960 380> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE9F \uniEEA0 \uniEEA1 ] <anchor 875 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 960 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 585 660> mark @Auxiliary
+	<anchor 960 380> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE7E ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 400 0> mark @Podvertka
+	<anchor 40 500> mark @PitchMark;
+  pos base [\uniEEAB ] <anchor 985 150> mark @Lomka
+	<anchor 260 100> mark @Tikhaya
+	<anchor 510 450> mark @Borzaya
+	<anchor 1080 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 705 660> mark @Auxiliary
+	<anchor 1080 380> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEEAA \uniEFD1 ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 730 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 730 380> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE7D ] <anchor 370 150> mark @Lomka
+	<anchor 0 150> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 380 110> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE7F ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 520 0> mark @Podvertka
+	<anchor 40 500> mark @PitchMark;
+  pos base [\uniEE7A \uniEF7E \uniEF7F ] <anchor 540 150> mark @Lomka
+	<anchor 0 80> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 250 0> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEEAF ] <anchor 705 150> mark @Lomka
+	<anchor 0 200> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 840 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 840 380> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE78 ] <anchor -200 150> mark @Lomka
+	<anchor 0 180> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 240 0> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\uniEEAE ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 630 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 630 380> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE88 ] <anchor 540 150> mark @Lomka
+	<anchor 0 50> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 280 0> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEEA2 \uniEEA3 \uniEEA4 ] <anchor 805 150> mark @Lomka
+	<anchor 0 100> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 890 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 515 660> mark @Auxiliary
+	<anchor 890 380> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEEA5 \uniEEF3 \uniEEF4 \uniEEF5 \uniEFCC \uniEFCD \uniEFCE \uniEFCF ] <anchor 665 150> mark @Lomka
+	<anchor 0 100> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 760 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 760 380> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE7B ] <anchor 540 150> mark @Lomka
+	<anchor 0 80> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 370 0> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE79 ] <anchor 540 150> mark @Lomka
+	<anchor 0 180> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 0 270> mark @Kachka
+	<anchor 265 660> mark @Auxiliary
+	<anchor 240 0> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\uniEA56 ] <anchor 396 150> mark @Lomka
+	<anchor -4 -30> mark @Tikhaya
+	<anchor -4 150> mark @Borzaya
+	<anchor 46 0> mark @Zevok
+	<anchor 46 660> mark @Kachka
+	<anchor 46 -50> mark @Kupnaya
+	<anchor 261 660> mark @Auxiliary
+	<anchor 196 0> mark @Podvertka
+	<anchor -4 500> mark @PitchMark;
+  pos base [\uniEABB \uniEAB2 \uniEECB \uniEEC7 \uniEAB1 \uniEABA \uniEF93 \uniEF94 \uniEF9B \uniEF9C ] <anchor 540 150> mark @Lomka
+	<anchor 0 80> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 990 520> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEAB9 \uniEAAF \uniEAB0 \uniEF91 \uniEEC6 \uniEECA \uniEAB8 \uniEF92 \uniEF99 \uniEF9A ] <anchor 540 150> mark @Lomka
+	<anchor 0 80> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 850 440> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEB47 \uniEB46 ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 960 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 970 520> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEAB3 \uniEF96 \uniEEC8 \uniEAB4 \uniEF9D \uniEF9E \uniEF95 ] <anchor 540 150> mark @Lomka
+	<anchor 0 80> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 1130 600> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEAAD \uniEF97 \uniEEC5 \uniEEC9 \uniEAB6 \uniEAAE \uniEF8F \uniEF90 \uniEF98 \uniEAB7 ] <anchor 540 150> mark @Lomka
+	<anchor 0 80> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 710 440> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEF6A ] <anchor 360 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 180 60> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 280 90> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEF6C ] <anchor -340 150> mark @Lomka
+	<anchor 0 370> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 180 60> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 400 170> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEF82 \uniEF80 \uniEF81 \uniEF83 ] <anchor 540 150> mark @Lomka
+	<anchor 0 80> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 330 110> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEF84 \uniEF87 \uniEEC3 \uniEF85 \uniEF86 ] <anchor 540 150> mark @Lomka
+	<anchor 0 80> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 420 170> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEF89 \uniEEC4 \uniEF88 \uniEF8A \uniEF8B ] <anchor 540 150> mark @Lomka
+	<anchor 0 80> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 560 260> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEF8C ] <anchor 540 150> mark @Lomka
+	<anchor 0 80> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 250 0> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\uniEF73 ] <anchor -340 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 180 60> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 500 0> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEF76 ] <anchor -340 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 180 60> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 670 0> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\uniEFCA \uniEFC8 \uniEEF0 \uniEEF1 \uniEFC7 \uniEFC9 ] <anchor 705 150> mark @Lomka
+	<anchor 0 100> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 960 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 1000 510> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEFD5 \uniEEF9 \uniEEBB \uniEFD3 ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 960 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 1110 600> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE99 ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 350 -70> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEEA6 ] <anchor 665 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 800 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 800 380> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEEA7 ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 800 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 800 530> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEEA8 ] <anchor 540 150> mark @Lomka
+	<anchor 0 -50> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 970 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 970 530> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEE98 ] <anchor 450 150> mark @Lomka
+	<anchor 0 200> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 270 500> mark @Zevok
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 0 270> mark @Kachka
+	<anchor 180 670> mark @Auxiliary
+	<anchor 220 0> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEEB0 \uniEEB1 ] <anchor 705 150> mark @Lomka
+	<anchor 0 100> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 850 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 850 380> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEEB2 \uniEEB3 ] <anchor 875 150> mark @Lomka
+	<anchor 0 -10> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 970 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 970 380> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEEB4 ] <anchor 875 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 970 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 970 380> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEEB5 ] <anchor 805 150> mark @Lomka
+	<anchor 0 100> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 900 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 900 380> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEEB6 ] <anchor 665 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 810 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 810 380> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEEB7 ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 760 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 760 550> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEEB9 ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 250 0> mark @Podvertka
+	<anchor 40 500> mark @PitchMark;
+  pos base [\uniEEBA \uniEEF8 ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 960 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 990 520> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEEBD ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 530 140> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 545 140> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEEBE ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 700 240> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 715 240> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEEBF \uniEB49 \uniEB4A \uniEB4B \uniEB4C ] <anchor 645 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 590 0> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEEC0 ] <anchor 570 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 680 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 295 660> mark @Auxiliary
+	<anchor 680 380> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\uniEEC1 ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 240 60> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 290 90> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\uniEEC2 ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 180 60> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEECD \uniEECE \uniEECF \uniEED0 \uniEED2 \uniEED3 \uniEED1 \uniEFA7 \uniEFA8 ] <anchor 540 150> mark @Lomka
+	<anchor 0 160> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 630 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 630 380> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEED4 ] <anchor 540 150> mark @Lomka
+	<anchor 0 160> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 830 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 830 510> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEED6 ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 200 -70> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\uniEEB8 ] <anchor 540 150> mark @Lomka
+	<anchor 0 -60> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 930 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 930 520> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEEBC ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 960 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 1010 610> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEF64 \uniEF61 ] <anchor 540 150> mark @Lomka
+	<anchor 0 370> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 630 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 630 380> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\uniEF6D ] <anchor -340 150> mark @Lomka
+	<anchor 0 370> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 180 60> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 400 170> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\u1CF50 ] <anchor 760 300> mark @FinalPitch;
+  pos base [\uniEB4D ] <anchor 645 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 510 0> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEB4E ] <anchor 645 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 480 0> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEF66 \uniEF69 ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 180 60> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 250 90> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\uniEF6B ] <anchor 360 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 180 60> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 280 90> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\uniEF6F ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 180 60> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 555 250> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\uniEF71 ] <anchor -340 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 180 60> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 380 0> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEF74 ] <anchor -340 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 180 60> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 500 0> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\uniEF77 ] <anchor -340 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 180 60> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 640 0> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEF78 ] <anchor -340 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 180 60> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 640 0> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\uniEF79 \uniEF7A ] <anchor -340 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 370 60> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 860 0> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEF7C ] <anchor 540 150> mark @Lomka
+	<anchor 0 180> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 240 0> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\uniEF8D ] <anchor 540 150> mark @Lomka
+	<anchor 0 80> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 50 0> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 360 0> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\uniEFD2 \uniEFD4 ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 960 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 980 520> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEB50 ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 960 350> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 425 660> mark @Auxiliary
+	<anchor 1100 600> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEF6E ] <anchor 540 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 180 60> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 555 250> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+  pos base [\uniEF72 ] <anchor -340 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 180 60> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 400 0> mark @Podvertka
+	<anchor -40 500> mark @PitchMark;
+  pos base [\uniEF75 ] <anchor -340 150> mark @Lomka
+	<anchor 0 -30> mark @Tikhaya
+	<anchor 0 150> mark @Borzaya
+	<anchor 180 60> mark @Zevok
+	<anchor 50 660> mark @Kachka
+	<anchor 50 -50> mark @Kupnaya
+	<anchor 265 660> mark @Auxiliary
+	<anchor 670 0> mark @Podvertka
+	<anchor 0 500> mark @PitchMark;
+} markCinnabarMarkPositioning;
+
+feature ss01 {
+
+ script DFLT;
+     language dflt ;
+      lookup ss01StyleSet1DemestvennyLigatures;
+
+ script cyrl;
+     language dflt ;
+      lookup ss01StyleSet1DemestvennyLigatures;
+
+ script latn;
+     language dflt ;
+      lookup ss01StyleSet1DemestvennyLigatures;
+} ss01;
+
+feature mark {
+
+ script DFLT;
+     language dflt ;
+      lookup markBlackMarkPositioning;
+      lookup markCinnabarMarkPositioning;
+
+ script cyrl;
+     language dflt ;
+      lookup markBlackMarkPositioning;
+      lookup markCinnabarMarkPositioning;
+
+ script latn;
+     language dflt ;
+      lookup markBlackMarkPositioning;
+      lookup markCinnabarMarkPositioning;
+} mark;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\uni0002 \uni0000 \uni0001 \uni0003 \uni0004 \uni0005 \uni0006 
+	\uni0007 \uni0008 \uni0009 \uni000A \uni000B \uni000C \uni000D \uni000E \uni000F 
+	\uni0010 \uni0011 \uni0012 \uni0013 \uni0014 \uni0015 \uni0016 \uni0017 \uni0018 
+	\uni0019 \uni001A \uni001B \uni001C \uni001D \uni001E \uni001F \space \uni00A0 
+	\uni25CC \uni2000 \uni2001 \uni2002 \uni2003 \uni2004 \uni2005 \uni2006 \uni2007 
+	\uni2008 \uni2009 \uni200A \uni200B \afii61664 \uni200D \afii299 \afii300 
+	\uni2010 \uni2011 \figuredash \endash \emdash \afii00208 \bar \currency \section 
+	\brokenbar \logicalnot \uni00AD \macron \paragraph \degree \uniEE90 \uniEE76 
+	\uniEE77 \uniEE7C \uniEE70 \uniEE85 \uniEE80 \uniEEAC \uniEEAD \uniEE87 \uniEE89 
+	\uniEE71 \uniEE72 \uniEE84 \uniEE8C \uniEE8E \uniEE8F \uniEE8D \uniEE8A \uniEE8B 
+	\uniEE73 \uniEE9B \uniEE9C \uniEE91 \uniEE9A \uniEE93 \uniEE92 \uniEE9E \uniEE9F 
+	\uniEEA0 \uniEE7E \uniEA9A \uniEEAB \uniEE82 \uniEE83 \uniEEAA \uniEE75 \uniEE7D 
+	\uniEE7F \uniEE7A \uniEE86 \uniEEAF \uniEE78 \uniEEAE \uniEE81 \uniEA9C \uniEE9D 
+	\uniEE10 \uniEE88 \uniEA57 \afii10095 \uniEEA1 \uniEEA2 \uniEEA3 \uniEEA4 
+	\uniEEA5 \uniEA55 \uniEA1F \afii10047 \uniEE7B \uniEAE3 \uniEA20 \uniEA21 
+	\uniEA22 \uniEA23 \uniEA24 \uniEA25 \uniEA26 \uniEA27 \uniEA28 \uniEA29 \uniEA2A 
+	\uniEA2B \uniEA2C \uniEA30 \uniEA31 \uniEA32 \uniEA33 \uniEE79 \uniEA1D \uniEAE4 
+	\uniEAE5 \uniEAE7 \uniEAE8 \uniEAE9 \uniEAEE \uniEAF1 \uniEAF8 \uniEC15 \uniEAF6 
+	\uniEA3D \uniEA3E \uniEA3F \uniEA40 \uniEA34 \uniEA35 \uniEA36 \uniEA37 \uniEA38 
+	\uniEA39 \uniEA3A \uniEA3B \uniEA3C \uniEA41 \uniEA2D \uniEA42 \uniEA43 \uniEA56 
+	\uniEA54 \uniEB0B \uniEAEF \uniEAF2 \uniEAF4 \uniEE99 \uniEEA6 \uniEEA7 \uniEEA8 
+	\uniEE94 \uniEE95 \uniEE96 \uniEE98 \uniEE97 \uniEEB0 \uniEEB2 \uniEEB3 \uniEEB4 
+	\uniEEB5 \uniEEB6 \uniEEB7 \uniEEB9 \uniEEBA \uniEEBD \uniEEBE \uniEEBF \uniEEC0 
+	\uniEEC1 \uniEEC2 \uniEEC3 \uniEEC4 \uniEEC5 \uniEEC6 \uniEEC8 \uniEEC9 \uniEECA 
+	\uniEECD \uniEECE \uniEECF \uniEED0 \uniEED2 \uniEED3 \uniEED4 \uniEED6 \uniEEE2 
+	\uniEEE3 \uniEEE4 \uniEECB \uniEEE6 \uniEEEC \uniEEF3 \uniEEF4 \uniEEF5 \uniEEF8 
+	\uniEEF9 \uniEEB1 \uniEC46 \uniEC45 \uniEC47 \uni2423 \uniEC48 \uniEC49 \uniEC4A 
+	\uniEC4B \uniEC50 \uniEEB8 \uniEEC7 \uniEEBB \uniEEBC \uniEEE7 \uniEEE8 \uniEEE9 
+	\uniEEEA \uniEEED \uniEEEE \uniEEF0 \uniEEF1 \uniEED1 \uniEAC9 \u1CF00 \u1CF01 
+	\u1CF02 \u1CF03 \u1CF04 \u1CF05 \u1CF06 \u1CF07 \u1CF08 \u1CF09 \u1CF0A \u1CF0B 
+	\uniEA05 \uniEA06 \uniEA07 \u1CF1A \u1CF1C \u1CF1E \u1CF1F \u1CF2D \u1CF20 
+	\u1CF21 \u1CF22 \u1CF23 \u1CF24 \u1CF25 \u1CF26 \u1CF27 \u1CF28 \u1CF29 \u1CF2A 
+	\u1CF2B \u1CF2C \u1CF42 \u1CF43 \u1CF44 \u1CF45 \u1CF46 \u1CF50 \u1CF51 \u1CF52 
+	\u1CF53 \u1CF54 \u1CF55 \u1CF63 \u1CF64 \u1CF65 \u1CF66 \u1CF67 \u1CF68 \u1CF69 
+	\u1CF6A \u1CF6B \u1CF6C \u1CF6D \u1CF6E \u1CF6F \u1CF70 \u1CF71 \u1CF72 \u1CF73 
+	\u1CF74 \u1CF75 \u1CF76 \u1CF77 \u1CF78 \u1CF79 \u1CF7A \u1CF7B \u1CF7C \u1CF7D 
+	\u1CF7E \u1CF7F \u1CF80 \u1CF81 \u1CF82 \u1CF83 \u1CF84 \u1CF85 \u1CF86 \u1CF87 
+	\u1CF88 \u1CF89 \u1CF8A \u1CF8B \u1CF8C \u1CF8D \u1CF8E \u1CF8F \u1CF90 \u1CF91 
+	\u1CF92 \u1CF93 \u1CF94 \u1CF95 \u1CF96 \u1CF97 \u1CF98 \u1CF99 \u1CF9A \u1CF9B 
+	\u1CF9C \u1CF9D \u1CF9E \u1CF9F \u1CFA0 \u1CFA1 \u1CFA2 \u1CFA3 \u1CFA4 \u1CFA5 
+	\u1CFA6 \u1CFA7 \u1CFA9 \u1CFAA \u1CFAB \u1CFAC \u1CFAD \u1CFAE \u1CFAF \u1CFB0 
+	\u1CFB1 \u1CFB2 \u1CFB3 \u1CFB4 \u1CFB5 \u1CFB6 \u1CFB7 \u1CFB8 \u1CFB9 \u1CFBA 
+	\u1CFBB \u1CFBC \u1CFBD \u1CFBE \u1CFBF \u1CFC1 \u1CFC2 \u1CFC3 \u1CFC0 \u1CF30 
+	\u1CF31 \u1CF32 \u1CF33 \u1CF35 \u1CF36 \u1CF37 \u1CF38 \u1CF39 \u1CF3A \u1CF3B 
+	\u1CF3C \u1CF3D \u1CF3E \u1CF3F \u1CF40 \u1CF56 \u1CF5A \u1CF5B \u1CF5C \u1CF5D 
+	\u1CF5E \u1CF5F \uniEA53 \uniEB36 \uniEB4E \uniEB5C \uniEA1C \uniEB52 \uniEB5B 
+	\uniEC10 \uniEC1B \uniEC1F \uniEC25 \uniEC2E \uniEC2F \uniEC30 \uniEC31 \uniEC32 
+	\uniEC33 \uniEC34 \uniEC35 \uniEC36 \uniEC37 \uniEC38 \uniEC39 \uniEC3A \uniEC3B 
+	\uniEC3C \uniEC3D \uniEC3E \uniEAA1 \uni2713 \uniEB5D \u1CF34 \afii61352 
+	\quoteleft \quoteright \quotesinglbase \quotereversed \quotedblleft 
+	\quotedblright \quotedblbase \uni201F \dagger \daggerdbl \bullet \uni2023 
+	\onedotenleader \twodotenleader \ellipsis \uni2027 \guilsinglleft 
+	\guilsinglright \afii10146 \afii10194 \afii10147 \afii10195 \afii10148 
+	\afii10196 \uni0400 \afii10023 \afii10051 \afii10052 \afii10053 \afii10054 
+	\afii10055 \afii10056 \afii10057 \afii10058 \afii10059 \afii10060 \afii10061 
+	\uni040D \afii10062 \afii10145 \afii10017 \afii10018 \afii10019 \afii10020 
+	\afii10021 \afii10022 \afii10024 \afii10025 \afii10026 \afii10027 \afii10028 
+	\afii10029 \afii10030 \afii10031 \afii10032 \afii10033 \afii10034 \afii10035 
+	\afii10036 \afii10037 \afii10038 \afii10039 \afii10040 \afii10041 \afii10042 
+	\afii10043 \afii10044 \afii10045 \afii10046 \afii10048 \afii10049 \afii10065 
+	\afii10066 \afii10067 \afii10068 \afii10069 \afii10070 \afii10072 \afii10073 
+	\afii10074 \afii10075 \afii10076 \afii10077 \afii10078 \afii10079 \afii10080 
+	\afii10081 \afii10082 \afii10083 \afii10084 \afii10085 \afii10086 \afii10087 
+	\afii10088 \afii10089 \afii10090 \afii10091 \afii10092 \afii10093 \afii10094 
+	\afii10096 \afii10097 \uni0450 \afii10071 \afii10099 \afii10100 \afii10101 
+	\afii10102 \afii10103 \afii10104 \afii10105 \afii10106 \afii10107 \afii10108 
+	\afii10109 \uni045D \afii10110 \afii10193 \uni033E \gravecomb \acutecomb 
+	\uni0302 \tildecomb \uni0304 \uni0305 \uni0306 \uni0307 \uni0308 \hookabovecomb 
+	\uni030A \uni030B \uni030C \uni030D \uni030E \uni030F \uni0310 \uni0311 
+	\exclamdown \cent \sterling \yen \dieresis \copyright \ordfeminine 
+	\guillemotleft \registered \plusminus \uni00B2 \uni00B3 \acute \uni00B5 
+	\periodcentered \cedilla \uni00B9 \ordmasculine \guillemotright \onequarter 
+	\onehalf \threequarters \questiondown \Agrave \Aacute \Acircumflex \Atilde 
+	\Adieresis \Aring \AE \Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis \Igrave 
+	\Iacute \Icircumflex \Idieresis \Eth \Ntilde \Ograve \Oacute \Ocircumflex 
+	\Otilde \Odieresis \multiply \Oslash \Ugrave \Uacute \Ucircumflex \Udieresis 
+	\Yacute \Thorn \germandbls \agrave \aacute \acircumflex \atilde \adieresis 
+	\aring \ae \ccedilla \egrave \eacute \ecircumflex \edieresis \igrave \iacute 
+	\icircumflex \idieresis \eth \ntilde \ograve \oacute \ocircumflex \otilde 
+	\odieresis \divide \oslash \ugrave \uacute \ucircumflex \udieresis \yacute 
+	\thorn \ydieresis \exclam \quotedbl \numbersign \dollar \percent \ampersand 
+	\quotesingle \parenleft \parenright \asterisk \plus \comma \hyphen \period 
+	\slash \zero \one \two \three \four \five \six \seven \eight \nine \colon \semicolon 
+	\less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T 
+	\U \V \W \X \Y \Z \bracketleft \backslash \bracketright \asciicircum \underscore 
+	\grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \braceleft 
+	\braceright \asciitilde \u1CFA8 ];
+@GDEF_Ligature = [\uniEE74 \uniEA1E \u1CF57 \uniEA97 \uniEA9D \uniEAC4 \uniEAE0 
+	\uniEAFD \uniEB0D \uniEB08 \uniEB01 \uniEA99 \uniEAEB \uniEB00 \uniEB05 \uniEAFE 
+	\uniEB0E \uniEB03 \uniEC13 \uniEC14 \uniEC16 \uniEAE1 \uniEAF9 \uniEAEC \uniEB09 
+	\uniEA77 \uniEB04 \uniEA82 \uniEA87 \uniEA9B \uniEA89 \uniEC03 \uniEAA8 \uniEB33 
+	\uniEABB \uniEAAB \uniEAB9 \uniEACA \uniEACE \uniEB28 \uniEAD9 \uniEB29 \uniEB27 
+	\uniEACB \uniEACC \uniEB2B \uniEADA \uniEADE \uniEB2A \uniEB2C \uniEB19 \uniEB1A 
+	\uniEAFB \uniEAFF \uniEB02 \uniEB0F \uniEB22 \uniEA60 \uniEA62 \uniEA6C \uniEA6B 
+	\uniEA6D \uniEA7A \uniEA7B \uniEA7D \uniEA7E \uniEA7F \uniEA83 \uniEA81 \uniEB47 
+	\uniEA86 \uniEAA5 \uniEAA6 \uniEAA7 \uniEAB3 \uniEAA9 \uniEAAA \uniEAAD \uniEAD8 
+	\uniEAD2 \uniEAD3 \uniEB12 \uniEAD1 \uniEB26 \uniEB2D \uniEB3C \uniEB41 \uniEB3A 
+	\uniEB3B \uniEB40 \uniEB44 \uniEB38 \uniEAC1 \uniEAC2 \uniEAAF \uniEAB0 \uniEAB2 
+	\uniEFB3 \uniEB1E \uniEB1D \uniEF60 \uniEF62 \uniEF6A \uniEF6C \uniEF82 \uniEF84 
+	\uniEF87 \uniEF89 \uniEF8C \uniEF91 \uniEF96 \uniEF97 \uniEFAB \uniEF73 \uniEF76 
+	\uniEFB5 \uniEFB2 \uniEFCA \uniEFB8 \uniEFBE \uniEFBA \uniEB11 \uniEFD5 \uniEFC6 
+	\uniEB25 \uniEB2F \uniEFC8 \uniEB06 \uniEA61 \uniEAD0 \uniEB39 \uniEA64 \uniEA65 
+	\uniEB17 \uniEB18 \uniEADC \uniEADD \uniEA85 \uniEA76 \uniEA78 \uniEA6E \uniEA6F 
+	\uniEB3D \uniEB42 \uniEB3E \uniEB43 \uniEF64 \uniEFC0 \uniEF6D \u1CF18 \u1CF19 
+	\u1CF1B \u1CF1D \u1CF60 \u1CF61 \u1CF62 \uniEAC5 \uniEAFA \uniEB5F \u1CF58 
+	\u1CF59 \uniEA67 \uniEA68 \uniEA70 \uniEA71 \uniEA72 \uniEA73 \uniEA74 \uniEA75 
+	\uniEAB6 \uniEAC6 \uniEAC7 \uniEAD4 \uniEAD5 \uniEAD6 \uniEB20 \uniEB24 \uniEB30 
+	\uniEB31 \uniEB34 \uniEB35 \uniEB3F \uniEB46 \uniEB49 \uniEB4A \uniEB4B \uniEB4C 
+	\uniEB4D \uniEA8A \uniEA9F \uniEAA3 \uniEAA4 \uniEAAE \uniEAB1 \uniEAB4 \uniEAB8 
+	\uniEABA \uniEACD \uniEA14 \uniEF61 \uniEF66 \uniEF67 \uniEF68 \uniEF6B \uniEF6F 
+	\uniEF71 \uniEF74 \uniEF77 \uniEF78 \uniEF79 \uniEF7C \uniEF7E \uniEF7F \uniEF80 
+	\uniEF85 \uniEF88 \uniEF8A \uniEF8D \uniEF8F \uniEF92 \uniEF93 \uniEF94 \uniEF99 
+	\uniEF9A \uniEF9B \uniEF9C \uniEF9D \uniEF9E \uniEFA0 \uniEFA2 \uniEFA3 \uniEFA4 
+	\uniEFA5 \uniEFA7 \uniEFA8 \uniEFAD \uniEFAE \uniEFAF \uniEFB0 \uniEFB6 \uniEFB9 
+	\uniEFBB \uniEFBD \uniEFBF \uniEFC1 \uniEFC2 \uniEFC3 \uniEFC4 \uniEFC5 \uniEFC7 
+	\uniEFC9 \uniEFCC \uniEFCD \uniEFCE \uniEFCF \uniEFD1 \uniEFD2 \uniEFD3 \uniEF86 
+	\uniEFAA \uniEFA1 \uniEFD4 \uniEB50 \uniEB53 \uniEB54 \uniEB55 \uniEB56 \uniEB57 
+	\uniEB58 \uniEB59 \uniEB5A \uniEF81 \uniEF83 \uniEF65 \uniEF69 \uniEF6E \uniEF8B 
+	\uniEF90 \uniEFB1 \uniEFB4 \uniEF95 \uniEF98 \uniEF7A \uniEC04 \uniEC05 \uniEC06 
+	\uniEC07 \uniEC08 \uniEC09 \uniEC0A \uniEC0B \uniEC0C \uniEC0D \uniEC0E \uniEC0F 
+	\uniEC12 \uniEC17 \uniEC18 \uniEC19 \uniEC1A \uniEC1C \uniEC1D \uniEC1E \uniEC20 
+	\uniEC22 \uniEC23 \uniEC24 \uniEC26 \uniEC27 \uniEC28 \uniEC29 \uniEC2A \uniEC2B 
+	\uniEC2C \uniEC2D \uniEF63 \uniEF72 \uniEF75 \uniEAA0 \uniEAB7 \u1CF861CFBF ];
+@GDEF_Mark = [\uni034F \uniEE00 \uniEE01 \uniEE02 \uniEE03 \uniEE04 \uniEE05 
+	\uniEE06 \uniEE07 \uniEE08 \uniEE09 \uniEE0A \uniEE0B \uniEE11 \uniEE13 \uniEE15 
+	\uniEE50 \uniEE51 \uniEE52 \uniEE54 \uniEE53 \uniEE55 \uniEE57 \uniEE58 \uniEE59 
+	\uniEE17 \uniEE12 \uniEE14 \uniEE16 \uniEE1F \uniEE0C \uniEE0D \uniEE0E \uniEE30 
+	\uniEE31 \uniEE32 \uniEE33 \uniEE34 \uniEE35 \uniEE36 \uniEE37 \uniEE38 \uniEE39 
+	\uniEE3A \uniEE3B \uniEE3C \uniEE56 \uniEE5A \uniEE5B \uniEA00 \uniEA01 \uniEA02 
+	\uniEA03 \uniEA04 \uniEA15 \uniEA10 \uniEA11 \uniEA13 \uniEA12 \uniEA16 \uniEA17 
+	\uniEC00 \uniEC01 \uniEC02 \uniEE5C \uniEE5D \uniEE5E \uniEE5F \uniEE60 \u1CF41 
+	\uniEA18 \u1CF0C \u1CF0D \u1CF0E \u1CF0F \u1CF10 \u1CF11 \u1CF12 \u1CF13 \u1CF14 
+	\u1CF15 \u1CF16 \u1CF17 ];
+@GDEF_Component = [\uniEA50 \uniEA51 \uniEA52 ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, @GDEF_Component;
+
+  LigatureCaretByPos \uniEE8E 229;
+} GDEF;
+

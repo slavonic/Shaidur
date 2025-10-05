@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEA3D" format="2">
+  <advance width="2"/>
+  <unicode hex="EA3D"/>
+  <outline>
+    <contour>
+      <point x="-228" y="214" type="line"/>
+      <point x="-120" y="106" type="line"/>
+      <point x="-140" y="30" type="line"/>
+      <point x="-248" y="137" type="line"/>
+    </contour>
+    <contour>
+      <point x="-136" y="266" type="line"/>
+      <point x="-28" y="158" type="line"/>
+      <point x="-49" y="81" type="line"/>
+      <point x="-156" y="188" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>30</integer>
+            <key>width</key>
+            <integer>236</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-248</integer>
+            <key>width</key>
+            <integer>219</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

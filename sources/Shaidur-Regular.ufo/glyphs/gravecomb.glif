@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravecomb" format="2">
+  <advance width="851"/>
+  <unicode hex="0300"/>
+  <outline>
+    <contour>
+      <point x="-133" y="449" type="line"/>
+      <point x="-137" y="446"/>
+      <point x="-139" y="443"/>
+      <point x="-143" y="441" type="curve" smooth="yes"/>
+      <point x="-147" y="439"/>
+      <point x="-151" y="437"/>
+      <point x="-156" y="435" type="curve"/>
+      <point x="-302" y="592" type="line"/>
+      <point x="-294" y="610" type="line"/>
+      <point x="-292" y="611"/>
+      <point x="-287" y="611"/>
+      <point x="-281" y="612" type="curve" smooth="yes"/>
+      <point x="-275" y="613"/>
+      <point x="-270" y="614"/>
+      <point x="-264" y="615" type="curve" smooth="yes"/>
+      <point x="-246" y="618" type="line"/>
+      <point x="-246" y="618"/>
+      <point x="-236" y="619"/>
+      <point x="-233" y="619" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>435</integer>
+            <key>width</key>
+            <integer>183</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-302</integer>
+            <key>width</key>
+            <integer>169</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEE53" format="2">
+  <advance width="0"/>
+  <unicode hex="EE53"/>
+  <anchor x="20" y="440" name="_Zaderzhka"/>
+  <outline>
+    <contour>
+      <point x="49" y="515" type="line"/>
+      <point x="59" y="544"/>
+      <point x="88" y="574"/>
+      <point x="117" y="581" type="curve" smooth="yes"/>
+      <point x="133" y="585" type="line"/>
+      <point x="123" y="461" type="line"/>
+      <point x="88" y="455"/>
+      <point x="53" y="421"/>
+      <point x="37" y="389" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>389</integer>
+            <key>width</key>
+            <integer>196</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>37</integer>
+            <key>width</key>
+            <integer>96</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

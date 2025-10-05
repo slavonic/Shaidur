@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEED6" format="2">
+  <advance width="300"/>
+  <unicode hex="EED6"/>
+  <anchor x="540" y="150" name="Lomka"/>
+  <anchor x="0" y="-30" name="Tikhaya"/>
+  <anchor x="0" y="150" name="Borzaya"/>
+  <anchor x="50" y="0" name="Zevok"/>
+  <anchor x="50" y="660" name="Kachka"/>
+  <anchor x="50" y="-50" name="Kupnaya"/>
+  <anchor x="265" y="660" name="Auxiliary"/>
+  <anchor x="200" y="-70" name="Podvertka"/>
+  <anchor x="395" y="640" name="Flexion"/>
+  <anchor x="0" y="-100" name="Podtinka"/>
+  <anchor x="415" y="660" name="TonalRange"/>
+  <anchor x="310" y="325" name="Tochka"/>
+  <anchor x="30" y="-120" name="Zaderzhka"/>
+  <anchor x="205" y="500" name="Omet"/>
+  <anchor x="133" y="-64" name="Podchashie"/>
+  <anchor x="-40" y="500" name="PitchMark"/>
+  <outline>
+    <contour>
+      <point x="157" y="63" type="curve"/>
+      <point x="143" y="-74" type="line"/>
+      <point x="120" y="-80" type="line"/>
+      <point x="133" y="50" type="line"/>
+      <point x="110" y="37"/>
+      <point x="94" y="21"/>
+      <point x="84" y="0" type="curve"/>
+      <point x="96" y="126" type="line"/>
+      <point x="103" y="147"/>
+      <point x="120" y="164"/>
+      <point x="146" y="178" type="curve"/>
+      <point x="154" y="259" type="line"/>
+      <point x="176" y="267" type="line"/>
+      <point x="175" y="254"/>
+      <point x="174" y="245"/>
+      <point x="174" y="239" type="curve" smooth="yes"/>
+      <point x="173" y="226"/>
+      <point x="172" y="209"/>
+      <point x="169" y="190" type="curve"/>
+      <point x="185" y="197"/>
+      <point x="202" y="202"/>
+      <point x="221" y="206" type="curve"/>
+      <point x="211" y="82" type="line"/>
+      <point x="194" y="78"/>
+      <point x="176" y="72"/>
+    </contour>
+    <contour>
+      <point x="192" y="444" type="line"/>
+      <point x="273" y="325" type="line"/>
+      <point x="261" y="197" type="line"/>
+      <point x="180" y="317" type="line"/>
+    </contour>
+    <contour>
+      <point x="32" y="444" type="line"/>
+      <point x="113" y="325" type="line"/>
+      <point x="101" y="197" type="line"/>
+      <point x="20" y="317" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>20</integer>
+            <key>width</key>
+            <integer>253</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

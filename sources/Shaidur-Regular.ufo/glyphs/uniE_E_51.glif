@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEE51" format="2">
+  <advance width="1"/>
+  <unicode hex="EE51"/>
+  <anchor x="-375" y="500" name="_TonalRange"/>
+  <outline>
+    <contour>
+      <point x="-539" y="397" type="line"/>
+      <point x="-529" y="426"/>
+      <point x="-500" y="456"/>
+      <point x="-471" y="463" type="curve"/>
+      <point x="-455" y="466" type="line"/>
+      <point x="-465" y="342" type="line"/>
+      <point x="-500" y="336"/>
+      <point x="-535" y="302"/>
+      <point x="-551" y="270" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-409" y="516" type="line"/>
+      <point x="-399" y="545"/>
+      <point x="-370" y="576"/>
+      <point x="-341" y="581" type="curve"/>
+      <point x="-325" y="585" type="line"/>
+      <point x="-335" y="461" type="line"/>
+      <point x="-370" y="455"/>
+      <point x="-405" y="421"/>
+      <point x="-421" y="389" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>270</integer>
+            <key>width</key>
+            <integer>315</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-551</integer>
+            <key>width</key>
+            <integer>226</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

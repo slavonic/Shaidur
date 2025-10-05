@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEE8D" format="2">
+  <advance width="200"/>
+  <unicode hex="EE8D"/>
+  <anchor x="540" y="150" name="Lomka"/>
+  <anchor x="0" y="200" name="Tikhaya"/>
+  <anchor x="220" y="180" name="Zaderzhka"/>
+  <anchor x="0" y="150" name="Borzaya"/>
+  <anchor x="50" y="0" name="Zevok"/>
+  <anchor x="50" y="660" name="Kachka"/>
+  <anchor x="50" y="-50" name="Kupnaya"/>
+  <anchor x="265" y="660" name="Auxiliary"/>
+  <anchor x="225" y="0" name="Podvertka"/>
+  <anchor x="395" y="640" name="Flexion"/>
+  <anchor x="0" y="-50" name="Podtinka"/>
+  <anchor x="415" y="660" name="TonalRange"/>
+  <anchor x="210" y="325" name="Tochka"/>
+  <anchor x="205" y="500" name="Omet"/>
+  <anchor x="-40" y="500" name="PitchMark"/>
+  <outline>
+    <contour>
+      <point x="32" y="552" type="line"/>
+      <point x="177" y="455" type="line"/>
+      <point x="168" y="346" type="line"/>
+      <point x="23" y="443" type="line"/>
+    </contour>
+    <contour>
+      <point x="32" y="184" type="line"/>
+      <point x="177" y="87" type="line"/>
+      <point x="168" y="-22" type="line"/>
+      <point x="23" y="75" type="line"/>
+    </contour>
+    <contour>
+      <point x="32" y="368" type="line"/>
+      <point x="177" y="271" type="line"/>
+      <point x="168" y="162" type="line"/>
+      <point x="23" y="259" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>23</integer>
+            <key>width</key>
+            <integer>154</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

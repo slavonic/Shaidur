@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1CF41" format="2">
+  <advance width="0"/>
+  <unicode hex="1CF41"/>
+  <anchor x="0" y="-50" name="_Podtinka"/>
+  <outline>
+    <contour>
+      <point x="30" y="-50" type="line"/>
+      <point x="166" y="-50" type="line"/>
+      <point x="166" y="-98" type="line"/>
+      <point x="30" y="-98" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-98</integer>
+            <key>width</key>
+            <integer>48</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>30</integer>
+            <key>width</key>
+            <integer>136</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
