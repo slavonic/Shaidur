@@ -4,8 +4,63 @@
   <unicode hex="EE13"/>
   <anchor x="0" y="345" name="_PitchMark"/>
   <outline>
+    <contour>
+      <point x="-109" y="156" type="curve" smooth="yes"/>
+      <point x="-106" y="156"/>
+      <point x="-104" y="152"/>
+      <point x="-104" y="149" type="curve" smooth="yes"/>
+      <point x="-104" y="147"/>
+      <point x="-105" y="145"/>
+      <point x="-109" y="142" type="curve" smooth="yes"/>
+      <point x="-129" y="131"/>
+      <point x="-164" y="110"/>
+      <point x="-197" y="85" type="curve"/>
+      <point x="-185" y="69"/>
+      <point x="-173" y="48"/>
+      <point x="-171" y="43" type="curve" smooth="yes"/>
+      <point x="-167" y="36"/>
+      <point x="-178" y="34"/>
+      <point x="-183" y="32" type="curve"/>
+      <point x="-188" y="32"/>
+      <point x="-193" y="31"/>
+      <point x="-197" y="38" type="curve" smooth="yes"/>
+      <point x="-202" y="46"/>
+      <point x="-208" y="57"/>
+      <point x="-217" y="69" type="curve"/>
+      <point x="-251" y="40"/>
+      <point x="-281" y="7"/>
+      <point x="-298" y="-10" type="curve" smooth="yes"/>
+      <point x="-300" y="-12"/>
+      <point x="-301" y="-12"/>
+      <point x="-303" y="-12" type="curve" smooth="yes"/>
+      <point x="-306" y="-12"/>
+      <point x="-309" y="-9"/>
+      <point x="-309" y="-4" type="curve" smooth="yes"/>
+      <point x="-309" y="-2"/>
+      <point x="-309" y="0"/>
+      <point x="-307" y="2" type="curve" smooth="yes"/>
+      <point x="-293" y="16"/>
+      <point x="-261" y="51"/>
+      <point x="-226" y="81" type="curve"/>
+      <point x="-237" y="94"/>
+      <point x="-249" y="106"/>
+      <point x="-255" y="112" type="curve" smooth="yes"/>
+      <point x="-266" y="122"/>
+      <point x="-256" y="123"/>
+      <point x="-252" y="123" type="curve" smooth="yes"/>
+      <point x="-244" y="124"/>
+      <point x="-236" y="125"/>
+      <point x="-231" y="121" type="curve" smooth="yes"/>
+      <point x="-224" y="116"/>
+      <point x="-215" y="107"/>
+      <point x="-206" y="96" type="curve"/>
+      <point x="-173" y="121"/>
+      <point x="-136" y="144"/>
+      <point x="-120" y="152" type="curve" smooth="yes"/>
+      <point x="-116" y="154"/>
+      <point x="-112" y="156"/>
+    </contour>
     <component base="uniEE07" xOffset="-2.0042" yOffset="0.0142517"/>
-    <component base="uniEE1F" xOffset="-4" yOffset="-4"/>
   </outline>
   <lib>
     <dict>

@@ -20,10 +20,6 @@ lookup Supportfordeprecatedmappingsccmp {
     sub \uniEE52 \uniEE58  by \uniEC02;
     sub \uniEE90 \uniEE50  by \uniEB00;
     sub \uniEE91 \uniEE50  by \uniEB06;
-    sub \uniEE02 \uniEE1F  by \u1CF18;
-    sub \uniEE06 \uniEE1F  by \u1CF19;
-    sub \uniEE07 \uniEE1F  by \u1CF1B;
-    sub \uniEE08 \uniEE1F  by \u1CF1D;
 } Supportfordeprecatedmappingsccmp;
 
 lookup CanonicalCompositionccmp {
@@ -46,92 +42,6 @@ lookup CanonicalCompositionccmp {
 
 lookup ZnamennyPriznakification {
   lookupflag 0;
-    sub \u1CF50 \u1CF42  by \uniEB66;
-    sub \u1CF50 \u1CF43  by \uniEB67;
-    sub \u1CF51 \u1CF42  by \uniEB6A;
-    sub \u1CF51 \u1CF43  by \uniEB6B;
-    sub \u1CF52 \u1CF42  by \uniEB6E;
-    sub \u1CF52 \u1CF43  by \uniEB6F;
-    sub \u1CF53 \u1CF42  by \uniEB70;
-    sub \u1CF53 \u1CF43  by \uniEB71;
-    sub \u1CF54 \u1CF42  by \uniEB74;
-    sub \u1CF54 \u1CF43  by \uniEB75;
-    sub \u1CF57 \u1CF42  by \uniEB7C;
-    sub \u1CF5B \u1CF43  by \uniEB81;
-    sub \u1CF5C \u1CF43  by \uniEB87;
-    sub \u1CF5D \u1CF41  by \uniEB89;
-    sub \u1CF5D \u1CF42  by \uniEB8A;
-    sub \u1CF5D \u1CF43  by \uniEB8B;
-    sub \u1CF5D \u1CF44  by \uniEB8C;
-    sub \u1CF56 \u1CF42  by \uniEB78;
-    sub \u1CF56 \u1CF43  by \uniEB79;
-    sub \u1CF6D \u1CF42  by \uniEB8E;
-    sub \u1CF6D \u1CF43  by \uniEB91;
-    sub \u1CF72 \u1CF43  by \uniEB97;
-    sub \u1CF73 \u1CF42  by \uniEB98;
-    sub \u1CF74 \u1CF43  by \uniEB9B;
-    sub \u1CF7E \u1CF43  by \uniEB9F;
-    sub \u1CF7E \u1CF44  by \uniEBA0;
-    sub \u1CF73 \u1CF43  by \uniEB99;
-    sub \u1CF74 \u1CF42  by \uniEB9A;
-    sub \u1CF7E \u1CF42  by \uniEB9E;
-    sub \uniEAFA \u1CF43  by \uniEBAF;
-    sub \u1CF90 \u1CF42  by \uniEBCB;
-    sub \u1CF90 \u1CF43  by \uniEBCC;
-    sub \u1CF87 \u1CF42  by \uniEBBD;
-    sub \u1CF87 \u1CF43  by \uniEBBE;
-    sub \u1CF30 \u1CF42  by \uniEB60;
-    sub \u1CF30 \u1CF43  by \uniEB61;
-    sub \u1CF31 \u1CF42  by \uniEB62;
-    sub \u1CF31 \u1CF43  by \uniEB63;
-    sub \u1CF32 \u1CF42  by \uniEB64;
-    sub \u1CF32 \u1CF43  by \uniEB65;
-    sub \u1CF57 \u1CF43  by \uniEB7D;
-    sub \u1CF5C \u1CF42  by \uniEB84;
-    sub \u1CF70 \u1CF42  by \uniEB92;
-    sub \u1CF70 \u1CF43  by \uniEB93;
-    sub \u1CF71 \u1CF42  by \uniEB94;
-    sub \u1CF71 \u1CF43  by \uniEB95;
-    sub \u1CF72 \u1CF42  by \uniEB96;
-    sub \uniEAFA \u1CF42  by \uniEBAD;
-    sub \u1CF86 \u1CF42  by \uniEBB1;
-    sub \u1CF86 \u1CF43  by \uniEBB2;
-    sub \u1CF86 \u1CF30 \u1CF42  by \uniEBB3;
-    sub \u1CF86 \u1CF30 \u1CF43  by \uniEBB5;
-    sub \u1CF86 \u1CF31 \u1CF42  by \uniEBB6;
-    sub \u1CF86 \u1CF31 \u1CF43  by \uniEBB8;
-    sub \u1CF86 \u1CF30 \u1CF3A \u1CF42  by \uniEBB9;
-    sub \u1CF86 \u1CF30 \u1CF3A \u1CF43  by \uniEBBA;
-    sub \u1CF88 \u1CF42  by \uniEBC2;
-    sub \u1CF88 \u1CF43  by \uniEBC3;
-    sub \u1CF89 \u1CF42  by \uniEBC4;
-    sub \u1CF89 \u1CF43  by \uniEBC5;
-    sub \u1CF8B \u1CF42  by \uniEBC6;
-    sub \u1CF8B \u1CF43  by \uniEBC7;
-    sub \u1CF92 \u1CF42  by \uniEBD4;
-    sub \u1CF92 \u1CF43  by \uniEBD6;
-    sub \u1CF93 \u1CF42  by \uniEBD7;
-    sub \u1CF93 \u1CF43  by \uniEBD9;
-    sub \u1CF94 \u1CF42  by \uniEBDA;
-    sub \u1CF94 \u1CF43  by \uniEBDC;
-    sub \u1CF96 \u1CF42  by \uniEBE0;
-    sub \u1CF96 \u1CF43  by \uniEBE2;
-    sub \u1CFA2 \u1CF43  by \uniEBE7;
-    sub \u1CFA3 \u1CF43  by \uniEBEB;
-    sub \u1CFA5 \u1CF43  by \uniEBED;
-    sub \u1CFA6 \u1CF43  by \uniEBEF;
-    sub \u1CFC3 \u1CF42  by \uniEBFA;
-    sub \u1CFC3 \u1CF43  by \uniEBFB;
-    sub \u1CFA7 \u1CF42  by \uniEBF0;
-    sub \u1CFA7 \u1CF43  by \uniEBF1;
-    sub \uniEB5F \u1CF42  by \uniEBFC;
-    sub \u1CFAF \u1CF43  by \uniEBF6;
-    sub \uniEC22 \u1CF43  by \uniEBF9;
-    sub \u1CFAC \u1CF43  by \uniEBF2;
-    sub \u1CFAD \u1CF43  by \uniEBF3;
-    sub \u1CFAE \u1CF43  by \uniEBF4;
-    sub \u1CFAF \u1CF42  by \uniEBF5;
-    sub \uniEB5F \u1CF43  by \uniEBFD;
     sub \u1CF96 \u1CF45  by \uniEFB3;
     sub \u1CF50 \u1CF45  by \uniEF60;
     sub \u1CF52 \u1CF45  by \uniEF62;
@@ -154,11 +64,6 @@ lookup ZnamennyPriznakification {
     sub \u1CF9E \u1CF46  by \uniEFC8;
     sub \u1CF54 \u1CF46  by \uniEF64;
     sub \u1CF58 \u1CF46  by \uniEF6D;
-    sub \u1CF5B \u1CF42  by \uniEB80;
-    sub \u1CF81 \u1CF42  by \uniEBA7;
-    sub \u1CF81 \u1CF41 \u1CF42  by \uniEBA8;
-    sub \u1CF81 \u1CF41 \u1CF43  by \uniEBA9;
-    sub \u1CF81 \u1CF43  by \uniEBA9;
     sub \u1CF50 \u1CF46  by \uniEF61;
     sub \u1CF56 \u1CF46  by \uniEF66;
     sub \u1CF5B \u1CF45  by \uniEF68;
@@ -202,22 +107,10 @@ lookup ZnamennyPriznakification {
     sub \u1CFAB \u1CF45  by \uniEFCF;
     sub \u1CFAF \u1CF45  by \uniEFD1;
     sub \u1CFB0 \u1CF45  by \uniEFD2;
-    sub \u1CFB0 \u1CF45  by \uniEFD3;
-    sub \u1CF95 \u1CF42  by \uniEBDD;
-    sub \u1CF95 \u1CF43  by \uniEBDF;
-    sub \u1CF97 \u1CF42  by \uniEBE3;
-    sub \u1CF97 \u1CF43  by \uniEBE5;
-    sub \u1CFA2 \u1CF42  by \uniEBE6;
-    sub \u1CFA3 \u1CF42  by \uniEBEA;
-    sub \u1CFA5 \u1CF42  by \uniEBEC;
-    sub \u1CFA6 \u1CF42  by \uniEBEE;
-    sub \uniEC22 \u1CF42  by \uniEBF7;
+    sub \u1CFB1 \u1CF45  by \uniEFD3;
     sub \u1CF86 \u1CF45  by \uniEFAA;
     sub \u1CF72 \u1CF46  by \uniEFA1;
     sub \u1CFB3 \u1CF45  by \uniEFD4;
-    sub \u1CFA2 \u1CF41  by \uniEBD3;
-    sub \u1CF8C \u1CF42  by \uniEBFE;
-    sub \u1CF8C \u1CF43  by \uniEBFF;
     sub \u1CF60 \u1CF46  by \uniEF81;
     sub \u1CF56 \u1CF45  by \uniEF65;
     sub \u1CF5B \u1CF46  by \uniEF69;
@@ -232,53 +125,11 @@ lookup ZnamennyPriznakification {
 
 lookup ZnamennyPriznakificationRound2 {
   lookupflag 0;
-    sub \uniEB74 \u1CF44  by \uniEB76;
-    sub \uniEB75 \u1CF44  by \uniEB77;
-    sub \uniEB79 \u1CF44  by \uniEB7B;
-    sub \uniEB78 \u1CF44  by \uniEB7A;
-    sub \uniEB81 \u1CF44  by \uniEB83;
-    sub \uniEB85 \u1CF44  by \uniEB86;
-    sub \uniEB84 \u1CF44  by \uniEB86;
-    sub \uniEB8C \u1CF44  by \uniEB8D;
-    sub \uniEB70 \u1CF44  by \uniEB72;
-    sub \uniEB71 \u1CF44  by \uniEB73;
-    sub \uniEBAD \u1CF44  by \uniEBAE;
-    sub \uniEBAF \u1CF44  by \uniEBB0;
-    sub \uniEBAE \u1CF43  by \uniEBB0;
-    sub \uniEBCB \u1CF30  by \uniEBCD;
-    sub \uniEBCC \u1CF30  by \uniEBCF;
-    sub \uniEBBB \u1CF30  by \uniEBBD;
-    sub \uniEBBC \u1CF30  by \uniEBBE;
-    sub \uniEBBD \u1CF30  by \uniEBBF;
-    sub \uniEB66 \u1CF44  by \uniEB68;
-    sub \uniEB67 \u1CF44  by \uniEB69;
-    sub \uniEB6A \u1CF44  by \uniEB6C;
-    sub \uniEB6B \u1CF44  by \uniEB6D;
-    sub \uniEB7C \u1CF44  by \uniEB7E;
-    sub \uniEB7D \u1CF44  by \uniEB7F;
-    sub \uniEB8F \u1CF44  by \uniEB90;
-    sub \uniEB8E \u1CF44  by \uniEB90;
-    sub \uniEBB1 \u1CF30  by \uniEBB3;
-    sub \uniEBB2 \u1CF30  by \uniEBB5;
-    sub \uniEBB1 \u1CF31  by \uniEBB6;
-    sub \uniEBB2 \u1CF31  by \uniEBB8;
-    sub \uniEBBE \u1CF30  by \uniEBC1;
-    sub \uniEBC6 \u1CF30  by \uniEBC8;
-    sub \uniEBC7 \u1CF30  by \uniEBCA;
-    sub \uniEBFE \u1CF30  by \uniEBD0;
-    sub \uniEBFF \u1CF30  by \uniEBD2;
-    sub \uniEB87 \u1CF44  by \uniEB88;
-    sub \uniEB9A \u1CF44  by \uniEB9C;
-    sub \uniEB9B \u1CF44  by \uniEB9D;
     sub \uniEF80 \u1CF3F  by \uniEF82;
     sub \uniEF85 \u1CF3F  by \uniEF87;
     sub \uniEF7E \u1CF3B  by \uniEF8C;
     sub \uniEF68 \u1CF5C  by \uniEF73;
     sub \uniEFBE \u1CF30  by \uniEFC0;
-    sub \uniEB80 \u1CF44  by \uniEB82;
-    sub \uniEBA7 \u1CF41  by \uniEBA8;
-    sub \uniEBA9 \u1CF41  by \uniEBAA;
-    sub \uniEF66 \u1CF44  by \uniEF67;
     sub \uniEF65 \u1CF5C  by \uniEF71;
     sub \uniEF69 \u1CF5C  by \uniEF74;
     sub \uniEF88 \u1CF3F  by \uniEF8A;
@@ -289,10 +140,6 @@ lookup ZnamennyPriznakificationRound2 {
     sub \uniEFBD \u1CF30  by \uniEFBF;
     sub \uniEFBD \u1CF31  by \uniEFC1;
     sub \uniEFBE \u1CF31  by \uniEFC2;
-    sub \uniEBD3 \u1CF42  by \uniEBE8;
-    sub \uniEBE6 \u1CF41  by \uniEBE8;
-    sub \uniEBD3 \u1CF43  by \uniEBE9;
-    sub \uniEBE7 \u1CF41  by \uniEBE9;
     sub \uniEF84 \u1CF3F  by \uniEF86;
     sub \uniEF81 \u1CF3F  by \uniEF83;
     sub \uniEF89 \u1CF3F  by \uniEF8B;
@@ -553,21 +400,6 @@ lookup PrecomposedformsforZnamennyRound3 {
 
 lookup PostcompositionPriznakification {
   lookupflag 0;
-    sub \uniEB0E \u1CF42  by \uniEBBC;
-    sub \uniEBB8 \u1CF3A  by \uniEBBC;
-    sub \uniEB08 \u1CF42  by \uniEBCD;
-    sub \uniEB08 \u1CF43  by \uniEBCF;
-    sub \uniEB00 \u1CF42  by \uniEBBF;
-    sub \uniEBB3 \u1CF3A  by \uniEBB9;
-    sub \uniEBB5 \u1CF3A  by \uniEBBA;
-    sub \uniEB0E \u1CF42  by \uniEBBB;
-    sub \uniEBB7 \u1CF3A  by \uniEBBB;
-    sub \uniEBB6 \u1CF3A  by \uniEBBB;
-    sub \uniEB00 \u1CF43  by \uniEBC1;
-    sub \uniEB01 \u1CF42  by \uniEBC8;
-    sub \uniEB01 \u1CF43  by \uniEBCA;
-    sub \uniEB03 \u1CF42  by \uniEBD0;
-    sub \uniEB03 \u1CF43  by \uniEBD2;
     sub \uniEAA3 \u1CF45  by \uniEF82;
     sub \uniEAA7 \u1CF46  by \uniEF87;
     sub \uniEAC1 \u1CF45  by \uniEF8C;
@@ -618,24 +450,7 @@ lookup ccmpMedialFormofRavno {
 lookup StylisticAlternativesforZnamennysalt {
   lookupflag 0;
     sub \uniEAE0 from [\uniEAE4 \uniEAE8 ];
-    sub \uniEB8E from [\uniEB8F ];
-    sub \uniEB9F from [\uniEBA2 \uniEBA5 ];
-    sub \uniEBA0 from [\uniEBA3 \uniEBA6 ];
-    sub \uniEB9E from [\uniEBA1 \uniEBA4 ];
-    sub \uniEBCD from [\uniEBCE ];
-    sub \uniEBBF from [\uniEBC0 ];
     sub \uniEA99 from [\uniEA9A ];
-    sub \uniEB84 from [\uniEB85 ];
-    sub \uniEBB3 from [\uniEBB4 ];
-    sub \uniEBB5 from [\uniEBB4 ];
-    sub \uniEBB6 from [\uniEBB7 ];
-    sub \uniEBB8 from [\uniEBB7 ];
-    sub \uniEBC8 from [\uniEBC9 ];
-    sub \uniEBD0 from [\uniEBD1 ];
-    sub \uniEBD4 from [\uniEBD5 ];
-    sub \uniEBD7 from [\uniEBD8 ];
-    sub \uniEBDA from [\uniEBDB ];
-    sub \uniEBE0 from [\uniEBE1 ];
     sub \uniEAEB from [\uniEAEF \uniEAF2 ];
     sub \uniEC14 from [\uniEC15 ];
     sub \uniEAE1 from [\uniEAE5 \uniEAE9 ];
@@ -666,11 +481,6 @@ lookup StylisticAlternativesforZnamennysalt {
     sub \uniEA71 from [\uniEA74 ];
     sub \uniEA72 from [\uniEA75 ];
     sub \uniEB30 from [\uniEB31 ];
-    sub \uniEBA8 from [\uniEBAB ];
-    sub \uniEBAA from [\uniEBAC ];
-    sub \uniEBDD from [\uniEBDE ];
-    sub \uniEBE3 from [\uniEBE4 ];
-    sub \uniEBF7 from [\uniEBF8 ];
     sub \uniEC1A from [\uniEC1B ];
     sub \uniEC1E from [\uniEC1F ];
 } StylisticAlternativesforZnamennysalt;
@@ -781,7 +591,6 @@ lookup ss01StyleSet1DemestvennyLigatures {
     pos \uniEB38 \uniEEC4 -110;
     pos \uniEB38 \uniEB3B -110;
     pos \uniEB38 \uniEB3A -110;
-    pos \uniEB38 \uniEAAC -110;
     pos \uniEB38 \uniEE7A -100;
     pos \uniEEC0 \uniEE75 -135;
     pos \uniEECD \uniEE76 -135;
@@ -2061,7 +1870,6 @@ lookup markCinnabarMarkPositioning {
   markClass [\uniEE30 \uniEE31 \uniEE3B \uniEE3C ] <anchor 0 345> @Auxiliary;
   markClass [\uniEA18 ] <anchor -75 345> @Auxiliary;
   markClass [\uniEE00 \uniEE01 \uniEE02 \uniEE03 \uniEE04 \uniEE05 \uniEE06 \uniEE07 \uniEE08 \uniEE09 \uniEE0A \uniEE0B \uniEE11 \uniEE13 \uniEE15 \uniEE17 \uniEE10 \uniEE12 \uniEE14 \uniEE16 \uniEE0C \uniEE0D \uniEE0E ] <anchor 0 345> @PitchMark;
-  markClass [\uniEE1F ] <anchor 0 203> @PitchMark;
   markClass [\uniEE32 ] <anchor -75 345> @PitchMark;
   pos base [\uni25CC ] <anchor 525 150> mark @Lomka
 	<anchor 30 150> mark @Tikhaya
@@ -2990,13 +2798,13 @@ feature mark {
 	\u1CFBB \u1CFBC \u1CFBD \u1CFBE \u1CFBF \u1CFC1 \u1CFC2 \u1CFC3 \u1CFC0 \u1CF30 
 	\u1CF31 \u1CF32 \u1CF33 \u1CF35 \u1CF36 \u1CF37 \u1CF38 \u1CF39 \u1CF3A \u1CF3B 
 	\u1CF3C \u1CF3D \u1CF3E \u1CF3F \u1CF40 \u1CF56 \u1CF5A \u1CF5B \u1CF5C \u1CF5D 
-	\u1CF5E \u1CF5F \uniEA53 \uniEB36 \uniEB4E \uniEB5C \uniEA1C \uniEB52 \uniEB5B 
-	\uniEC10 \uniEC1B \uniEC1F \uniEC25 \uniEC2E \uniEC2F \uniEC30 \uniEC31 \uniEC32 
-	\uniEC33 \uniEC34 \uniEC35 \uniEC36 \uniEC37 \uniEC38 \uniEC39 \uniEC3A \uniEC3B 
-	\uniEC3C \uniEC3D \uniEC3E \uniEAA1 \uni2713 \uniEB5D \u1CF34 \afii61352 
-	\quoteleft \quoteright \quotesinglbase \quotereversed \quotedblleft 
-	\quotedblright \quotedblbase \uni201F \dagger \daggerdbl \bullet \uni2023 
-	\onedotenleader \twodotenleader \ellipsis \uni2027 \guilsinglleft 
+	\u1CF5E \u1CF5F \uniEA53 \uniEB36 \uniEB4E \uniEB5C \uniEF67 \uniEA1C \uniEB52 
+	\uniEB5B \uniEC10 \uniEC1B \uniEC1F \uniEC25 \uniEC2E \uniEC2F \uniEC30 \uniEC31 
+	\uniEC32 \uniEC33 \uniEC34 \uniEC35 \uniEC36 \uniEC37 \uniEC38 \uniEC39 \uniEC3A 
+	\uniEC3B \uniEC3C \uniEC3D \uniEC3E \uniEAA1 \uni2713 \uniEB5D \u1CF34 
+	\afii61352 \quoteleft \quoteright \quotesinglbase \quotereversed 
+	\quotedblleft \quotedblright \quotedblbase \uni201F \dagger \daggerdbl \bullet 
+	\uni2023 \onedotenleader \twodotenleader \ellipsis \uni2027 \guilsinglleft 
 	\guilsinglright \afii10146 \afii10194 \afii10147 \afii10195 \afii10148 
 	\afii10196 \uni0400 \afii10023 \afii10051 \afii10052 \afii10053 \afii10054 
 	\afii10055 \afii10056 \afii10057 \afii10058 \afii10059 \afii10060 \afii10061 
@@ -3054,30 +2862,30 @@ feature mark {
 	\uniEAB6 \uniEAC6 \uniEAC7 \uniEAD4 \uniEAD5 \uniEAD6 \uniEB20 \uniEB24 \uniEB30 
 	\uniEB31 \uniEB34 \uniEB35 \uniEB3F \uniEB46 \uniEB49 \uniEB4A \uniEB4B \uniEB4C 
 	\uniEB4D \uniEA8A \uniEA9F \uniEAA3 \uniEAA4 \uniEAAE \uniEAB1 \uniEAB4 \uniEAB8 
-	\uniEABA \uniEACD \uniEA14 \uniEF61 \uniEF66 \uniEF67 \uniEF68 \uniEF6B \uniEF6F 
-	\uniEF71 \uniEF74 \uniEF77 \uniEF78 \uniEF79 \uniEF7C \uniEF7E \uniEF7F \uniEF80 
-	\uniEF85 \uniEF88 \uniEF8A \uniEF8D \uniEF8F \uniEF92 \uniEF93 \uniEF94 \uniEF99 
-	\uniEF9A \uniEF9B \uniEF9C \uniEF9D \uniEF9E \uniEFA0 \uniEFA2 \uniEFA3 \uniEFA4 
-	\uniEFA5 \uniEFA7 \uniEFA8 \uniEFAD \uniEFAE \uniEFAF \uniEFB0 \uniEFB6 \uniEFB9 
-	\uniEFBB \uniEFBD \uniEFBF \uniEFC1 \uniEFC2 \uniEFC3 \uniEFC4 \uniEFC5 \uniEFC7 
-	\uniEFC9 \uniEFCC \uniEFCD \uniEFCE \uniEFCF \uniEFD1 \uniEFD2 \uniEFD3 \uniEF86 
-	\uniEFAA \uniEFA1 \uniEFD4 \uniEB50 \uniEB53 \uniEB54 \uniEB55 \uniEB56 \uniEB57 
-	\uniEB58 \uniEB59 \uniEB5A \uniEF81 \uniEF83 \uniEF65 \uniEF69 \uniEF6E \uniEF8B 
-	\uniEF90 \uniEFB1 \uniEFB4 \uniEF95 \uniEF98 \uniEF7A \uniEC04 \uniEC05 \uniEC06 
-	\uniEC07 \uniEC08 \uniEC09 \uniEC0A \uniEC0B \uniEC0C \uniEC0D \uniEC0E \uniEC0F 
-	\uniEC12 \uniEC17 \uniEC18 \uniEC19 \uniEC1A \uniEC1C \uniEC1D \uniEC1E \uniEC20 
-	\uniEC22 \uniEC23 \uniEC24 \uniEC26 \uniEC27 \uniEC28 \uniEC29 \uniEC2A \uniEC2B 
-	\uniEC2C \uniEC2D \uniEF63 \uniEF72 \uniEF75 \uniEAA0 \uniEAB7 \u1CF861CFBF ];
+	\uniEABA \uniEACD \uniEA14 \uniEF61 \uniEF66 \uniEF68 \uniEF6B \uniEF6F \uniEF71 
+	\uniEF74 \uniEF77 \uniEF78 \uniEF79 \uniEF7C \uniEF7E \uniEF7F \uniEF80 \uniEF85 
+	\uniEF88 \uniEF8A \uniEF8D \uniEF8F \uniEF92 \uniEF93 \uniEF94 \uniEF99 \uniEF9A 
+	\uniEF9B \uniEF9C \uniEF9D \uniEF9E \uniEFA0 \uniEFA2 \uniEFA3 \uniEFA4 \uniEFA5 
+	\uniEFA7 \uniEFA8 \uniEFAD \uniEFAE \uniEFAF \uniEFB0 \uniEFB6 \uniEFB9 \uniEFBB 
+	\uniEFBD \uniEFBF \uniEFC1 \uniEFC2 \uniEFC3 \uniEFC4 \uniEFC5 \uniEFC7 \uniEFC9 
+	\uniEFCC \uniEFCD \uniEFCE \uniEFCF \uniEFD1 \uniEFD2 \uniEFD3 \uniEF86 \uniEFAA 
+	\uniEFA1 \uniEFD4 \uniEB50 \uniEB53 \uniEB54 \uniEB55 \uniEB56 \uniEB57 \uniEB58 
+	\uniEB59 \uniEB5A \uniEF81 \uniEF83 \uniEF65 \uniEF69 \uniEF6E \uniEF8B \uniEF90 
+	\uniEFB1 \uniEFB4 \uniEF95 \uniEF98 \uniEF7A \uniEC04 \uniEC05 \uniEC06 \uniEC07 
+	\uniEC08 \uniEC09 \uniEC0A \uniEC0B \uniEC0C \uniEC0D \uniEC0E \uniEC0F \uniEC12 
+	\uniEC17 \uniEC18 \uniEC19 \uniEC1A \uniEC1C \uniEC1D \uniEC1E \uniEC20 \uniEC22 
+	\uniEC23 \uniEC24 \uniEC26 \uniEC27 \uniEC28 \uniEC29 \uniEC2A \uniEC2B \uniEC2C 
+	\uniEC2D \uniEF63 \uniEF72 \uniEF75 \uniEAA0 \uniEAB7 \u1CF861CFBF ];
 @GDEF_Mark = [\uni034F \uniEE00 \uniEE01 \uniEE02 \uniEE03 \uniEE04 \uniEE05 
 	\uniEE06 \uniEE07 \uniEE08 \uniEE09 \uniEE0A \uniEE0B \uniEE11 \uniEE13 \uniEE15 
 	\uniEE50 \uniEE51 \uniEE52 \uniEE54 \uniEE53 \uniEE55 \uniEE57 \uniEE58 \uniEE59 
-	\uniEE17 \uniEE12 \uniEE14 \uniEE16 \uniEE1F \uniEE0C \uniEE0D \uniEE0E \uniEE30 
-	\uniEE31 \uniEE32 \uniEE33 \uniEE34 \uniEE35 \uniEE36 \uniEE37 \uniEE38 \uniEE39 
-	\uniEE3A \uniEE3B \uniEE3C \uniEE56 \uniEE5A \uniEE5B \uniEA00 \uniEA01 \uniEA02 
-	\uniEA03 \uniEA04 \uniEA15 \uniEA10 \uniEA11 \uniEA13 \uniEA12 \uniEA16 \uniEA17 
-	\uniEC00 \uniEC01 \uniEC02 \uniEE5C \uniEE5D \uniEE5E \uniEE5F \uniEE60 \u1CF41 
-	\uniEA18 \u1CF0C \u1CF0D \u1CF0E \u1CF0F \u1CF10 \u1CF11 \u1CF12 \u1CF13 \u1CF14 
-	\u1CF15 \u1CF16 \u1CF17 ];
+	\uniEE17 \uniEE12 \uniEE14 \uniEE16 \uniEE0C \uniEE0D \uniEE0E \uniEE30 \uniEE31 
+	\uniEE32 \uniEE33 \uniEE34 \uniEE35 \uniEE36 \uniEE37 \uniEE38 \uniEE39 \uniEE3A 
+	\uniEE3B \uniEE3C \uniEE56 \uniEE5A \uniEE5B \uniEA00 \uniEA01 \uniEA02 \uniEA03 
+	\uniEA04 \uniEA15 \uniEA10 \uniEA11 \uniEA13 \uniEA12 \uniEA16 \uniEA17 \uniEC00 
+	\uniEC01 \uniEC02 \uniEE5C \uniEE5D \uniEE5E \uniEE5F \uniEE60 \u1CF41 \uniEA18 
+	\u1CF0C \u1CF0D \u1CF0E \u1CF0F \u1CF10 \u1CF11 \u1CF12 \u1CF13 \u1CF14 \u1CF15 
+	\u1CF16 \u1CF17 ];
 @GDEF_Component = [\uniEA50 \uniEA51 \uniEA52 ];
 
 table GDEF {
