@@ -16,15 +16,15 @@ import argparse
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 1024, 128, 1
-FONT_PATH = "fonts/ttf/RadioCanadaDisplay-Regular.ttf"
+FONT_PATH = "fonts/ttf/Shaidur-Regular.ttf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
 
-LINE_ONE = "ABCDEFGHIJKLMNOPQ"
-LINE_TWO = "RSTUVWXYZ123456789"
-LINE_THREE = "abcdefghijklmnopqrstu"
-LINE_FOUR = "vwxyz,.;:!@#$%^&*(){}[]"
+LINE_ONE = " "
+LINE_TWO = "𜽰𜼅   𜽐𜼱𜼆  𜽐𜼰𜼅   𜽝𜼄   𜽐𜼰𜼅  𜽖𜼢   𜽗𜼢  𜽲𜼆  𜽯"
+LINE_THREE = "Тво  ѧ  по  бѣ  ди те ле на ѧ"
+LINE_FOUR = ""
 BIG_TEXT_FONT_SIZE = 160
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1
 BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.45
@@ -79,7 +79,7 @@ def remap(value, inputMin, inputMax, outputMin, outputMax):
 # Draw the page/frame and a grid if "GRID_VIEW" is set to "True"
 def draw_background():
     newPage(WIDTH, HEIGHT)
-    fill(0)
+    fill(1)
     rect(-2, -2, WIDTH + 2, HEIGHT + 2)
     if GRID_VIEW:
         grid()
@@ -89,7 +89,7 @@ def draw_background():
 
 # Draw main text
 def draw_main_text():
-    fill(1)
+    fill(0)
     stroke(None)
     font(FONT_PATH)
     fontSize(BIG_TEXT_FONT_SIZE)
@@ -105,7 +105,7 @@ def draw_main_text():
 
 # Divider lines
 def draw_divider_lines():
-    stroke(1)
+    stroke(0)
     strokeWidth(5)
     lineCap("round")
     line((MARGIN, HEIGHT - (MARGIN * 1.5)), (WIDTH - MARGIN, HEIGHT - (MARGIN * 1.5)))
