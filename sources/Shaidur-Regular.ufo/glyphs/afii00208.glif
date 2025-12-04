@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="afii00208" format="2">
-  <advance width="1000"/>
+  <advance width="533"/>
   <unicode hex="2015"/>
   <outline>
     <component base="emdash"/>
@@ -13,9 +13,9 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>194</integer>
+            <integer>297</integer>
             <key>width</key>
-            <integer>63</integer>
+            <integer>32</integer>
           </dict>
         </array>
       </dict>

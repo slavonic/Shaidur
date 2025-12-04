@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uniEE79" format="2">
-  <advance width="420"/>
+  <advance width="425"/>
   <unicode hex="EE79"/>
+  <anchor x="595" y="300" name="FinalPitch"/>
+  <anchor x="130" y="770" name="PitchMark"/>
+  <anchor x="120" y="200" name="Podvertka"/>
   <anchor x="540" y="150" name="Lomka"/>
   <anchor x="0" y="180" name="Tikhaya"/>
   <anchor x="0" y="150" name="Borzaya"/>
@@ -9,19 +12,17 @@
   <anchor x="50" y="-50" name="Kupnaya"/>
   <anchor x="0" y="270" name="Kachka"/>
   <anchor x="265" y="660" name="Auxiliary"/>
-  <anchor x="240" y="0" name="Podvertka"/>
   <anchor x="395" y="640" name="Flexion"/>
   <anchor x="0" y="-50" name="Podtinka"/>
   <anchor x="415" y="660" name="TonalRange"/>
+  <anchor x="435" y="325" name="Tochka"/>
   <anchor x="30" y="-120" name="Zaderzhka"/>
   <anchor x="205" y="500" name="Omet"/>
   <anchor x="183" y="0" name="Podchashie"/>
-  <anchor x="430" y="325" name="Tochka"/>
-  <anchor x="-40" y="500" name="PitchMark"/>
   <outline>
     <contour>
       <point x="182" y="190" type="curve" smooth="yes"/>
-      <point x="180.425" y="304.989"/>
+      <point x="180" y="305"/>
       <point x="129" y="371"/>
       <point x="23" y="371" type="curve"/>
       <point x="35" y="496" type="line"/>
@@ -38,13 +39,13 @@
       <point x="189" y="-6"/>
       <point x="182" y="-6" type="curve" smooth="yes"/>
       <point x="175" y="-6"/>
-      <point x="170.031" y="-1.21484"/>
+      <point x="170" y="-1"/>
       <point x="171" y="6" type="curve" smooth="yes"/>
-      <point x="175.224" y="37.4441"/>
-      <point x="182.091" y="107.653"/>
-      <point x="182.091" y="176.52" type="curve" smooth="yes"/>
-      <point x="182.091" y="181.023"/>
-      <point x="182.061" y="185.52"/>
+      <point x="175" y="38"/>
+      <point x="182" y="108"/>
+      <point x="182" y="177" type="curve" smooth="yes"/>
+      <point x="182" y="181"/>
+      <point x="182" y="186"/>
     </contour>
     <contour>
       <point x="265" y="182" type="line"/>

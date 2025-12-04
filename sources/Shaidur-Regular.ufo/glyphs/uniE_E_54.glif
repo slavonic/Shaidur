@@ -2,13 +2,13 @@
 <glyph name="uniEE54" format="2">
   <advance width="0"/>
   <unicode hex="EE54"/>
-  <anchor x="20" y="440" name="_Zaderzhka"/>
+  <anchor x="-35" y="440" name="_Zaderzhka"/>
   <outline>
     <contour>
-      <point x="104" y="602" type="line"/>
-      <point x="80" y="361" type="line"/>
-      <point x="58" y="355" type="line"/>
-      <point x="82" y="594" type="line"/>
+      <point x="49" y="602" type="line"/>
+      <point x="25" y="361" type="line"/>
+      <point x="3" y="355" type="line"/>
+      <point x="27" y="594" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -28,7 +28,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>58</integer>
+            <integer>3</integer>
             <key>width</key>
             <integer>46</integer>
           </dict>

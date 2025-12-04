@@ -2,6 +2,23 @@
 <glyph name="u1CF56" format="2">
   <advance width="208"/>
   <unicode hex="1CF56"/>
+  <anchor x="280" y="677" name="Auxiliary"/>
+  <anchor x="0" y="240" name="Tikhaya"/>
+  <anchor x="432" y="184" name="FinalPitch"/>
+  <anchor x="130" y="677" name="PitchMark"/>
+  <anchor x="180" y="40" name="Podchashie"/>
+  <anchor x="540" y="150" name="Lomka"/>
+  <anchor x="225" y="180" name="Zaderzhka"/>
+  <anchor x="0" y="150" name="Borzaya"/>
+  <anchor x="180" y="60" name="Zevok"/>
+  <anchor x="50" y="660" name="Kachka"/>
+  <anchor x="50" y="-50" name="Kupnaya"/>
+  <anchor x="208" y="10" name="Podvertka"/>
+  <anchor x="395" y="640" name="Flexion"/>
+  <anchor x="0" y="-50" name="Podtinka"/>
+  <anchor x="415" y="660" name="TonalRange"/>
+  <anchor x="208" y="255" name="Tochka"/>
+  <anchor x="205" y="500" name="Omet"/>
   <outline>
     <contour>
       <point x="198" y="188" type="curve" smooth="yes"/>
@@ -57,9 +74,9 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>10</integer>
+            <integer>12</integer>
             <key>width</key>
-            <integer>188</integer>
+            <integer>186</integer>
           </dict>
         </array>
       </dict>

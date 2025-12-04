@@ -2,6 +2,23 @@
 <glyph name="u1CF73" format="2">
   <advance width="853"/>
   <unicode hex="1CF73"/>
+  <anchor x="655" y="630" name="TonalRange"/>
+  <anchor x="852" y="440" name="Zaderzhka"/>
+  <anchor x="445" y="560" name="Flexion"/>
+  <anchor x="280" y="677" name="Auxiliary"/>
+  <anchor x="760" y="350" name="Zevok"/>
+  <anchor x="0" y="350" name="Tikhaya"/>
+  <anchor x="1025" y="290" name="FinalPitch"/>
+  <anchor x="130" y="677" name="PitchMark"/>
+  <anchor x="415" y="720" name="Kachka"/>
+  <anchor x="540" y="150" name="Lomka"/>
+  <anchor x="0" y="150" name="Borzaya"/>
+  <anchor x="50" y="-50" name="Kupnaya"/>
+  <anchor x="630" y="380" name="Podvertka"/>
+  <anchor x="0" y="-50" name="Podtinka"/>
+  <anchor x="535" y="300" name="Omet"/>
+  <anchor x="535" y="325" name="Tochka"/>
+  <anchor x="390" y="75" name="Podchashie"/>
   <outline>
     <contour>
       <point x="665" y="332" type="curve" smooth="yes"/>
@@ -59,20 +76,20 @@
       <point x="392" y="176"/>
       <point x="398" y="186" type="curve" smooth="yes"/>
       <point x="404" y="196"/>
-      <point x="411" y="205"/>
+      <point x="410.478" y="205.679"/>
       <point x="422" y="214" type="curve" smooth="yes"/>
-      <point x="450" y="236"/>
-      <point x="442" y="230"/>
+      <point x="440" y="227"/>
+      <point x="456" y="236"/>
       <point x="478" y="246" type="curve" smooth="yes"/>
       <point x="489" y="251"/>
       <point x="497" y="254"/>
     </contour>
     <contour>
       <point x="255" y="110" type="curve" smooth="yes"/>
-      <point x="283" y="132"/>
-      <point x="275" y="126"/>
+      <point x="271" y="122"/>
+      <point x="291" y="132"/>
       <point x="311" y="142" type="curve" smooth="yes"/>
-      <point x="322" y="147"/>
+      <point x="321.807" y="147.404"/>
       <point x="329" y="150"/>
       <point x="332" y="150" type="curve" smooth="yes"/>
       <point x="335" y="150"/>
@@ -97,7 +114,7 @@
       <point x="224" y="72"/>
       <point x="230" y="82" type="curve" smooth="yes"/>
       <point x="236" y="92"/>
-      <point x="244" y="101"/>
+      <point x="243.63" y="101.472"/>
     </contour>
     <contour>
       <point x="769" y="518" type="curve" smooth="yes"/>

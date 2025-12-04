@@ -2,6 +2,23 @@
 <glyph name="uniEC26" format="2">
   <advance width="1172"/>
   <unicode hex="EC26"/>
+  <anchor x="280" y="677" name="Auxiliary"/>
+  <anchor x="0" y="20" name="Borzaya"/>
+  <anchor x="0" y="557" name="PitchMark"/>
+  <anchor x="1095" y="350" name="FinalPitch"/>
+  <anchor x="540" y="150" name="Lomka"/>
+  <anchor x="0" y="-30" name="Tikhaya"/>
+  <anchor x="1050" y="500" name="Zevok"/>
+  <anchor x="50" y="660" name="Kachka"/>
+  <anchor x="50" y="-50" name="Kupnaya"/>
+  <anchor x="1080" y="660" name="Podvertka"/>
+  <anchor x="845" y="920" name="Flexion"/>
+  <anchor x="0" y="-100" name="Podtinka"/>
+  <anchor x="865" y="940" name="TonalRange"/>
+  <anchor x="1172" y="584" name="Zaderzhka"/>
+  <anchor x="205" y="500" name="Omet"/>
+  <anchor x="995" y="485" name="Tochka"/>
+  <anchor x="844" y="530" name="Podchashie"/>
   <outline>
     <contour>
       <point x="1106" y="689" type="curve" smooth="yes"/>
@@ -236,4 +253,47 @@
       <point x="152" y="385"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>249</integer>
+            <key>width</key>
+            <integer>136</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>556</integer>
+            <key>width</key>
+            <integer>134</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>157</integer>
+            <key>width</key>
+            <integer>70</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>480</integer>
+            <key>width</key>
+            <integer>149</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>655</integer>
+            <key>width</key>
+            <integer>7</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

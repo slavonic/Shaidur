@@ -2,6 +2,7 @@
 <glyph name="uniEE8B" format="2">
   <advance width="230"/>
   <unicode hex="EE8B"/>
+  <anchor x="415" y="220" name="FinalPitch"/>
   <anchor x="540" y="150" name="Lomka"/>
   <anchor x="0" y="-30" name="Tikhaya"/>
   <anchor x="0" y="150" name="Borzaya"/>

@@ -2,6 +2,8 @@
 <glyph name="uniEEB5" format="2">
   <advance width="890"/>
   <unicode hex="EEB5"/>
+  <anchor x="1065" y="300" name="FinalPitch"/>
+  <anchor x="210" y="580" name="PitchMark"/>
   <anchor x="805" y="150" name="Lomka"/>
   <anchor x="0" y="100" name="Tikhaya"/>
   <anchor x="0" y="150" name="Borzaya"/>
@@ -16,8 +18,7 @@
   <anchor x="900" y="460" name="Zaderzhka"/>
   <anchor x="755" y="300" name="Omet"/>
   <anchor x="755" y="325" name="Tochka"/>
-  <anchor x="643" y="245" name="Podchashie"/>
-  <anchor x="0" y="500" name="PitchMark"/>
+  <anchor x="651" y="245" name="Podchashie"/>
   <outline>
     <contour>
       <point x="784" y="576" type="curve" smooth="yes"/>
@@ -62,8 +63,8 @@
       <point x="168" y="55"/>
       <point x="170" y="83"/>
       <point x="170" y="115" type="curve"/>
-      <point x="170.074" y="144.973"/>
-      <point x="167.105" y="199.14"/>
+      <point x="170" y="145"/>
+      <point x="167" y="199"/>
       <point x="163" y="208" type="curve"/>
       <point x="157" y="222"/>
       <point x="159" y="225"/>

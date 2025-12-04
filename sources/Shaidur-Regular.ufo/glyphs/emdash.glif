@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="emdash" format="2">
-  <advance width="1000"/>
+  <advance width="533"/>
   <unicode hex="2014"/>
   <outline>
     <contour>
-      <point x="0" y="257" type="line"/>
-      <point x="1000" y="257" type="line"/>
-      <point x="1000" y="194" type="line"/>
-      <point x="0" y="194" type="line"/>
+      <point x="46" y="329" type="curve"/>
+      <point x="518" y="329" type="line"/>
+      <point x="496" y="318"/>
+      <point x="488" y="298"/>
+      <point x="488" y="297" type="curve" smooth="yes"/>
+      <point x="16" y="297" type="line"/>
+      <point x="16" y="297"/>
+      <point x="25" y="318"/>
     </contour>
   </outline>
   <lib>
@@ -18,9 +22,9 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>194</integer>
+            <integer>297</integer>
             <key>width</key>
-            <integer>63</integer>
+            <integer>32</integer>
           </dict>
         </array>
       </dict>

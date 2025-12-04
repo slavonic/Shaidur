@@ -2,13 +2,15 @@
 <glyph name="uniEE9B" format="2">
   <advance width="790"/>
   <unicode hex="EE9B"/>
+  <anchor x="120" y="520" name="PitchMark"/>
+  <anchor x="450" y="800" name="Auxiliary"/>
+  <anchor x="790" y="730" name="FinalPitch"/>
+  <anchor x="465" y="660" name="Kachka"/>
   <anchor x="-340" y="150" name="Lomka"/>
   <anchor x="0" y="100" name="Tikhaya"/>
   <anchor x="0" y="150" name="Borzaya"/>
   <anchor x="800" y="350" name="Zevok"/>
-  <anchor x="50" y="660" name="Kachka"/>
   <anchor x="50" y="-50" name="Kupnaya"/>
-  <anchor x="425" y="660" name="Auxiliary"/>
   <anchor x="800" y="380" name="Podvertka"/>
   <anchor x="555" y="640" name="Flexion"/>
   <anchor x="0" y="-140" name="Podtinka"/>
@@ -16,8 +18,7 @@
   <anchor x="800" y="460" name="Zaderzhka"/>
   <anchor x="655" y="300" name="Omet"/>
   <anchor x="655" y="325" name="Tochka"/>
-  <anchor x="543" y="245" name="Podchashie"/>
-  <anchor x="0" y="500" name="PitchMark"/>
+  <anchor x="587" y="200" name="Podchashie"/>
   <outline>
     <contour>
       <point x="684" y="576" type="curve" smooth="yes"/>
@@ -41,14 +42,14 @@
       <point x="660" y="451"/>
       <point x="635" y="439"/>
       <point x="603" y="414" type="curve" smooth="yes"/>
-      <point x="569.95" y="389.212"/>
-      <point x="535.207" y="359.911"/>
-      <point x="498.348" y="325.672" type="curve"/>
+      <point x="570" y="389"/>
+      <point x="535" y="360"/>
+      <point x="498" y="326" type="curve"/>
       <point x="466" y="6" type="line"/>
       <point x="444" y="0" type="line"/>
-      <point x="474.691" y="303.299" type="line"/>
-      <point x="470.159" y="298.938"/>
-      <point x="465.596" y="294.506"/>
+      <point x="475" y="303" type="line"/>
+      <point x="470" y="299"/>
+      <point x="466" y="295"/>
       <point x="461" y="290" type="curve" smooth="yes"/>
       <point x="410" y="240"/>
       <point x="355" y="182"/>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1CF2C.ss04" format="2">
+  <advance width="0"/>
+  <unicode hex="EE3C"/>
+  <anchor x="94" y="651" name="_Auxiliary"/>
+  <outline>
+    <contour>
+      <point x="37" y="567" type="curve" smooth="yes"/>
+      <point x="24" y="567"/>
+      <point x="19" y="577"/>
+      <point x="19" y="591" type="curve" smooth="yes"/>
+      <point x="19" y="616"/>
+      <point x="36" y="646"/>
+      <point x="51" y="657" type="curve" smooth="yes"/>
+      <point x="57" y="661"/>
+      <point x="62" y="663"/>
+      <point x="68" y="663" type="curve"/>
+      <point x="77" y="662"/>
+      <point x="84" y="658"/>
+      <point x="84" y="652" type="curve" smooth="yes"/>
+      <point x="84" y="650"/>
+      <point x="83" y="647"/>
+      <point x="80" y="644" type="curve" smooth="yes"/>
+      <point x="70" y="633"/>
+      <point x="53" y="617"/>
+      <point x="53" y="594" type="curve" smooth="yes"/>
+      <point x="53" y="581"/>
+      <point x="50" y="567"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>567</integer>
+            <key>width</key>
+            <integer>96</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>19</integer>
+            <key>width</key>
+            <integer>34</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

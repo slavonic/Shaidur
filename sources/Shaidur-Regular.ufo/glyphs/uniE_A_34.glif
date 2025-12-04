@@ -4,12 +4,12 @@
   <unicode hex="EA34"/>
   <outline>
     <contour>
-      <point x="-46" y="95" type="line"/>
-      <point x="-198" y="-7" type="line"/>
-      <point x="-130" y="277" type="line"/>
-      <point x="-96" y="301" type="line"/>
-      <point x="-143" y="102" type="line"/>
-      <point x="-28" y="176" type="line"/>
+      <point x="-83.3086" y="95" type="line"/>
+      <point x="-249.644" y="-7" type="line"/>
+      <point x="-141.729" y="277" type="line"/>
+      <point x="-104.356" y="301" type="line"/>
+      <point x="-179.324" y="102" type="line"/>
+      <point x="-53.9238" y="176" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -23,15 +23,6 @@
             <integer>-7</integer>
             <key>width</key>
             <integer>308</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-198</integer>
-            <key>width</key>
-            <integer>170</integer>
           </dict>
         </array>
       </dict>
