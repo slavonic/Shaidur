@@ -1098,7 +1098,6 @@ lookup ss02KalashnikovMechikVariants {
     sub \u1CFAA by \uniEF77 ;
     sub \u1CFAB by \uniEF79 ;
     sub \u1CF5A by \uniEA8F ;
-    sub \u1CF5D by \u1CF5D.ss03 ;
     sub \uniEB34 by \uniEF62 ;
     sub \uniEB32 by \uniEF63 ;
     sub \uniEB3F by \uniEF6F ;
@@ -1155,39 +1154,6 @@ lookup ContextualPreContraction {
   lookupflag IgnoreMarks;
     sub  \uniEAD0' \u1CF7B   by \u1CF75;
 } ContextualPreContraction;
-
-lookup DemestvennyContractedVariants {
-  lookupflag 0;
-    sub \uniEB38 by \uniEB5B ;
-    sub \uniEB39 by \uniEB5C ;
-    sub \u1CF75 by \uniEB5A ;
-    sub \u1CF77 by \uniEB5D ;
-    sub \u1CF7B by \uniEB5E ;
-    sub \u1CFA9 by \uniEB5A ;
-    sub \u1CFAB by \uniEB5D ;
-    sub \uniEF69 by \uniEB5A ;
-    sub \uniEF6A by \uniEB5B ;
-    sub \uniEF6C by \uniEB5C ;
-    sub \uniEF79 by \uniEB5D ;
-} DemestvennyContractedVariants;
-
-lookup ss03ContextualDemestvennyContraction {
-  lookupflag IgnoreMarks;
-    sub \u1CF54  \u1CFA9'lookup DemestvennyContractedVariants   ;
-    sub \u1CF54  \uniEB38'lookup DemestvennyContractedVariants   ;
-    sub \u1CF54  \uniEB39'lookup DemestvennyContractedVariants   ;
-    sub \u1CFA9  \u1CFAB'lookup DemestvennyContractedVariants   ;
-    sub \u1CF75  \u1CF7B'lookup DemestvennyContractedVariants   ;
-    sub \u1CF54  \uniEF69'lookup DemestvennyContractedVariants   ;
-    sub \u1CF54  \uniEF6C'lookup DemestvennyContractedVariants   ;
-    sub \u1CF54  \uniEF6A'lookup DemestvennyContractedVariants   ;
-    sub \uniEF69  \uniEF79'lookup DemestvennyContractedVariants   ;
-    sub \u1CF75  \uniEF69'lookup DemestvennyContractedVariants   ;
-    sub \u1CF75  \uniEF6C'lookup DemestvennyContractedVariants   ;
-    sub \u1CF75  \uniEF6A'lookup DemestvennyContractedVariants   ;
-    sub \u1CF54  \uniEF79'lookup DemestvennyContractedVariants   ;
-    sub \u1CF75  \uniEF79'lookup DemestvennyContractedVariants   ;
-} ss03ContextualDemestvennyContraction;
 
 lookup ss04StyleSet4BlackMarks {
   lookupflag 0;
@@ -1339,19 +1305,16 @@ feature ss03 {
      language dflt ;
       lookup ss02KalashnikovMechikVariants;
       lookup ContextualPreContraction;
-      lookup ss03ContextualDemestvennyContraction;
 
  script cyrl;
      language dflt ;
       lookup ss02KalashnikovMechikVariants;
       lookup ContextualPreContraction;
-      lookup ss03ContextualDemestvennyContraction;
 
  script latn;
      language dflt ;
       lookup ss02KalashnikovMechikVariants;
       lookup ContextualPreContraction;
-      lookup ss03ContextualDemestvennyContraction;
 } ss03;
 
 feature ss04 {
@@ -1377,49 +1340,17 @@ feature ss04 {
 
 lookup DemestvennySpecificKerning {
   lookupflag IgnoreMarks;
-    @kc23_first_1 = [\uniEA60 \uniEA64 \uniEA67 \uniEA6C \uniEA77 \uniEA7A \uniEA8D \uniEAC6 \uniEAC9 
+    @kc21_first_1 = [\uniEA60 \uniEA64 \uniEA67 \uniEA6C \uniEA77 \uniEA7A \uniEA8D \uniEAC6 \uniEAC9 
 	\uniEAD0 \uniEAD8 \uniEADA \uniEADC \uniEB17 \uniEB1D \uniEB24 \uniEB27 
 	\uniEB33 \uniEB38 \uniEB3D \uniEB41 \uniEF61 \uniEF6A \uniEF6E \uniEF72 
 	\uniEF7B \uniF4D8 ];
-    @kc23_second_1 = [\uniEAA3 \uniEAA4 \uniEAA5 \uniEAA6 \uniEAA7 \uniEAA8 \uniEAA9 \uniEAAA \uniEAAB 
+    @kc21_second_1 = [\uniEAA3 \uniEAA4 \uniEAA5 \uniEAA6 \uniEAA7 \uniEAA8 \uniEAA9 \uniEAAA \uniEAAB 
 	\uniEAAD \uniEAAE \uniEAAF \uniEAB0 \uniEAB1 \uniEAB2 \uniEAB3 \uniEAB4 
 	\uniEAB6 \uniEAB7 \uniEAB8 \uniEAB9 \uniEABA \uniEABB \uniEABC \uniEABD 
 	\u1CF60 \u1CF61 \u1CF62 \u1CF63 \u1CF64 \u1CF65 \u1CF66 \u1CF67 \u1CF68 
 	\u1CF69 \u1CF6A ];
-    @kc23_second_2 = [\u1CF5D.ss03 \u1CF5D ];
-    pos @kc23_first_1 @kc23_second_1 -140;
-    pos @kc23_first_1 @kc23_second_2 -125;
+    pos @kc21_first_1 @kc21_second_1 -140;
 } DemestvennySpecificKerning;
-
-lookup kernss01OldstyleDemestvennykerning {
-  lookupflag IgnoreMarks;
-    @kc24_first_1 = [\uniEA76 \uniEB26 \uniEB2D \uniEB30 \uniEB3C \uniF400 \uniF401 \uniF40A \uniF41A 
-	\uniF41B \uniF4D6 \uniEFA1 \uniF4FC \uniF504 \uniF544 \uniF545 \uniF564 
-	\uniF565 \uniF56A \uniF56B \uniF570 \uniF571 \uniF57C \uniF57D \uniF59C 
-	\uniF5B6 \u1CF50 \u1CF53 \u1CF54 \u1CF55 \u1CF72 \u1CF75 \u1CF76 \u1CF79 
-	\u1CF7A \u1CF96 \u1CF98 \u1CF9B \u1CF9D \u1CFA9 \u1CFAA ];
-    @kc24_second_1 = [\uniEA60 \uniEA61 \uniEA62 \uniEA6C \uniEA6D \uniEA6E \uniEA6F \uniEA7D \uniEA7E 
-	\uniEA7F \uniEA81 \uniEA82 \uniEA83 \uniEA85 \uniEA86 \uniEB33 \uniEB34 
-	\uniEB38 \uniEB39 \uniEB3A \uniEB3C \uniEB3D \uniEB3E \uniEB3F \uniEC12 
-	\uniEC17 \u1CF50 \u1CF54 \u1CF56 \u1CF59 \u1CFA7 \u1CFA9 \u1CFAA \u1CFAB ];
-    pos @kc24_first_1 @kc24_second_1 -140;
-} kernss01OldstyleDemestvennykerning;
-
-lookup kernss02NewstyleDemestvennykerning {
-  lookupflag IgnoreMarks;
-    @kc25_first_1 = [\uniEA76 \uniEA8C \uniEB26 \uniEB2D \uniEB30 \uniEB5A \uniF400 \uniF401 \uniF40A 
-	\uniF41A \uniF41B \uniF4D6 \uniF4FC \uniF504 \uniF544 \uniF545 \uniF564 
-	\uniF565 \uniF56A \uniF56B \uniF570 \uniF571 \uniF57C \uniF57D \uniEF69 
-	\uniEF7B \uniEF7C \uniEF98 \uniEF99 \uniEF9A \uniEF9B \uniEF9C \uniF5D0 
-	\uniEF6D \uniEF77 \uniF5EA \u1CF50 \u1CF52 \u1CF53 \u1CF54 \u1CF55 
-	\u1CF72 \u1CF75 \u1CF76 \u1CF79 \u1CF7A \u1CF96 \u1CF98 \u1CF9B \u1CF9D ];
-    @kc25_second_1 = [\uniEA60 \uniEA61 \uniEA62 \uniEA6C \uniEA6D \uniEA6E \uniEA6F \uniEA7D \uniEA7E 
-	\uniEA7F \uniEA81 \uniEA82 \uniEA83 \uniEA85 \uniEA86 \uniEC12 \uniEC17 
-	\uniEF60 \uniEF61 \uniEF62 \uniEF69 \uniEF6A \uniEF6B \uniEF6C \uniEF6D 
-	\uniEF6E \uniEF6F \uniEF70 \uniEF77 \uniEF79 \uniEF7B \uniEF7C \u1CF50 
-	\u1CF54 \u1CF56 \u1CF59 ];
-    pos @kc25_first_1 @kc25_second_1 -140;
-} kernss02NewstyleDemestvennykerning;
 
 lookup ss10EqualBaselineLookup {
   lookupflag 0;
@@ -9105,17 +9036,14 @@ feature ss01 {
  script DFLT;
      language dflt ;
       lookup DemestvennySpecificKerning;
-      lookup kernss01OldstyleDemestvennykerning;
 
  script cyrl;
      language dflt ;
       lookup DemestvennySpecificKerning;
-      lookup kernss01OldstyleDemestvennykerning;
 
  script latn;
      language dflt ;
       lookup DemestvennySpecificKerning;
-      lookup kernss01OldstyleDemestvennykerning;
 } ss01;
 
 feature ss02 {
@@ -9126,36 +9054,15 @@ feature ss02 {
  script DFLT;
      language dflt ;
       lookup DemestvennySpecificKerning;
-      lookup kernss02NewstyleDemestvennykerning;
 
  script cyrl;
      language dflt ;
       lookup DemestvennySpecificKerning;
-      lookup kernss02NewstyleDemestvennykerning;
 
  script latn;
      language dflt ;
       lookup DemestvennySpecificKerning;
-      lookup kernss02NewstyleDemestvennykerning;
 } ss02;
-
-feature ss03 {
-  featureNames {
-    name 3 1 0x409 "New-style Contracted Demestvenny";
-  };
-
- script DFLT;
-     language dflt ;
-      lookup kernss02NewstyleDemestvennykerning;
-
- script cyrl;
-     language dflt ;
-      lookup kernss02NewstyleDemestvennykerning;
-
- script latn;
-     language dflt ;
-      lookup kernss02NewstyleDemestvennykerning;
-} ss03;
 
 feature ss10 {
   featureNames {
