@@ -2,13 +2,13 @@
 <glyph name="uniEE5C" format="2">
   <advance width="0"/>
   <unicode hex="EE5C"/>
-  <anchor x="0" y="-50" name="_Podtinka"/>
+  <anchor x="-542" y="-20" name="_Podtinka"/>
   <outline>
     <contour>
-      <point x="30" y="-50" type="line"/>
-      <point x="166" y="-50" type="line"/>
-      <point x="166" y="-98" type="line"/>
-      <point x="30" y="-98" type="line"/>
+      <point x="-512" y="-20" type="line"/>
+      <point x="-376" y="-20" type="line"/>
+      <point x="-376" y="-68" type="line"/>
+      <point x="-512" y="-68" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -19,7 +19,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-98</integer>
+            <integer>-68</integer>
             <key>width</key>
             <integer>48</integer>
           </dict>
@@ -28,7 +28,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>30</integer>
+            <integer>-512</integer>
             <key>width</key>
             <integer>136</integer>
           </dict>

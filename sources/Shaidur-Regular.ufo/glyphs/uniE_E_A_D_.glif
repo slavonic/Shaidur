@@ -2,6 +2,8 @@
 <glyph name="uniEEAD" format="2">
   <advance width="290"/>
   <unicode hex="EEAD"/>
+  <anchor x="415" y="220" name="FinalPitch"/>
+  <anchor x="130" y="770" name="PitchMark"/>
   <anchor x="540" y="150" name="Lomka"/>
   <anchor x="0" y="-30" name="Tikhaya"/>
   <anchor x="0" y="150" name="Borzaya"/>
@@ -17,7 +19,6 @@
   <anchor x="30" y="-120" name="Zaderzhka"/>
   <anchor x="205" y="500" name="Omet"/>
   <anchor x="100" y="-30" name="Podchashie"/>
-  <anchor x="0" y="500" name="PitchMark"/>
   <outline>
     <contour>
       <point x="265" y="496" type="line"/>

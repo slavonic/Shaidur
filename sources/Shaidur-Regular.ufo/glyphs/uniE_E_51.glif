@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uniEE51" format="2">
-  <advance width="1"/>
+  <advance width="0"/>
   <unicode hex="EE51"/>
-  <anchor x="-375" y="500" name="_TonalRange"/>
+  <anchor x="-245" y="698" name="_TonalRange"/>
   <outline>
     <contour>
-      <point x="-539" y="397" type="line"/>
-      <point x="-529" y="426"/>
-      <point x="-500" y="456"/>
-      <point x="-471" y="463" type="curve"/>
-      <point x="-455" y="466" type="line"/>
-      <point x="-465" y="342" type="line"/>
-      <point x="-500" y="336"/>
-      <point x="-535" y="302"/>
-      <point x="-551" y="270" type="curve"/>
+      <point x="-409" y="595" type="line"/>
+      <point x="-399" y="624"/>
+      <point x="-370" y="654"/>
+      <point x="-341" y="661" type="curve"/>
+      <point x="-325" y="664" type="line"/>
+      <point x="-335" y="540" type="line"/>
+      <point x="-370" y="534"/>
+      <point x="-405" y="500"/>
+      <point x="-421" y="468" type="curve"/>
     </contour>
     <contour>
-      <point x="-409" y="516" type="line"/>
-      <point x="-399" y="545"/>
-      <point x="-370" y="576"/>
-      <point x="-341" y="581" type="curve"/>
-      <point x="-325" y="585" type="line"/>
-      <point x="-335" y="461" type="line"/>
-      <point x="-370" y="455"/>
-      <point x="-405" y="421"/>
-      <point x="-421" y="389" type="curve"/>
+      <point x="-279" y="714" type="line"/>
+      <point x="-269" y="743"/>
+      <point x="-240" y="774"/>
+      <point x="-211" y="779" type="curve"/>
+      <point x="-195" y="783" type="line"/>
+      <point x="-205" y="659" type="line"/>
+      <point x="-240" y="653"/>
+      <point x="-275" y="619"/>
+      <point x="-291" y="587" type="curve"/>
     </contour>
   </outline>
   <lib>
@@ -35,16 +35,22 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>270</integer>
+            <integer>468</integer>
             <key>width</key>
             <integer>315</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>644</integer>
+            <key>width</key>
+            <integer>20</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>-551</integer>
+            <integer>-421</integer>
             <key>width</key>
             <integer>226</integer>
           </dict>

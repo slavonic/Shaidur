@@ -2,8 +2,10 @@
 <glyph name="uniEEB3" format="2">
   <advance width="960"/>
   <unicode hex="EEB3"/>
+  <anchor x="1065" y="300" name="FinalPitch"/>
+  <anchor x="210" y="580" name="PitchMark"/>
   <anchor x="875" y="150" name="Lomka"/>
-  <anchor x="0" y="-10" name="Tikhaya"/>
+  <anchor x="0" y="-30" name="Tikhaya"/>
   <anchor x="0" y="150" name="Borzaya"/>
   <anchor x="970" y="350" name="Zevok"/>
   <anchor x="50" y="660" name="Kachka"/>
@@ -16,8 +18,7 @@
   <anchor x="970" y="460" name="Zaderzhka"/>
   <anchor x="805" y="300" name="Omet"/>
   <anchor x="805" y="325" name="Tochka"/>
-  <anchor x="697" y="65" name="Podchashie"/>
-  <anchor x="0" y="500" name="PitchMark"/>
+  <anchor x="717" y="68" name="Podchashie"/>
   <outline>
     <contour>
       <point x="263" y="223" type="curve" smooth="yes"/>
@@ -117,24 +118,24 @@
       <point x="841" y="576"/>
     </contour>
     <contour>
-      <point x="568" y="120.6" type="line"/>
-      <point x="589" y="181.6"/>
-      <point x="652" y="189.6"/>
-      <point x="652" y="189.6" type="curve"/>
-      <point x="642" y="65.5996" type="line"/>
-      <point x="642" y="65.5996"/>
-      <point x="587" y="56.5996"/>
-      <point x="556" y="-6.40039" type="curve"/>
+      <point x="568" y="121" type="line"/>
+      <point x="589" y="182"/>
+      <point x="652" y="190"/>
+      <point x="652" y="190" type="curve"/>
+      <point x="642" y="66" type="line"/>
+      <point x="642" y="66"/>
+      <point x="587" y="57"/>
+      <point x="556" y="-6" type="curve"/>
     </contour>
     <contour>
-      <point x="698" y="239.6" type="line"/>
-      <point x="719" y="300.6"/>
-      <point x="782" y="308.6"/>
-      <point x="782" y="308.6" type="curve"/>
-      <point x="772" y="184.6" type="line"/>
-      <point x="772" y="184.6"/>
-      <point x="717" y="175.6"/>
-      <point x="686" y="112.6" type="curve"/>
+      <point x="698" y="240" type="line"/>
+      <point x="719" y="301"/>
+      <point x="782" y="309"/>
+      <point x="782" y="309" type="curve"/>
+      <point x="772" y="185" type="line"/>
+      <point x="772" y="185"/>
+      <point x="717" y="176"/>
+      <point x="686" y="113" type="curve"/>
     </contour>
   </outline>
   <lib>

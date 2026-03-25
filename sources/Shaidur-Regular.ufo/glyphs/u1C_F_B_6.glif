@@ -2,6 +2,23 @@
 <glyph name="u1CFB6" format="2">
   <advance width="1022"/>
   <unicode hex="1CFB6"/>
+  <anchor x="865" y="590" name="TonalRange"/>
+  <anchor x="1022" y="400" name="Zaderzhka"/>
+  <anchor x="755" y="570" name="Flexion"/>
+  <anchor x="280" y="677" name="Auxiliary"/>
+  <anchor x="970" y="320" name="Zevok"/>
+  <anchor x="0" y="200" name="Tikhaya"/>
+  <anchor x="60" y="515" name="PitchMark"/>
+  <anchor x="1162" y="282" name="FinalPitch"/>
+  <anchor x="705" y="150" name="Lomka"/>
+  <anchor x="0" y="130" name="Borzaya"/>
+  <anchor x="50" y="660" name="Kachka"/>
+  <anchor x="50" y="-50" name="Kupnaya"/>
+  <anchor x="850" y="380" name="Podvertka"/>
+  <anchor x="0" y="-140" name="Podtinka"/>
+  <anchor x="725" y="300" name="Omet"/>
+  <anchor x="725" y="325" name="Tochka"/>
+  <anchor x="637" y="83" name="Podchashie"/>
   <outline>
     <contour>
       <point x="756" y="230" type="curve"/>
@@ -76,15 +93,15 @@
       <point x="270" y="2"/>
       <point x="270" y="4" type="curve" smooth="yes"/>
       <point x="270" y="14"/>
-      <point x="328" y="125"/>
-      <point x="444" y="337" type="curve" smooth="yes"/>
-      <point x="449" y="345"/>
-      <point x="454" y="358"/>
-      <point x="463" y="358" type="curve" smooth="yes"/>
-      <point x="472" y="358"/>
-      <point x="479" y="347"/>
-      <point x="473" y="337" type="curve" smooth="yes"/>
-      <point x="457" y="313"/>
+      <point x="348" y="175"/>
+      <point x="464" y="387" type="curve" smooth="yes"/>
+      <point x="469" y="395"/>
+      <point x="474" y="408"/>
+      <point x="483" y="408" type="curve" smooth="yes"/>
+      <point x="492" y="408"/>
+      <point x="499" y="397"/>
+      <point x="493" y="387" type="curve" smooth="yes"/>
+      <point x="477" y="363"/>
       <point x="435" y="273"/>
       <point x="407" y="217" type="curve" smooth="yes"/>
       <point x="394" y="191" type="line"/>

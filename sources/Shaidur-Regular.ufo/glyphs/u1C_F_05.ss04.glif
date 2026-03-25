@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1CF05.ss04" format="2">
+  <advance width="0"/>
+  <unicode hex="EE05"/>
+  <anchor x="45" y="553" name="Stacking"/>
+  <anchor x="-130" y="448" name="_Stacking"/>
+  <anchor x="160" y="533" name="_PitchMark"/>
+  <outline>
+    <contour>
+      <point x="42" y="438" type="curve" smooth="yes"/>
+      <point x="23" y="438"/>
+      <point x="11" y="455"/>
+      <point x="11" y="473" type="curve" smooth="yes"/>
+      <point x="11" y="492"/>
+      <point x="25" y="506"/>
+      <point x="45" y="506" type="curve" smooth="yes"/>
+      <point x="62" y="506"/>
+      <point x="76" y="492"/>
+      <point x="76" y="474" type="curve" smooth="yes"/>
+      <point x="76" y="455"/>
+      <point x="61" y="438"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>438</integer>
+            <key>width</key>
+            <integer>68</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>11</integer>
+            <key>width</key>
+            <integer>65</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

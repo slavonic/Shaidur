@@ -13,7 +13,7 @@
     <key>versionMajor</key>
     <integer>0</integer>
     <key>versionMinor</key>
-    <integer>9</integer>
+    <integer>91</integer>
     <key>copyright</key>
     <string>Copyright 2025 The Shaidur Project Authors (https:\/\/github.com\/slavonic\/Shaidur)</string>
     <key>unitsPerEm</key>
@@ -30,15 +30,15 @@ See README for more information.</string>
     <key>openTypeHeadCreated</key>
     <string>2014/04/19 11:13:16</string>
     <key>openTypeHheaAscender</key>
-    <integer>892</integer>
+    <integer>986</integer>
     <key>openTypeHheaDescender</key>
     <integer>-402</integer>
     <key>openTypeHheaLineGap</key>
-    <integer>50</integer>
+    <integer>0</integer>
     <key>openTypeNameDesigner</key>
-    <string>Slavonic Computing Initiative</string>
+    <string>Aleksandr Andreev and Nikita Simmons</string>
     <key>openTypeNameVersion</key>
-    <string>Version 0.009</string>
+    <string>Version 0.091</string>
     <key>openTypeOS2WidthClass</key>
     <integer>5</integer>
     <key>openTypeOS2WeightClass</key>
@@ -55,17 +55,15 @@ See README for more information.</string>
       <integer>7</integer>
     </array>
     <key>openTypeOS2Type</key>
-    <array>
-      <integer>3</integer>
-    </array>
+    <array/>
     <key>openTypeOS2TypoAscender</key>
-    <integer>800</integer>
+    <integer>986</integer>
     <key>openTypeOS2TypoDescender</key>
-    <integer>-200</integer>
+    <integer>-402</integer>
     <key>openTypeOS2TypoLineGap</key>
-    <integer>50</integer>
+    <integer>0</integer>
     <key>openTypeOS2WinAscent</key>
-    <integer>892</integer>
+    <integer>986</integer>
     <key>openTypeOS2WinDescent</key>
     <integer>402</integer>
     <key>postscriptFontName</key>
@@ -119,6 +117,22 @@ See README for more information.</string>
     <real>0.039625</real>
     <key>guidelines</key>
     <array>
+      <dict>
+        <key>x</key>
+        <real>500</real>
+        <key>y</key>
+        <real>1000</real>
+        <key>angle</key>
+        <real>0</real>
+      </dict>
+      <dict>
+        <key>x</key>
+        <real>500</real>
+        <key>y</key>
+        <real>677.4</real>
+        <key>angle</key>
+        <real>0</real>
+      </dict>
       <dict>
         <key>x</key>
         <real>500</real>

@@ -2,13 +2,15 @@
 <glyph name="uniEEE8" format="2">
   <advance width="790"/>
   <unicode hex="EEE8"/>
+  <anchor x="120" y="520" name="PitchMark"/>
+  <anchor x="450" y="800" name="Auxiliary"/>
+  <anchor x="905" y="300" name="FinalPitch"/>
+  <anchor x="465" y="660" name="Kachka"/>
   <anchor x="705" y="150" name="Lomka"/>
   <anchor x="0" y="100" name="Tikhaya"/>
   <anchor x="0" y="150" name="Borzaya"/>
   <anchor x="800" y="350" name="Zevok"/>
-  <anchor x="50" y="660" name="Kachka"/>
   <anchor x="50" y="-50" name="Kupnaya"/>
-  <anchor x="425" y="660" name="Auxiliary"/>
   <anchor x="800" y="380" name="Podvertka"/>
   <anchor x="555" y="640" name="Flexion"/>
   <anchor x="0" y="-140" name="Podtinka"/>
@@ -16,8 +18,7 @@
   <anchor x="800" y="460" name="Zaderzhka"/>
   <anchor x="695" y="300" name="Omet"/>
   <anchor x="695" y="325" name="Tochka"/>
-  <anchor x="557" y="57" name="Podchashie"/>
-  <anchor x="0" y="500" name="PitchMark"/>
+  <anchor x="530" y="45" name="Podchashie"/>
   <outline>
     <contour>
       <point x="106" y="247" type="line"/>
@@ -81,34 +82,34 @@
       <point x="671" y="576"/>
     </contour>
     <contour>
-      <point x="340" y="59.4004" type="line"/>
-      <point x="361" y="120.4"/>
-      <point x="424" y="129.4"/>
-      <point x="424" y="129.4" type="curve"/>
-      <point x="414" y="5.40039" type="line"/>
-      <point x="414" y="5.40039"/>
-      <point x="359" y="-3.59961"/>
-      <point x="328" y="-66.5996" type="curve"/>
+      <point x="340" y="59" type="line"/>
+      <point x="361" y="120"/>
+      <point x="424" y="129"/>
+      <point x="424" y="129" type="curve"/>
+      <point x="414" y="5" type="line"/>
+      <point x="414" y="5"/>
+      <point x="359" y="-4"/>
+      <point x="328" y="-67" type="curve"/>
     </contour>
     <contour>
-      <point x="601" y="297.4" type="line"/>
-      <point x="622" y="358.4"/>
-      <point x="685" y="367.4"/>
-      <point x="685" y="367.4" type="curve"/>
-      <point x="674" y="243.4" type="line"/>
-      <point x="674" y="243.4"/>
-      <point x="620" y="234.4"/>
-      <point x="589" y="171.4" type="curve"/>
+      <point x="601" y="297" type="line"/>
+      <point x="622" y="358"/>
+      <point x="685" y="367"/>
+      <point x="685" y="367" type="curve"/>
+      <point x="674" y="243" type="line"/>
+      <point x="674" y="243"/>
+      <point x="620" y="234"/>
+      <point x="589" y="171" type="curve"/>
     </contour>
     <contour>
-      <point x="470" y="178.4" type="line"/>
-      <point x="491" y="239.4"/>
-      <point x="554" y="248.4"/>
-      <point x="554" y="248.4" type="curve"/>
-      <point x="544" y="124.4" type="line"/>
-      <point x="544" y="124.4"/>
-      <point x="489" y="115.4"/>
-      <point x="458" y="52.4004" type="curve"/>
+      <point x="470" y="178" type="line"/>
+      <point x="491" y="239"/>
+      <point x="554" y="248"/>
+      <point x="554" y="248" type="curve"/>
+      <point x="544" y="124" type="line"/>
+      <point x="544" y="124"/>
+      <point x="489" y="115"/>
+      <point x="458" y="52" type="curve"/>
     </contour>
   </outline>
   <lib>

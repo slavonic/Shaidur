@@ -4,30 +4,30 @@
   <unicode hex="EE60"/>
   <outline>
     <contour>
-      <point x="-76" y="209" type="curve"/>
-      <point x="-82" y="145"/>
-      <point x="-90" y="72"/>
-      <point x="-90" y="72" type="curve"/>
-      <point x="-112" y="66" type="line"/>
-      <point x="-100" y="197" type="line"/>
-      <point x="-120" y="185"/>
-      <point x="-138" y="168"/>
-      <point x="-149" y="146" type="curve"/>
-      <point x="-137" y="272" type="line"/>
-      <point x="-129" y="295"/>
-      <point x="-109" y="313"/>
-      <point x="-87" y="325" type="curve"/>
-      <point x="-79" y="406" type="line"/>
-      <point x="-56" y="414" type="line"/>
-      <point x="-60" y="371"/>
-      <point x="-60" y="380"/>
-      <point x="-64" y="336" type="curve"/>
-      <point x="-36" y="348"/>
-      <point x="-12" y="352"/>
-      <point x="-12" y="352" type="curve"/>
-      <point x="-22" y="228" type="line"/>
-      <point x="-22" y="228"/>
-      <point x="-47" y="222"/>
+      <point x="82" y="211" type="curve"/>
+      <point x="76" y="147"/>
+      <point x="68" y="74"/>
+      <point x="68" y="74" type="curve"/>
+      <point x="46" y="68" type="line"/>
+      <point x="58" y="199" type="line"/>
+      <point x="38" y="187"/>
+      <point x="20" y="170"/>
+      <point x="9" y="148" type="curve"/>
+      <point x="21" y="274" type="line"/>
+      <point x="29" y="297"/>
+      <point x="49" y="315"/>
+      <point x="71" y="327" type="curve"/>
+      <point x="79" y="408" type="line"/>
+      <point x="102" y="416" type="line"/>
+      <point x="98" y="373"/>
+      <point x="98" y="382"/>
+      <point x="94" y="338" type="curve"/>
+      <point x="122" y="350"/>
+      <point x="146" y="354"/>
+      <point x="146" y="354" type="curve"/>
+      <point x="136" y="230" type="line"/>
+      <point x="136" y="230"/>
+      <point x="111" y="224"/>
     </contour>
   </outline>
   <lib>
@@ -38,7 +38,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-149</integer>
+            <integer>9</integer>
             <key>width</key>
             <integer>137</integer>
           </dict>

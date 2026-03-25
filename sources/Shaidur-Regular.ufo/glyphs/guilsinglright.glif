@@ -1,29 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guilsinglright" format="2">
-  <advance width="259"/>
+  <advance width="129"/>
   <unicode hex="203A"/>
   <outline>
     <contour>
-      <point x="226" y="179" type="line"/>
-      <point x="76" y="7" type="line"/>
-      <point x="58" y="19" type="line"/>
-      <point x="154" y="194" type="line"/>
-      <point x="58" y="367" type="line"/>
-      <point x="76" y="380" type="line"/>
-      <point x="226" y="210" type="line"/>
+      <point x="113" y="290" type="line"/>
+      <point x="38" y="204" type="line"/>
+      <point x="29" y="210" type="line"/>
+      <point x="77" y="297" type="line"/>
+      <point x="29" y="384" type="line"/>
+      <point x="38" y="390" type="line"/>
+      <point x="113" y="305" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.fontlab.hintData</key>
       <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>204</integer>
+            <key>width</key>
+            <integer>186</integer>
+          </dict>
+        </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>58</integer>
+            <integer>29</integer>
             <key>width</key>
-            <integer>168</integer>
+            <integer>84</integer>
           </dict>
         </array>
       </dict>

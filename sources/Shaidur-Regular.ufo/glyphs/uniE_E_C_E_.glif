@@ -2,22 +2,23 @@
 <glyph name="uniEECE" format="2">
   <advance width="625"/>
   <unicode hex="EECE"/>
+  <anchor x="805" y="300" name="FinalPitch"/>
+  <anchor x="250" y="770" name="PitchMark"/>
+  <anchor x="265" y="800" name="Auxiliary"/>
+  <anchor x="555" y="770" name="Kachka"/>
+  <anchor x="570" y="40" name="Borzaya"/>
   <anchor x="540" y="150" name="Lomka"/>
   <anchor x="0" y="160" name="Tikhaya"/>
-  <anchor x="0" y="150" name="Borzaya"/>
   <anchor x="630" y="350" name="Zevok"/>
-  <anchor x="50" y="660" name="Kachka"/>
   <anchor x="50" y="-50" name="Kupnaya"/>
-  <anchor x="265" y="660" name="Auxiliary"/>
-  <anchor x="630" y="380" name="Podvertka"/>
+  <anchor x="690" y="380" name="Podvertka"/>
   <anchor x="395" y="640" name="Flexion"/>
   <anchor x="0" y="-50" name="Podtinka"/>
   <anchor x="415" y="660" name="TonalRange"/>
   <anchor x="630" y="460" name="Zaderzhka"/>
   <anchor x="535" y="300" name="Omet"/>
   <anchor x="535" y="325" name="Tochka"/>
-  <anchor x="402" y="51" name="Podchashie"/>
-  <anchor x="0" y="500" name="PitchMark"/>
+  <anchor x="390" y="75" name="Podchashie"/>
   <outline>
     <contour>
       <point x="519" y="576" type="curve" smooth="yes"/>

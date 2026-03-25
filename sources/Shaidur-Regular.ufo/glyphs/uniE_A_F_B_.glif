@@ -2,6 +2,23 @@
 <glyph name="uniEAFB" format="2">
   <advance width="614"/>
   <unicode hex="EAFB"/>
+  <anchor x="480" y="150" name="Lomka"/>
+  <anchor x="437" y="345" name="Zaderzhka"/>
+  <anchor x="160" y="677" name="Auxiliary"/>
+  <anchor x="0" y="130" name="Borzaya"/>
+  <anchor x="60" y="515" name="PitchMark"/>
+  <anchor x="675" y="160" name="FinalPitch"/>
+  <anchor x="100" y="270" name="Kachka"/>
+  <anchor x="0" y="200" name="Tikhaya"/>
+  <anchor x="614" y="440" name="Zevok"/>
+  <anchor x="50" y="-50" name="Kupnaya"/>
+  <anchor x="220" y="0" name="Podvertka"/>
+  <anchor x="395" y="640" name="Flexion"/>
+  <anchor x="0" y="-100" name="Podtinka"/>
+  <anchor x="415" y="660" name="TonalRange"/>
+  <anchor x="365" y="325" name="Tochka"/>
+  <anchor x="205" y="500" name="Omet"/>
+  <anchor x="160" y="-30" name="Podchashie"/>
   <outline>
     <contour>
       <point x="350" y="498" type="curve" smooth="yes"/>
@@ -173,4 +190,47 @@
       <point x="77" y="117"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-3</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>44</integer>
+            <key>width</key>
+            <integer>119</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>462</integer>
+            <key>width</key>
+            <integer>94</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>284</integer>
+            <key>width</key>
+            <integer>54</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>484</integer>
+            <key>width</key>
+            <integer>18</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

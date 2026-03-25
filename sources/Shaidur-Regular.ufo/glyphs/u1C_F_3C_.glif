@@ -2,35 +2,36 @@
 <glyph name="u1CF3C" format="2">
   <advance width="0"/>
   <unicode hex="1CF3C"/>
+  <anchor x="-28" y="330" name="_Tochka"/>
   <outline>
     <contour>
-      <point x="-8" y="459" type="curve" smooth="yes"/>
-      <point x="-6" y="453"/>
-      <point x="-6" y="446"/>
-      <point x="-8" y="440" type="curve" smooth="yes"/>
-      <point x="-13" y="430"/>
-      <point x="-72" y="347"/>
-      <point x="-79" y="339" type="curve" smooth="yes"/>
-      <point x="-85" y="329"/>
-      <point x="-92" y="331"/>
-      <point x="-97" y="342" type="curve" smooth="yes"/>
-      <point x="-104" y="359"/>
-      <point x="-112" y="376"/>
-      <point x="-122" y="392" type="curve" smooth="yes"/>
-      <point x="-133" y="409"/>
-      <point x="-138" y="419"/>
-      <point x="-138" y="421" type="curve" smooth="yes"/>
-      <point x="-138" y="424" type="line" smooth="yes"/>
-      <point x="-138" y="427"/>
-      <point x="-137" y="432"/>
-      <point x="-133" y="438" type="curve" smooth="yes"/>
-      <point x="-65" y="525" type="line" smooth="yes"/>
-      <point x="-63" y="527"/>
-      <point x="-60" y="529"/>
-      <point x="-59" y="529" type="curve" smooth="yes"/>
-      <point x="-57" y="529" type="line" smooth="yes"/>
-      <point x="-45" y="529"/>
-      <point x="-29" y="505"/>
+      <point x="132" y="299" type="curve" smooth="yes"/>
+      <point x="134" y="293"/>
+      <point x="134" y="286"/>
+      <point x="132" y="280" type="curve" smooth="yes"/>
+      <point x="127" y="270"/>
+      <point x="68" y="187"/>
+      <point x="61" y="179" type="curve" smooth="yes"/>
+      <point x="55" y="169"/>
+      <point x="48" y="171"/>
+      <point x="43" y="182" type="curve" smooth="yes"/>
+      <point x="36" y="199"/>
+      <point x="28" y="216"/>
+      <point x="18" y="232" type="curve" smooth="yes"/>
+      <point x="7" y="249"/>
+      <point x="2" y="259"/>
+      <point x="2" y="261" type="curve" smooth="yes"/>
+      <point x="2" y="264" type="line" smooth="yes"/>
+      <point x="2" y="267"/>
+      <point x="3" y="272"/>
+      <point x="7" y="278" type="curve" smooth="yes"/>
+      <point x="75" y="365" type="line" smooth="yes"/>
+      <point x="77" y="367"/>
+      <point x="80" y="369"/>
+      <point x="81" y="369" type="curve" smooth="yes"/>
+      <point x="83" y="369" type="line" smooth="yes"/>
+      <point x="95" y="369"/>
+      <point x="111" y="345"/>
     </contour>
   </outline>
   <lib>
@@ -41,7 +42,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-138</integer>
+            <integer>2</integer>
             <key>width</key>
             <integer>130</integer>
           </dict>

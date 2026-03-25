@@ -2,22 +2,23 @@
 <glyph name="uniEE78" format="2">
   <advance width="250"/>
   <unicode hex="EE78"/>
+  <anchor x="425" y="300" name="FinalPitch"/>
+  <anchor x="0" y="270" name="Kachka"/>
+  <anchor x="130" y="770" name="PitchMark"/>
+  <anchor x="240" y="50" name="Podvertka"/>
   <anchor x="-200" y="150" name="Lomka"/>
   <anchor x="0" y="180" name="Tikhaya"/>
   <anchor x="250" y="180" name="Zaderzhka"/>
   <anchor x="0" y="150" name="Borzaya"/>
   <anchor x="50" y="0" name="Zevok"/>
-  <anchor x="50" y="660" name="Kachka"/>
   <anchor x="50" y="-50" name="Kupnaya"/>
   <anchor x="265" y="660" name="Auxiliary"/>
-  <anchor x="240" y="0" name="Podvertka"/>
   <anchor x="395" y="640" name="Flexion"/>
   <anchor x="0" y="-50" name="Podtinka"/>
   <anchor x="415" y="660" name="TonalRange"/>
   <anchor x="260" y="325" name="Tochka"/>
   <anchor x="205" y="500" name="Omet"/>
   <anchor x="183" y="0" name="Podchashie"/>
-  <anchor x="-40" y="500" name="PitchMark"/>
   <outline>
     <contour>
       <point x="182" y="190" type="line" smooth="yes"/>

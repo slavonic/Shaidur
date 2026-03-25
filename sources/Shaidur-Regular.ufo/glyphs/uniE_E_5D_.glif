@@ -4,10 +4,10 @@
   <unicode hex="EE5D"/>
   <outline>
     <contour>
-      <point x="52" y="296" type="line"/>
-      <point x="22" y="0" type="line"/>
-      <point x="0" y="0" type="line"/>
-      <point x="30" y="296" type="line"/>
+      <point x="23" y="202" type="line"/>
+      <point x="-7" y="-94" type="line"/>
+      <point x="-29" y="-94" type="line"/>
+      <point x="1" y="202" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -18,7 +18,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>0</integer>
+            <integer>-94</integer>
             <key>width</key>
             <integer>296</integer>
           </dict>
@@ -27,7 +27,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>0</integer>
+            <integer>-29</integer>
             <key>width</key>
             <integer>52</integer>
           </dict>

@@ -2,22 +2,23 @@
 <glyph name="uniEE94" format="2">
   <advance width="520"/>
   <unicode hex="EE94"/>
+  <anchor x="655" y="240" name="FinalPitch"/>
+  <anchor x="375" y="30" name="Podvertka"/>
+  <anchor x="100" y="270" name="Kachka"/>
+  <anchor x="105" y="465" name="Zaderzhka"/>
   <anchor x="540" y="150" name="Lomka"/>
   <anchor x="0" y="200" name="Tikhaya"/>
   <anchor x="0" y="150" name="Borzaya"/>
   <anchor x="140" y="0" name="Zevok"/>
-  <anchor x="50" y="660" name="Kachka"/>
   <anchor x="50" y="-50" name="Kupnaya"/>
   <anchor x="180" y="670" name="Auxiliary"/>
-  <anchor x="220" y="0" name="Podvertka"/>
   <anchor x="395" y="640" name="Flexion"/>
   <anchor x="0" y="-100" name="Podtinka"/>
   <anchor x="415" y="660" name="TonalRange"/>
   <anchor x="530" y="325" name="Tochka"/>
-  <anchor x="30" y="-120" name="Zaderzhka"/>
   <anchor x="205" y="500" name="Omet"/>
   <anchor x="320" y="-30" name="Podchashie"/>
-  <anchor x="0" y="500" name="PitchMark"/>
+  <anchor x="60" y="580" name="PitchMark"/>
   <outline>
     <contour>
       <point x="472" y="-19" type="curve" smooth="yes"/>
@@ -49,8 +50,11 @@
       <point x="472" y="271"/>
       <point x="486" y="230"/>
       <point x="490" y="177" type="curve" smooth="yes"/>
-      <point x="495" y="107"/>
-      <point x="481" y="19"/>
+      <point x="491" y="167"/>
+      <point x="491" y="157"/>
+      <point x="491" y="146" type="curve" smooth="yes"/>
+      <point x="491" y="83"/>
+      <point x="480" y="13"/>
     </contour>
     <contour>
       <point x="244" y="226" type="line"/>
@@ -108,9 +112,9 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>454</integer>
+            <integer>465</integer>
             <key>width</key>
-            <integer>18</integer>
+            <integer>26</integer>
           </dict>
         </array>
       </dict>

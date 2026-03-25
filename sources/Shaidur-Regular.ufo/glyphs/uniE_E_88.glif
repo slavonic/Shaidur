@@ -2,29 +2,33 @@
 <glyph name="uniEE88" format="2">
   <advance width="340"/>
   <unicode hex="EE88"/>
+  <anchor x="485" y="210" name="FinalPitch"/>
+  <anchor x="300" y="60" name="Podvertka"/>
   <anchor x="540" y="150" name="Lomka"/>
   <anchor x="0" y="50" name="Tikhaya"/>
-  <anchor x="350" y="180" name="Zaderzhka"/>
   <anchor x="0" y="150" name="Borzaya"/>
   <anchor x="50" y="0" name="Zevok"/>
   <anchor x="50" y="660" name="Kachka"/>
   <anchor x="50" y="-50" name="Kupnaya"/>
   <anchor x="265" y="660" name="Auxiliary"/>
-  <anchor x="280" y="0" name="Podvertka"/>
   <anchor x="395" y="640" name="Flexion"/>
   <anchor x="0" y="-50" name="Podtinka"/>
   <anchor x="415" y="660" name="TonalRange"/>
   <anchor x="350" y="325" name="Tochka"/>
+  <anchor x="380" y="240" name="Zaderzhka"/>
   <anchor x="205" y="500" name="Omet"/>
   <anchor x="100" y="-30" name="Podchashie"/>
-  <anchor x="0" y="500" name="PitchMark"/>
+  <anchor x="60" y="580" name="PitchMark"/>
   <outline>
     <contour>
       <point x="283" y="94" type="curve" smooth="yes"/>
       <point x="283" y="94"/>
-      <point x="288.5" y="148.333"/>
+      <point x="287" y="133"/>
+      <point x="287" y="175" type="curve" smooth="yes"/>
+      <point x="287" y="182"/>
+      <point x="287" y="189"/>
       <point x="287" y="196" type="curve" smooth="yes"/>
-      <point x="285.993" y="227.984"/>
+      <point x="286" y="228"/>
       <point x="280" y="258"/>
       <point x="267" y="286" type="curve" smooth="yes"/>
       <point x="254" y="314"/>
@@ -50,10 +54,10 @@
       <point x="202" y="455"/>
       <point x="221" y="455" type="curve" smooth="yes"/>
       <point x="244" y="455"/>
-      <point x="269.797" y="446.347"/>
+      <point x="270" y="446"/>
       <point x="287" y="423" type="curve" smooth="yes"/>
       <point x="315" y="385"/>
-      <point x="326" y="341.84"/>
+      <point x="326" y="342"/>
       <point x="326" y="282" type="curve" smooth="yes"/>
       <point x="326" y="211"/>
       <point x="316" y="146"/>
@@ -108,7 +112,13 @@
             <key>position</key>
             <integer>283</integer>
             <key>width</key>
-            <integer>43</integer>
+            <integer>18</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>287</integer>
+            <key>width</key>
+            <integer>39</integer>
           </dict>
         </array>
       </dict>

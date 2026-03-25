@@ -2,6 +2,23 @@
 <glyph name="u1CFA2" format="2">
   <advance width="1002"/>
   <unicode hex="1CFA2"/>
+  <anchor x="835" y="560" name="TonalRange"/>
+  <anchor x="895" y="287" name="Tochka"/>
+  <anchor x="675" y="500" name="Flexion"/>
+  <anchor x="560" y="620" name="Kachka"/>
+  <anchor x="280" y="677" name="Auxiliary"/>
+  <anchor x="960" y="290" name="Zevok"/>
+  <anchor x="0" y="60" name="Tikhaya"/>
+  <anchor x="60" y="515" name="PitchMark"/>
+  <anchor x="1075" y="240" name="FinalPitch"/>
+  <anchor x="825" y="150" name="Lomka"/>
+  <anchor x="0" y="10" name="Borzaya"/>
+  <anchor x="50" y="-50" name="Kupnaya"/>
+  <anchor x="960" y="276" name="Podvertka"/>
+  <anchor x="0" y="-100" name="Podtinka"/>
+  <anchor x="1002" y="360" name="Zaderzhka"/>
+  <anchor x="805" y="300" name="Omet"/>
+  <anchor x="721" y="245" name="Podchashie"/>
   <outline>
     <contour>
       <point x="926" y="452" type="curve" smooth="yes"/>

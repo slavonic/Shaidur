@@ -2,13 +2,13 @@
 <glyph name="uniEE5A" format="2">
   <advance width="0"/>
   <unicode hex="EE5A"/>
-  <anchor x="-170" y="330" name="_Tochka"/>
+  <anchor x="-28" y="330" name="_Tochka"/>
   <outline>
     <contour>
-      <point x="-131" y="367" type="line"/>
-      <point x="-10" y="286" type="line"/>
-      <point x="-18" y="183" type="line"/>
-      <point x="-139" y="264" type="line"/>
+      <point x="11" y="367" type="line"/>
+      <point x="132" y="286" type="line"/>
+      <point x="124" y="183" type="line"/>
+      <point x="3" y="264" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -28,7 +28,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-139</integer>
+            <integer>3</integer>
             <key>width</key>
             <integer>129</integer>
           </dict>

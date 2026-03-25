@@ -2,6 +2,23 @@
 <glyph name="uniEAC5" format="2">
   <advance width="390"/>
   <unicode hex="EAC5"/>
+  <anchor x="280" y="677" name="Auxiliary"/>
+  <anchor x="-50" y="190" name="Tikhaya"/>
+  <anchor x="0" y="500" name="PitchMark"/>
+  <anchor x="485" y="130" name="FinalPitch"/>
+  <anchor x="540" y="150" name="Lomka"/>
+  <anchor x="-50" y="160" name="Borzaya"/>
+  <anchor x="50" y="0" name="Zevok"/>
+  <anchor x="50" y="660" name="Kachka"/>
+  <anchor x="50" y="-50" name="Kupnaya"/>
+  <anchor x="200" y="0" name="Podvertka"/>
+  <anchor x="395" y="640" name="Flexion"/>
+  <anchor x="0" y="-50" name="Podtinka"/>
+  <anchor x="415" y="660" name="TonalRange"/>
+  <anchor x="235" y="325" name="Tochka"/>
+  <anchor x="30" y="-120" name="Zaderzhka"/>
+  <anchor x="205" y="500" name="Omet"/>
+  <anchor x="100" y="-30" name="Podchashie"/>
   <outline>
     <contour>
       <point x="220" y="310" type="curve" smooth="yes"/>
@@ -96,4 +113,41 @@
       <point x="88" y="214" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>130</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>433</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>10</integer>
+            <key>width</key>
+            <integer>78</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>114</integer>
+            <key>width</key>
+            <integer>124</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

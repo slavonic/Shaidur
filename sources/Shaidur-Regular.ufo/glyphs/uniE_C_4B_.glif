@@ -403,7 +403,13 @@
             <key>position</key>
             <integer>622</integer>
             <key>width</key>
-            <integer>57</integer>
+            <integer>54</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>702</integer>
+            <key>width</key>
+            <integer>58</integer>
           </dict>
           <dict>
             <key>position</key>

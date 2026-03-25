@@ -2,6 +2,8 @@
 <glyph name="uniEE7D" format="2">
   <advance width="450"/>
   <unicode hex="EE7D"/>
+  <anchor x="465" y="580" name="FinalPitch"/>
+  <anchor x="60" y="580" name="PitchMark"/>
   <anchor x="370" y="150" name="Lomka"/>
   <anchor x="0" y="150" name="Tikhaya"/>
   <anchor x="0" y="150" name="Borzaya"/>
@@ -14,10 +16,9 @@
   <anchor x="0" y="-100" name="Podtinka"/>
   <anchor x="415" y="660" name="TonalRange"/>
   <anchor x="460" y="325" name="Tochka"/>
-  <anchor x="30" y="-120" name="Zaderzhka"/>
+  <anchor x="290" y="410" name="Zaderzhka"/>
   <anchor x="205" y="500" name="Omet"/>
   <anchor x="100" y="-30" name="Podchashie"/>
-  <anchor x="0" y="500" name="PitchMark"/>
   <outline>
     <contour>
       <point x="310" y="319" type="line"/>

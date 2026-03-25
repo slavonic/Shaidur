@@ -2,6 +2,23 @@
 <glyph name="uniEA53" format="2">
   <advance width="159"/>
   <unicode hex="EA53"/>
+  <anchor x="60" y="515" name="PitchMark"/>
+  <anchor x="210" y="147" name="Omet"/>
+  <anchor x="212" y="270" name="FinalPitch"/>
+  <anchor x="350" y="150" name="Lomka"/>
+  <anchor x="0" y="-30" name="Tikhaya"/>
+  <anchor x="0" y="150" name="Borzaya"/>
+  <anchor x="50" y="0" name="Zevok"/>
+  <anchor x="50" y="660" name="Kachka"/>
+  <anchor x="50" y="-50" name="Kupnaya"/>
+  <anchor x="265" y="660" name="Auxiliary"/>
+  <anchor x="110" y="-30" name="Podvertka"/>
+  <anchor x="395" y="640" name="Flexion"/>
+  <anchor x="0" y="-50" name="Podtinka"/>
+  <anchor x="415" y="660" name="TonalRange"/>
+  <anchor x="160" y="325" name="Tochka"/>
+  <anchor x="30" y="-120" name="Zaderzhka"/>
+  <anchor x="50" y="-30" name="Podchashie"/>
   <outline>
     <contour>
       <point x="149" y="118" type="curve" smooth="yes"/>
@@ -46,7 +63,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-10</integer>
+            <integer>0</integer>
             <key>width</key>
             <integer>21</integer>
           </dict>
@@ -55,9 +72,9 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>20</integer>
+            <integer>10</integer>
             <key>width</key>
-            <integer>83</integer>
+            <integer>139</integer>
           </dict>
         </array>
       </dict>

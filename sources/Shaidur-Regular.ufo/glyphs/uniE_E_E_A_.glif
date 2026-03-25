@@ -2,13 +2,15 @@
 <glyph name="uniEEEA" format="2">
   <advance width="790"/>
   <unicode hex="EEEA"/>
+  <anchor x="120" y="520" name="PitchMark"/>
+  <anchor x="450" y="800" name="Auxiliary"/>
+  <anchor x="905" y="300" name="FinalPitch"/>
+  <anchor x="750" y="50" name="Borzaya"/>
+  <anchor x="465" y="660" name="Kachka"/>
   <anchor x="705" y="150" name="Lomka"/>
   <anchor x="0" y="100" name="Tikhaya"/>
-  <anchor x="0" y="150" name="Borzaya"/>
   <anchor x="800" y="350" name="Zevok"/>
-  <anchor x="50" y="660" name="Kachka"/>
   <anchor x="50" y="-50" name="Kupnaya"/>
-  <anchor x="425" y="660" name="Auxiliary"/>
   <anchor x="800" y="380" name="Podvertka"/>
   <anchor x="555" y="640" name="Flexion"/>
   <anchor x="0" y="-140" name="Podtinka"/>
@@ -16,8 +18,7 @@
   <anchor x="800" y="460" name="Zaderzhka"/>
   <anchor x="695" y="300" name="Omet"/>
   <anchor x="695" y="325" name="Tochka"/>
-  <anchor x="577" y="61" name="Podchashie"/>
-  <anchor x="0" y="500" name="PitchMark"/>
+  <anchor x="530" y="45" name="Podchashie"/>
   <outline>
     <contour>
       <point x="106" y="247" type="line"/>
@@ -93,24 +94,24 @@
       <point x="669" y="576"/>
     </contour>
     <contour>
-      <point x="301" y="2.28027" type="line"/>
-      <point x="322" y="63.2803"/>
-      <point x="385" y="71.2803"/>
-      <point x="385" y="71.2803" type="curve"/>
-      <point x="375" y="-52.7197" type="line"/>
-      <point x="375" y="-52.7197"/>
-      <point x="320" y="-61.7197"/>
-      <point x="289" y="-124.72" type="curve"/>
+      <point x="301" y="2" type="line"/>
+      <point x="322" y="63"/>
+      <point x="385" y="71"/>
+      <point x="385" y="71" type="curve"/>
+      <point x="375" y="-53" type="line"/>
+      <point x="375" y="-53"/>
+      <point x="320" y="-62"/>
+      <point x="289" y="-125" type="curve"/>
     </contour>
     <contour>
-      <point x="431" y="121.28" type="line"/>
-      <point x="452" y="182.28"/>
-      <point x="515" y="190.28"/>
-      <point x="515" y="190.28" type="curve"/>
-      <point x="505" y="66.2803" type="line"/>
-      <point x="505" y="66.2803"/>
-      <point x="450" y="57.2803"/>
-      <point x="419" y="-5.71973" type="curve"/>
+      <point x="431" y="121" type="line"/>
+      <point x="452" y="182"/>
+      <point x="515" y="190"/>
+      <point x="515" y="190" type="curve"/>
+      <point x="505" y="66" type="line"/>
+      <point x="505" y="66"/>
+      <point x="450" y="57"/>
+      <point x="419" y="-6" type="curve"/>
     </contour>
     <contour>
       <point x="600" y="272" type="line"/>
